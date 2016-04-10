@@ -1818,7 +1818,7 @@ html, body {
 
 .instagram-live-container {
   width: 25rem;
-  height: 25rem;
+  height: 20rem;
   background: lightgrey;
   border: 1rem outset #962323;
   position: absolute;
@@ -1851,8 +1851,8 @@ html, body {
 }
 
 .twitter-live-container {
-  width: 35rem;
-  height: 15rem;
+  width: 32.5rem;
+  height: 20rem;
   background: lightgrey;
   border: 1rem outset #962323;
   position: absolute;
@@ -1906,13 +1906,9 @@ html, body {
     @include transform(translate(0, 50%));
   }
   
-  .instagram-live-container {
-    height: 21.25rem;
-  }
-  
   .twitter-live-container {
     width: 30rem;
-    height: 13rem;
+    height: 15rem;
     bottom: 1.5rem;
   }
   
