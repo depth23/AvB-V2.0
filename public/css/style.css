@@ -549,7 +549,9 @@ html, body {
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
-  transform: translate(0, -50%); }
+  transform: translate(0, -50%);
+  -webkit-transition: top 1s, transform 1s;
+  transition: top 1s, transform 1s; }
 
 .menu-item:hover {
   cursor: pointer; }
@@ -569,8 +571,8 @@ html, body {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 100;
-  -webkit-transition: top 0.5s, transform 0.5s;
-  transition: top 0.5s, transform 0.5s; }
+  -webkit-transition: top 1s, transform 1s;
+  transition: top 1s, transform 1s; }
 
 #breakfast-full {
   display: none; }
@@ -761,7 +763,7 @@ html, body {
   -o-transform: translate(-50%, 0);
   transform: translate(-50%, 0); }
 
-.bfast-full-item-cntnr {
+.menu-full-item-cntnr {
   width: 95%;
   height: 0;
   position: relative;
@@ -773,22 +775,24 @@ html, body {
   -o-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   overflow: hidden;
-  -webkit-transition: height 1s;
-  transition: height 1s; }
+  -webkit-transition: height 1.5s;
+  transition: height 1.5s; }
 
-.bfast-full-top-and-bottom {
+.full-top-and-bottom {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
-  color: orange;
   margin: 0 0 1rem 0; }
 
-.bfast-full-titles {
+.orange {
+  color: orange; }
+
+.full-titles {
   font-size: 1rem;
   margin: 0;
   text-transform: uppercase; }
 
-.bfast-full-description {
+.full-description {
   font-size: 1rem;
   font-variant: small-caps;
   margin: 0 0 0.5rem 0; }
@@ -805,6 +809,7 @@ html, body {
 
 .panini-title-wrap-full {
   background: #BE2828;
+  position: relative;
   top: 0; }
 
 .menu-lower {
@@ -1039,6 +1044,9 @@ html, body {
 
 .s-and-s-title-full {
   font-size: 2rem; }
+
+.light-green {
+  color: #77B130; }
 
 .m5 {
   right: -0.08rem; }

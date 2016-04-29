@@ -200,18 +200,22 @@ document.getElementById('bfast').addEventListener('mouseover', breakfastMouseOve
 function breakfastMouseOut() {
   document.getElementById('sec2Logo').style.display = "block"; 
   document.getElementById('breakfast-full').style.display = "none";
+  document.getElementById('breakfast-full').style.top = "50%"; 
+  document.getElementById('breakfast-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('bfastFull').style.height = "0";
 };
 
 document.getElementById('bfast').addEventListener('mouseout', breakfastMouseOut,false);
 
     //Click
 
-//elem('bfast').addEventListener('click', function() {
-//  elem('bfastTop').style.top = '1rem';
-//  elem('bfastTop').style.transform = 'translate(-50%, 0)';
-//  elem('bfastFull').style.height = '33rem';
-//  console.log('clicked');
-//}, false);
+function breakfastClick() {
+  document.getElementById('breakfast-full').style.top = "16px"; 
+  document.getElementById('breakfast-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('bfastFull').style.height = "32rem";
+};
+
+document.getElementById('bfast').addEventListener('click', breakfastClick, false);
 
 //---Panini---
 
@@ -227,15 +231,23 @@ document.getElementById('panini').addEventListener('mouseover', paniniMouseOver,
 function paniniMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('panini-full').style.display = "none";
+  document.getElementById('panini-full').style.top = "50%"; 
+  document.getElementById('panini-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('paniniFull').style.height = "0";
 };
 
 document.getElementById('panini').addEventListener('mouseout', paniniMouseOut,false);
 
     //Click
 
-//elem('bfast').addEventListener('mousedown', function() {
-// style here
-//});
+function paniniClick() {
+  document.getElementById('panini-full').style.top = "16px"; 
+  document.getElementById('panini-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('paniniFull').style.height = "32rem";
+  document.getElementById('paniniFull').style.background = "green";
+};
+
+document.getElementById('panini').addEventListener('click', paniniClick, false);
 
 //Sandwiches
 
@@ -250,16 +262,24 @@ document.getElementById('sandwich').addEventListener('mouseover', sandwichMouseO
 
 function sandwichMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
-  document.getElementById('sandwich-full').style.display = "none"; 
+  document.getElementById('sandwich-full').style.display = "none";
+  document.getElementById('sandwich-full').style.top = "50%"; 
+  document.getElementById('sandwich-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('sandwichFull').style.height = "0";
 };
 
 document.getElementById('sandwich').addEventListener('mouseout', sandwichMouseOut,false);
 
     //Click
 
-//elem('bfast').addEventListener('mousedown', function() {
-// style here
-//});
+function sandwichClick() {
+  document.getElementById('sandwich-full').style.top = "16px"; 
+  document.getElementById('sandwich-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('sandwichFull').style.height = "32rem";
+  document.getElementById('sandwichFull').style.background = "green";
+};
+
+document.getElementById('sandwich').addEventListener('click', sandwichClick, false);
 
 //---Soup And Salad---
 
@@ -275,16 +295,23 @@ document.getElementById('soup-salad').addEventListener('mouseover', soupSaladMou
 function soupSaladMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('soup-salad-full').style.display = "none";
+  document.getElementById('soup-salad-full').style.top = "50%"; 
+  document.getElementById('soup-salad-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('soupSaladFull').style.height = "0";
 };
 
 document.getElementById('soup-salad').addEventListener('mouseout', soupSaladMouseOut, false);
 
-
     //Click
 
-//elem('bfast').addEventListener('mousedown', function() {
-// style here
-//});
+function soupSaladClick() {
+  document.getElementById('soup-salad-full').style.top = "16px"; 
+  document.getElementById('soup-salad-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('soupSaladFull').style.height = "32rem";
+//  document.getElementById('soupSaladFull').style.background = "green";
+};
+
+document.getElementById('soup-salad').addEventListener('click', soupSaladClick, false);
 
 //---Savory Crepes---
 
@@ -300,15 +327,23 @@ document.getElementById('savory-crepes').addEventListener('mouseover', savoryCre
 function savoryCrepesMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('savory-crepes-full').style.display = "none";
+  document.getElementById('savory-crepes-full').style.top = "50%"; 
+  document.getElementById('savory-crepes-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('savoryCrepesFull').style.height = "0";
 };
 
 document.getElementById('savory-crepes').addEventListener('mouseout', savoryCrepesMouseOut, false);
 
     //Click
 
-//elem('bfast').addEventListener('mousedown', function() {
-// style here
-//});
+function savoryCrepesClick() {
+  document.getElementById('savory-crepes-full').style.top = "16px"; 
+  document.getElementById('savory-crepes-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('savoryCrepesFull').style.height = "32rem";
+  document.getElementById('savoryCrepesFull').style.background = "green";
+};
+
+document.getElementById('savory-crepes').addEventListener('click', savoryCrepesClick, false);
 
 //---Sweet Crepes---
 
@@ -324,15 +359,23 @@ document.getElementById('sweet-crepes').addEventListener('mouseover', sweetCrepe
 function sweetCrepesMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('sweet-crepes-full').style.display = "none";
+  document.getElementById('sweet-crepes-full').style.top = "50%"; 
+  document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('sweetCrepesFull').style.height = "0";
 };
 
 document.getElementById('sweet-crepes').addEventListener('mouseout', sweetCrepesMouseOut, false);
 
     //Click
 
-//elem('bfast').addEventListener('mousedown', function() {
-// style here
-//});
+function sweetCrepesClick() {
+  document.getElementById('sweet-crepes-full').style.top = "16px"; 
+  document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('sweetCrepesFull').style.height = "32rem";
+  document.getElementById('sweetCrepesFull').style.background = "green";
+};
+
+document.getElementById('sweet-crepes').addEventListener('click', sweetCrepesClick, false);
 
 //---Kids---
 
@@ -348,15 +391,23 @@ document.getElementById('kids').addEventListener('mouseover', kidsMouseOver, fal
 function kidsMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('kids-full').style.display = "none";
+  document.getElementById('kids-full').style.top = "50%"; 
+  document.getElementById('kids-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('kidsFull').style.height = "0";
 };
 
 document.getElementById('kids').addEventListener('mouseout', kidsMouseOut, false);
 
     //Click
 
-//elem('bfast').addEventListener('mousedown', function() {
-// style here
-//});
+function kidsClick() {
+  document.getElementById('kids-full').style.top = "16px"; 
+  document.getElementById('kids-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('kidsFull').style.height = "32rem";
+  document.getElementById('kidsFull').style.background = "green";
+};
+
+document.getElementById('kids').addEventListener('click', kidsClick, false);
 
 //---Drink---
 
@@ -372,6 +423,9 @@ document.getElementById('drink').addEventListener('mouseover', drinkMouseOver, f
 function drinkMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('drink-full').style.display = "none";
+  document.getElementById('drink-full').style.top = "50%"; 
+  document.getElementById('drink-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('drinkFull').style.height = "0";
 };
 
 document.getElementById('drink').addEventListener('mouseout', drinkMouseOut, false);
@@ -379,9 +433,14 @@ document.getElementById('drink').addEventListener('mouseout', drinkMouseOut, fal
 
     //Click
 
-//elem('bfast').addEventListener('mousedown', function() {
-// style here
-//});
+function drinkClick() {
+  document.getElementById('drink-full').style.top = "16px"; 
+  document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
+  document.getElementById('drinkFull').style.height = "32rem";
+  document.getElementById('drinkFull').style.background = "green";
+};
+
+document.getElementById('drink').addEventListener('click', drinkClick, false);
 
 //--------------------Facebook---------------------------
 
