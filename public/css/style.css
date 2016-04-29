@@ -1388,6 +1388,7 @@ html, body {
   transform: translate(-50%, -50%); }
 
 .menu-bottom {
+  display: none;
   width: 8rem;
   height: 1.6rem;
   color: lightgrey;

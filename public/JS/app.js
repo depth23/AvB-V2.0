@@ -377,15 +377,6 @@ function drinkMouseOut() {
 document.getElementById('drink').addEventListener('mouseout', drinkMouseOut, false);
 
 
-//  elem('drink').innerHTML = '<p class="click-me-full">Click For More!</p>';
-//  elem('menu-window').innerHTML = '<div class="menu-item-full" id="drink">' +
-//                                    '<img class="drinks-img-full" src="./img/cherry-topped-cake.jpg" alt="Cold Drinks" />' +
-//                                    '<div class="menu-title-wrap-full drink-title-wrap-full">' +
-//                                      '<h3 class="drinks-item-title-full">DRINK MENU</h3>' +
-//                                    '</div>' +
-//                                  '</div>';
-
-
     //Click
 
 //elem('bfast').addEventListener('mousedown', function() {
