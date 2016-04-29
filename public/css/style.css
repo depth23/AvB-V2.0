@@ -512,8 +512,9 @@ html, body {
   width: 28.1rem; }
 
 .click-me-full {
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 95%;
+  display: none;
   font-family: Baskerville, 'Times New Roman', serif;
   font-size: 2rem;
   text-shadow: 0.07rem 0.065rem black,  -0.07rem -0.065rem black,  -0.07rem 0.065rem black,  0.07rem -0.065rem black;
@@ -525,6 +526,7 @@ html, body {
   transform: translate(-50%, -50%);
   margin: 0;
   border: 0.2rem inset black;
+  outline: 2px solid white;
   padding: 1.25rem 0 1.25rem 0;
   box-sizing: border-box; }
 
@@ -543,6 +545,23 @@ html, body {
   background: white;
   position: relative;
   top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%); }
+
+.menu-item:hover {
+  cursor: pointer; }
+  .menu-item:hover .click-me-full {
+    display: block; }
+
+.menu-info {
+  width: 100%;
+  height: 12rem;
+  background: white;
+  position: relative;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -553,8 +572,8 @@ html, body {
   -webkit-transition: top 0.5s, transform 0.5s;
   transition: top 0.5s, transform 0.5s; }
 
-.menu-item:hover {
-  cursor: pointer; }
+#breakfast-full {
+  display: none; }
 
 .m1 {
   left: -0.1rem; }
@@ -781,6 +800,9 @@ html, body {
   background: #BE2828;
   top: 0.15rem; }
 
+#panini-full {
+  display: none; }
+
 .panini-title-wrap-full {
   background: #BE2828;
   top: 0; }
@@ -927,6 +949,9 @@ html, body {
   right: 0;
   bottom: 0; }
 
+#sandwich-full {
+  display: none; }
+
 .sandwiches-img-full {
   width: 11.25rem;
   height: 7.5rem;
@@ -1008,6 +1033,9 @@ html, body {
 
 .s-and-s-title {
   font-size: 0.9rem; }
+
+#soup-salad-full {
+  display: none; }
 
 .s-and-s-title-full {
   font-size: 2rem; }
@@ -1101,6 +1129,9 @@ html, body {
   -moz-border-radius: 35% 35% 0 0;
   -ms-border-radius: 35% 35% 0 0;
   border-radius: 35% 35% 0 0; }
+
+#savory-crepes-full {
+  display: none; }
 
 .sav-crepes-img-full {
   width: 75%;
@@ -1247,6 +1278,9 @@ html, body {
   -ms-border-radius: 50%;
   border-radius: 50%; }
 
+#sweet-crepes-full {
+  display: none; }
+
 .m7 {
   margin: 0 0.03rem 0 0.03rem; }
 
@@ -1273,6 +1307,9 @@ html, body {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+#kids-full {
+  display: none; }
 
 .kids-img-full {
   width: 11.25rem;
@@ -1331,6 +1368,9 @@ html, body {
   -ms-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
   transform: translate(0, -50%); }
+
+#drink-full {
+  display: none; }
 
 .drinks-item-title-full {
   width: 100%;
