@@ -231,7 +231,8 @@ document.getElementById('panini').addEventListener('mouseover', paniniMouseOver,
 function paniniMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('panini-full').style.display = "none";
-  document.getElementById('panini-full').style.top = "50%"; 
+  document.getElementById('panini-full').style.top = "50%";
+  document.getElementById('panini-full').style.height = "12rem"
   document.getElementById('panini-full').style.transform = "translate(-50%, -50%)";
   document.getElementById('paniniFull').style.height = "0";
 };
@@ -243,7 +244,8 @@ document.getElementById('panini').addEventListener('mouseout', paniniMouseOut,fa
 function paniniClick() {
   document.getElementById('panini-full').style.top = "16px"; 
   document.getElementById('panini-full').style.transform = "translate(-50%, 0)";
-  document.getElementById('paniniFull').style.height = "32rem";
+  document.getElementById('panini-full').style.height = "96%"
+  document.getElementById('paniniFull').style.height = "75%";
   document.getElementById('paniniFull').style.background = "green";
 };
 
@@ -265,6 +267,7 @@ function sandwichMouseOut() {
   document.getElementById('sandwich-full').style.display = "none";
   document.getElementById('sandwich-full').style.top = "50%"; 
   document.getElementById('sandwich-full').style.transform = "translate(-50%, -50%)";
+  document.getElementById('sandwich-full').style.height = "12rem"
   document.getElementById('sandwichFull').style.height = "0";
 };
 
@@ -275,7 +278,8 @@ document.getElementById('sandwich').addEventListener('mouseout', sandwichMouseOu
 function sandwichClick() {
   document.getElementById('sandwich-full').style.top = "16px"; 
   document.getElementById('sandwich-full').style.transform = "translate(-50%, 0)";
-  document.getElementById('sandwichFull').style.height = "32rem";
+  document.getElementById('sandwich-full').style.height = "96%"
+  document.getElementById('sandwichFull').style.height = "75%";
   document.getElementById('sandwichFull').style.background = "green";
 };
 
@@ -340,7 +344,6 @@ function savoryCrepesClick() {
   document.getElementById('savory-crepes-full').style.top = "16px"; 
   document.getElementById('savory-crepes-full').style.transform = "translate(-50%, 0)";
   document.getElementById('savoryCrepesFull').style.height = "32rem";
-  document.getElementById('savoryCrepesFull').style.background = "green";
 };
 
 document.getElementById('savory-crepes').addEventListener('click', savoryCrepesClick, false);
@@ -359,7 +362,8 @@ document.getElementById('sweet-crepes').addEventListener('mouseover', sweetCrepe
 function sweetCrepesMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('sweet-crepes-full').style.display = "none";
-  document.getElementById('sweet-crepes-full').style.top = "50%"; 
+  document.getElementById('sweet-crepes-full').style.top = "50%";
+  document.getElementById('sweet-crepes-full').style.height = "12rem"
   document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, -50%)";
   document.getElementById('sweetCrepesFull').style.height = "0";
 };
@@ -371,7 +375,8 @@ document.getElementById('sweet-crepes').addEventListener('mouseout', sweetCrepes
 function sweetCrepesClick() {
   document.getElementById('sweet-crepes-full').style.top = "16px"; 
   document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, 0)";
-  document.getElementById('sweetCrepesFull').style.height = "32rem";
+  document.getElementById('sweet-crepes-full').style.height = "96%"
+  document.getElementById('sweetCrepesFull').style.height = "75%";
   document.getElementById('sweetCrepesFull').style.background = "green";
 };
 
@@ -392,6 +397,7 @@ function kidsMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('kids-full').style.display = "none";
   document.getElementById('kids-full').style.top = "50%"; 
+  document.getElementById('kids-full').style.height = "12rem"
   document.getElementById('kids-full').style.transform = "translate(-50%, -50%)";
   document.getElementById('kidsFull').style.height = "0";
 };
@@ -403,7 +409,8 @@ document.getElementById('kids').addEventListener('mouseout', kidsMouseOut, false
 function kidsClick() {
   document.getElementById('kids-full').style.top = "16px"; 
   document.getElementById('kids-full').style.transform = "translate(-50%, 0)";
-  document.getElementById('kidsFull').style.height = "32rem";
+  document.getElementById('kids-full').style.height = "96%"
+  document.getElementById('kidsFull').style.height = "75%";
   document.getElementById('kidsFull').style.background = "green";
 };
 
@@ -437,7 +444,6 @@ function drinkClick() {
   document.getElementById('drink-full').style.top = "16px"; 
   document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
   document.getElementById('drinkFull').style.height = "32rem";
-  document.getElementById('drinkFull').style.background = "green";
 };
 
 document.getElementById('drink').addEventListener('click', drinkClick, false);
