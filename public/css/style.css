@@ -427,7 +427,7 @@ html, body {
   height: 90vh;
   min-height: 51rem;
   max-width: 576px;
-  min-width: 31rem;
+  min-width: 512px;
   right: 5rem;
   background: white;
   border: 2.5rem outset #962323;
@@ -810,7 +810,8 @@ tr {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
-  margin: 0 0 1rem 0; }
+  line-height: 80%;
+  margin: 0 0 0 0; }
 
 .orange {
   color: orange; }
@@ -1370,6 +1371,12 @@ tr {
   right: 0;
   bottom: 0; }
 
+.marg-top {
+  margin-top: 96px; }
+
+.center {
+  text-align: center; }
+
 .m8 {
   right: -0.1rem; }
 
@@ -1478,6 +1485,12 @@ tr {
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
 
+@media only screen and (min-width: 771px) and (max-width: 1280px) {
+  .full-titles {
+    font-size: 14px; }
+  .full-description {
+    font-size: 13px; } }
+
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   .sec-2-container {
     height: 108rem;
@@ -1500,11 +1513,15 @@ tr {
     -moz-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     -o-transform: translate(-50%, 0);
-    transform: translate(-50%, 0); } }
+    transform: translate(-50%, 0); }
+  .full-titles {
+    font-size: 17px; }
+  .full-description {
+    font-size: 17px; } }
 
 @media only screen and (max-width: 600px) {
   .sec-2-container {
-    height: 87rem;
+    height: 81rem;
     min-width: 100vw; }
   .sec-2-left {
     width: 100%;
@@ -1520,7 +1537,7 @@ tr {
     height: 38rem;
     min-width: 18.5rem;
     min-height: 38rem;
-    top: 45rem;
+    top: 38rem;
     right: auto;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
@@ -1540,11 +1557,41 @@ tr {
   .menu-btm {
     width: 18rem;
     height: 7rem; }
+  .click-me-full {
+    font-size: 22px; }
   .menu-item {
     width: 5.9rem;
     height: 7rem; }
+  .menu-item-title-full {
+    font-size: 20px;
+    top: 6px; }
+  .menu-sm-text-full {
+    font-size: 14px;
+    top: 8px; }
+  .menu-full-item-cntnr {
+    top: 3px; }
+  .menu-info {
+    height: 128px; }
+  .full-top-and-bottom {
+    font-size: 10px; }
+  .full-titles {
+    font-size: 10px;
+    margin: 3px 0 0 0; }
+  .full-description {
+    font-size: 10px;
+    margin: 0; }
+  tr {
+    height: 15px; }
+  .tr-minors {
+    line-height: 60%; }
+  .table-meal {
+    display: none; }
+  .table-center-align {
+    display: none; }
   .bfast-image-wrap {
     height: 3.8rem; }
+  .bfast-image-wrap-full {
+    height: 72px; }
   .bfast-img-l {
     height: 95%; }
   .bfast-img-r {
@@ -1555,6 +1602,12 @@ tr {
     padding: 0.5rem 0 0.5rem 0; }
   .menu-sm-text {
     display: none; }
+  .fixed-height {
+    height: 128px; }
+  .menu-title-wrap-full {
+    height: 54px; }
+  .orange {
+    line-height: 150%; }
   .lower-rnd-l {
     width: 54%;
     height: 1.4rem; }
@@ -1567,14 +1620,26 @@ tr {
     height: 3.5rem; }
   .s-and-s-img-wrap {
     height: 3.65rem; }
+  .s-and-s-img-wrap-full {
+    height: 70px; }
   .s-and-s-img-r {
     width: 44%;
     height: 3rem; }
+  .s-and-s-img-r-full {
+    width: 90px;
+    height: 62px;
+    left: 5px; }
   .s-and-s-img-l {
     width: 44%;
     height: 3rem; }
+  .s-and-s-img-l-full {
+    width: 90px;
+    height: 62px;
+    right: 5px; }
   .sav-crepes-image-wrap {
     height: 3.8rem; }
+  .sav-crepes-image-wrap-full {
+    height: 72px; }
   .sav-crepes-img-l {
     height: 95%; }
   .sav-crepes-img-r {
@@ -1593,10 +1658,18 @@ tr {
     height: 3.5rem; }
   .kids-img {
     height: 3.5rem; }
+  .marg-top {
+    margin-top: 45px; }
   .drinks-img {
     height: 3.6rem; }
+  .drinks-img-full {
+    height: 72px; }
+  .drink-title-wrap-full {
+    height: 48px; }
   .drinks-item-title {
-    font-size: 0.75rem; } }
+    font-size: 0.75rem; }
+  .drinks-item-title-full {
+    font-size: 20px; } }
 
 .sec-3-container {
   width: 100vw;
@@ -2151,7 +2224,7 @@ tr {
   .about-left {
     width: 100%;
     height: 45%;
-    top: calc(50% + 3rem); }
+    top: calc(50% + 55px); }
   .about-right {
     width: 100%;
     height: 45%;

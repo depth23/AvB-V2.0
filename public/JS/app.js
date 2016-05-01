@@ -407,7 +407,6 @@ function kidsClick() {
   document.getElementById('kids-full').style.transform = "translate(-50%, 0)";
   document.getElementById('kids-full').style.height = "96%"
   document.getElementById('kidsFull').style.height = "88%";
-  document.getElementById('kidsFull').style.background = "green";
 };
 
 document.getElementById('kids').addEventListener('click', kidsClick, false);

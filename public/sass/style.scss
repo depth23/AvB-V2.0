@@ -565,7 +565,7 @@ html, body {
   height: 90vh;
   min-height: 51rem;
   max-width: 576px;
-  min-width: 31rem;
+  min-width: 512px;
   right: 5rem;
   background: white; 
   border: 2.5rem outset #962323;
@@ -927,7 +927,8 @@ tr {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
-  margin: 0 0 1rem 0;
+  line-height: 80%;
+  margin: 0 0 0 0;
 }
 
 .orange {
@@ -1487,6 +1488,14 @@ tr {
   bottom: 0;
 }
 
+.marg-top {
+  margin-top: 96px;
+}
+
+.center {
+  text-align: center;
+}
+
 .m8 {
   right: -0.1rem;
 }
@@ -1591,9 +1600,16 @@ tr {
 
 //medium screens
 
-//@media only screen and (min-width: 771px) and (max-width: 1280px) {
-//  
-//}
+@media only screen and (min-width: 771px) and (max-width: 1280px) {
+  
+  .full-titles {
+    font-size: 14px;
+  }
+  
+  .full-description {
+    font-size: 13px;
+  }
+}
 
 //tablets
 
@@ -1620,6 +1636,14 @@ tr {
     @include transform(translate(-50%, 0));
   }
   
+  .full-titles {
+    font-size: 17px;
+  }
+  
+  .full-description {
+    font-size: 17px;
+  }
+  
 }
 
 //mobiles
@@ -1627,7 +1651,7 @@ tr {
 @media only screen and (max-width: 600px) {
   
   .sec-2-container {
-    height: 87rem;
+    height: 81rem;
     min-width: 100vw;
   }
   
@@ -1643,7 +1667,7 @@ tr {
     height: 38rem;
     min-width: 18.5rem;
     min-height: 38rem;
-    top: 45rem;
+    top: 38rem;
     right: auto;
     left: 50%; 
     @include transform(translate(-50%, 0));
@@ -1669,15 +1693,71 @@ tr {
     height: 7rem;
   }
   
+  .click-me-full {
+    font-size: 22px;
+  }
+  
   .menu-item {
     width: 5.9rem;
     height: 7rem;
+  }
+  
+  .menu-item-title-full {
+    font-size: 20px;
+    top: 6px;
+  }
+  
+  .menu-sm-text-full {
+    font-size: 14px;
+    top: 8px;
+  }
+  
+  .menu-full-item-cntnr {
+    top: 3px;
+  }
+  
+  .menu-info {
+    height: 128px;
+  }
+  
+  .full-top-and-bottom {
+    font-size: 10px;
+  }
+  
+  .full-titles {
+    font-size: 10px;
+    margin: 3px 0 0 0;
+  }
+  
+  .full-description {
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  tr {
+    height: 15px;
+  }
+  
+  .tr-minors{
+    line-height: 60%;
+  }
+  
+  .table-meal {
+    display: none;
+  }
+  
+  .table-center-align {
+    display: none;
   }
   
   //Breakfast
   
   .bfast-image-wrap {
     height: 3.8rem; 
+  }
+  
+  .bfast-image-wrap-full {
+    height: 72px;
   }
   
   .bfast-img-l {
@@ -1696,6 +1776,18 @@ tr {
   
   .menu-sm-text {
     display: none;
+  }
+  
+  .fixed-height {
+    height: 128px;
+  }
+  
+  .menu-title-wrap-full {
+    height: 54px;
+  }
+  
+  .orange {
+    line-height: 150%;
   }
   
   //  Panini
@@ -1726,9 +1818,19 @@ tr {
     height: 3.65rem;
   }
   
+  .s-and-s-img-wrap-full {
+    height: 70px;
+  }
+  
   .s-and-s-img-r {
     width: 44%;
     height: 3rem;
+  }
+  
+  .s-and-s-img-r-full {
+    width: 90px;
+    height: 62px;
+    left: 5px;
   }
   
   .s-and-s-img-l {
@@ -1736,10 +1838,20 @@ tr {
     height: 3rem;
   }
   
+  .s-and-s-img-l-full {
+    width: 90px;
+    height: 62px;
+    right: 5px;
+  }
+  
   //  Savory Crepes
   
   .sav-crepes-image-wrap {
     height: 3.8rem;
+  }
+  
+  .sav-crepes-image-wrap-full {
+    height: 72px;
   }
   
   .sav-crepes-img-l {
@@ -1779,14 +1891,31 @@ tr {
   .kids-img {
     height: 3.5rem;
   }
+  
+  .marg-top {
+    margin-top: 45px;
+  }
+  
   //  Drinks
   
   .drinks-img {
     height: 3.6rem;
   }
   
+  .drinks-img-full {
+    height: 72px;
+  }
+  
+  .drink-title-wrap-full {
+    height: 48px
+  }
+  
   .drinks-item-title {
     font-size: 0.75rem;
+  }
+  
+  .drinks-item-title-full {
+    font-size: 20px;
   }
   
 }
@@ -2427,7 +2556,7 @@ tr {
     width: 100%;
     height: 45%;
 //    min-height: 39rem;
-    top: calc(50% + 3rem);
+    top: calc(50% + 55px);
   }
   
   .about-right {
