@@ -245,8 +245,7 @@ function paniniClick() {
   document.getElementById('panini-full').style.top = "16px"; 
   document.getElementById('panini-full').style.transform = "translate(-50%, 0)";
   document.getElementById('panini-full').style.height = "96%"
-  document.getElementById('paniniFull').style.height = "75%";
-  document.getElementById('paniniFull').style.background = "green";
+  document.getElementById('paniniFull').style.height = "88%";
 };
 
 document.getElementById('panini').addEventListener('click', paniniClick, false);
@@ -279,8 +278,7 @@ function sandwichClick() {
   document.getElementById('sandwich-full').style.top = "16px"; 
   document.getElementById('sandwich-full').style.transform = "translate(-50%, 0)";
   document.getElementById('sandwich-full').style.height = "96%"
-  document.getElementById('sandwichFull').style.height = "75%";
-  document.getElementById('sandwichFull').style.background = "green";
+  document.getElementById('sandwichFull').style.height = "88%";
 };
 
 document.getElementById('sandwich').addEventListener('click', sandwichClick, false);
@@ -312,7 +310,6 @@ function soupSaladClick() {
   document.getElementById('soup-salad-full').style.top = "16px"; 
   document.getElementById('soup-salad-full').style.transform = "translate(-50%, 0)";
   document.getElementById('soupSaladFull').style.height = "32rem";
-//  document.getElementById('soupSaladFull').style.background = "green";
 };
 
 document.getElementById('soup-salad').addEventListener('click', soupSaladClick, false);
@@ -376,8 +373,7 @@ function sweetCrepesClick() {
   document.getElementById('sweet-crepes-full').style.top = "16px"; 
   document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, 0)";
   document.getElementById('sweet-crepes-full').style.height = "96%"
-  document.getElementById('sweetCrepesFull').style.height = "75%";
-  document.getElementById('sweetCrepesFull').style.background = "green";
+  document.getElementById('sweetCrepesFull').style.height = "88%";
 };
 
 document.getElementById('sweet-crepes').addEventListener('click', sweetCrepesClick, false);
@@ -410,7 +406,7 @@ function kidsClick() {
   document.getElementById('kids-full').style.top = "16px"; 
   document.getElementById('kids-full').style.transform = "translate(-50%, 0)";
   document.getElementById('kids-full').style.height = "96%"
-  document.getElementById('kidsFull').style.height = "75%";
+  document.getElementById('kidsFull').style.height = "88%";
   document.getElementById('kidsFull').style.background = "green";
 };
 

@@ -563,7 +563,7 @@ html, body {
   @extend .sect-2-l-r;
   width: 40vw;
   height: 90vh;
-  min-height: 50rem;
+  min-height: 51rem;
   max-width: 576px;
   min-width: 31rem;
   right: 5rem;
@@ -947,6 +947,10 @@ tr {
   margin: 0 0 0.5rem 0;
 }
 
+.fixed-height {
+  height: 12rem;
+}
+
 .m2 {
   margin: 0 0.03rem 0 0.03rem;
 }
@@ -1075,6 +1079,10 @@ tr {
   bottom: 0;
 }
 
+.red {
+  color: #BE2828;
+}
+
 .m3 {
   right: -0.1rem;
 }
@@ -1117,6 +1125,10 @@ tr {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.blue {
+  color: #5EB2E7;
 }
 
 .m4 {
@@ -1421,6 +1433,13 @@ tr {
 
 #sweet-crepes-full {
   display: none;
+}
+
+.pos-right {
+  width: 50%;
+  position: relative;
+  top: 16px;
+  left: 48%;
 }
 
 .m7{
