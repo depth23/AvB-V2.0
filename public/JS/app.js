@@ -4,51 +4,38 @@
 
 //--------------------Auto Scroll For Links==============
 
-//var scrollY = 0;
-//var distance = 40;
-//var speed = 24;
-//function autoScrollTo(el) {
-//  console.log(document.getElementById(el));
-//  var currentY = window.pageYOffset;
-//  var targetY = elem(el).offsetTop;
-//  var bodyHeight = document.body.offsetHeight;
-//  var yPos = currentY + window.innerHeight;
-//  var animator = setTimeout('autoScrollTo(""\''+el+'\'"")', speed);
-//  if(yPos > bodyHeight) {
-//    clearTimeout(animator);
-//  }
-//  else {
-//    if(currentY < targetY - distance) {
-//      scrollY = currentY + distance;
-//      window.scroll(0, scrollY);
-//    }
-//    else {
-//      clearTimeout(animator);
-//    }
-//  }
-//  console.log(scrollY);
-//};
+var scrollY = 0;
+var distance = 30;
+var speed = 15;
+function autoScrollTo(el) {
+	var currentY = window.pageYOffset;
+	var targetY = document.getElementById(el).offsetTop;
+	var bodyHeight = document.body.offsetHeight;
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoScrollTo(\''+el+'\')', speed);
+	if(yPos > bodyHeight){
+		clearTimeout(animator);
+	} else {
+		if(currentY < targetY-distance){
+		    scrollY = currentY+distance;
+		    window.scroll(0, scrollY);
+	    } else {
+		    clearTimeout(animator);
+	    }
+	}
+}
 
-//function resetScroller(el) {
-//  var currentY = window.pageYOffset;
-//  var targetY = elem(el).offsetTop;
-//  var animator = setTimeout('resetScroller(\''+el+'\')', speed);
-//  if(currentY > targetY) {
-//    scrollY = currentY - distance;
-//    window.scroll(0, scrollY);
-//  }
-//  else {
-//    clearTimeout(animator);
-//  }
-//  if(scrollY <= 20) {
-//    clearTimeout(animator);
-//  }
-//};
-
-//elem('menu-link').addEventListener('onmousedown', function() {
-//  console.log('clicked');
-//  autoScrollTo('menu-linked');
-//});
+//function resetScroller(el){
+//	var currentY = window.pageYOffset;
+//    var targetY = document.getElementById(el).offsetTop;
+//	var animator = setTimeout('resetScroller(\''+el+'\')',speed);
+//	if(currentY > targetY){
+//		scrollY = currentY-distance;
+//		window.scroll(0, scrollY);
+//	} else {
+//		clearTimeout(animator);
+//	}
+//}
 
 //--------------------Hamburger Menu---------------------
 
@@ -62,7 +49,7 @@ document.getElementById('hamburger').addEventListener('click', function() {
   document.getElementById('pop-out-three').style.right = "1rem";
   document.getElementById('pop-out-four').style.transition = "right 1.75s";
   document.getElementById('pop-out-four').style.right = "1rem";
-});
+}, false);
 
 document.getElementById('pop-out-one').addEventListener('click', function() {
   document.getElementById('hamburger').style.display = "inline-block";
@@ -74,8 +61,8 @@ document.getElementById('pop-out-one').addEventListener('click', function() {
   document.getElementById('pop-out-three').style.right = "-13rem";
   document.getElementById('pop-out-four').style.transition = "right 1.75s";
   document.getElementById('pop-out-four').style.right = "-13rem";
-//  autoScrollTo('menu-linked');
-});
+  autoScrollTo('menuSection');
+}, false);
 
 document.getElementById('pop-out-two').addEventListener('click', function() {
   document.getElementById('hamburger').style.display = "inline-block";
@@ -87,7 +74,8 @@ document.getElementById('pop-out-two').addEventListener('click', function() {
   document.getElementById('pop-out-three').style.right = "-13rem";
   document.getElementById('pop-out-four').style.transition = "right 1.5s";
   document.getElementById('pop-out-four').style.right = "-13rem";
-});
+  autoScrollTo('find-us-link');
+}, false);
 
 document.getElementById('pop-out-three').addEventListener('click', function() {
   document.getElementById('hamburger').style.display = "inline-block";
@@ -99,7 +87,8 @@ document.getElementById('pop-out-three').addEventListener('click', function() {
   document.getElementById('pop-out-three').style.right = "-13rem";
   document.getElementById('pop-out-four').style.transition = "right 1.75s";
   document.getElementById('pop-out-four').style.right = "-13rem";
-});
+  autoScrollTo('about-link');
+}, false);
 
 document.getElementById('pop-out-four').addEventListener('click', function() {
   document.getElementById('hamburger').style.display = "inline-block";
@@ -111,7 +100,14 @@ document.getElementById('pop-out-four').addEventListener('click', function() {
   document.getElementById('pop-out-three').style.right = "-13rem";
   document.getElementById('pop-out-four').style.transition = "right 1s";
   document.getElementById('pop-out-four').style.right = "-13rem";
-});
+  autoScrollTo('about-link');
+}, false);
+
+//--------------------Sec 1 Pointer----------------------
+
+document.getElementById('sec1Pointer').addEventListener('click', function() {
+  autoScrollTo('menuSection');
+}, false);
 
 //--------------------Sec 1 Share Icons------------------
 
@@ -126,7 +122,7 @@ document.getElementById('sec-1-share-tab').addEventListener('mouseenter', functi
   document.getElementById('sec-1-intg').style.opacity = "1";
   document.getElementById('sec-1-twit').style.transition = "opacity 2s";
   document.getElementById('sec-1-twit').style.opacity = "1";
-});
+}, false);
 
 
 document.getElementById('sec-1-share-cntnr').addEventListener('mouseleave', function() {
@@ -140,7 +136,7 @@ document.getElementById('sec-1-share-cntnr').addEventListener('mouseleave', func
   document.getElementById('sec-1-intg').style.opacity = "0";
   document.getElementById('sec-1-twit').style.transition = "opacity 0.5s";
   document.getElementById('sec-1-twit').style.opacity = "0";
-});
+}, false);
 
 //----------------------Menu-----------------------------
 
@@ -250,7 +246,7 @@ function paniniClick() {
 
 document.getElementById('panini').addEventListener('click', paniniClick, false);
 
-//Sandwiches
+//---Sandwiches---
 
     //Hover
 

@@ -1,7 +1,6 @@
 html, body {
   width: 100vw;
-  height: 100vh;
-  margin: 0;
+  height: auto;
   background: #262525; }
 
 .sec-1-container {
@@ -91,7 +90,8 @@ html, body {
 
 .hamburger-pop-out:hover {
   color: white;
-  background-color: lightgrey; }
+  background-color: lightgrey;
+  cursor: pointer; }
 
 .pop-out-1 {
   top: 4rem; }

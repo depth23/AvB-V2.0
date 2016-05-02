@@ -29,8 +29,7 @@
 
 html, body {
   width: 100vw;
-  height: 100vh;
-  margin: 0;
+  height: auto;
   background: #262525;
 }
 
@@ -125,7 +124,7 @@ html, body {
 .hamburger-pop-out:hover {
   color: white;
   background-color: lightgrey;
-//  right: 1rem;
+  cursor: pointer;
 }
 
 .pop-out-1 {
