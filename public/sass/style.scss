@@ -927,8 +927,8 @@ tr {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
-  line-height: 80%;
-  margin: 0 0 0 0;
+//  line-height: 80%;
+  margin: 10px 0 10px 0;
 }
 
 .orange {
@@ -1636,12 +1636,26 @@ tr {
     @include transform(translate(-50%, 0));
   }
   
+  .full-top-and-bottom {
+    line-height: 150%;
+    margin: 0 0 10px 0;
+  }
+  
   .full-titles {
     font-size: 17px;
   }
   
   .full-description {
     font-size: 17px;
+  }
+  
+  .orange {
+    line-height: 110%;
+    margin: 0;
+  }
+  
+  .marg-top {
+    margin-top: 96px;
   }
   
 }
@@ -1722,6 +1736,8 @@ tr {
   
   .full-top-and-bottom {
     font-size: 10px;
+    line-height: 100%;
+    margin: 3px 0 3px 0;
   }
   
   .full-titles {
@@ -1788,6 +1804,7 @@ tr {
   
   .orange {
     line-height: 150%;
+    margin: 0;
   }
   
   //  Panini
@@ -1866,6 +1883,10 @@ tr {
   
   .sw-crepes-item-title {
     font-size: 0.75rem;
+  }
+  
+  .sw-crepes-item-title-full {
+    font-size: 20px;
   }
   
   .sw-crepes-rnd-l {

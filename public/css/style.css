@@ -810,8 +810,7 @@ tr {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
-  line-height: 80%;
-  margin: 0 0 0 0; }
+  margin: 10px 0 10px 0; }
 
 .orange {
   color: orange; }
@@ -1514,10 +1513,18 @@ tr {
     -ms-transform: translate(-50%, 0);
     -o-transform: translate(-50%, 0);
     transform: translate(-50%, 0); }
+  .full-top-and-bottom {
+    line-height: 150%;
+    margin: 0 0 10px 0; }
   .full-titles {
     font-size: 17px; }
   .full-description {
-    font-size: 17px; } }
+    font-size: 17px; }
+  .orange {
+    line-height: 110%;
+    margin: 0; }
+  .marg-top {
+    margin-top: 96px; } }
 
 @media only screen and (max-width: 600px) {
   .sec-2-container {
@@ -1573,7 +1580,9 @@ tr {
   .menu-info {
     height: 128px; }
   .full-top-and-bottom {
-    font-size: 10px; }
+    font-size: 10px;
+    line-height: 100%;
+    margin: 3px 0 3px 0; }
   .full-titles {
     font-size: 10px;
     margin: 3px 0 0 0; }
@@ -1607,7 +1616,8 @@ tr {
   .menu-title-wrap-full {
     height: 54px; }
   .orange {
-    line-height: 150%; }
+    line-height: 150%;
+    margin: 0; }
   .lower-rnd-l {
     width: 54%;
     height: 1.4rem; }
@@ -1646,6 +1656,8 @@ tr {
     height: 95%; }
   .sw-crepes-item-title {
     font-size: 0.75rem; }
+  .sw-crepes-item-title-full {
+    font-size: 20px; }
   .sw-crepes-rnd-l {
     height: 1.45rem; }
   .sw-crepes-rnd-r-wrap {
