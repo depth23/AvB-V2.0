@@ -1,7 +1,8 @@
 html, body {
   width: 100vw;
   height: auto;
-  background: #262525; }
+  background: #262525;
+  margin: 0; }
 
 .sec-1-container {
   width: 100vw;
@@ -12,8 +13,10 @@ html, body {
   position: relative;
   top: 0;
   left: 0;
+  border-bottom: 1rem solid #262525;
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1000; }
 
 .sec-1-background {
   width: 100%;
@@ -26,8 +29,7 @@ html, body {
   background-size: cover;
   position: relative;
   top: 0;
-  left: 0;
-  opacity: 0.85; }
+  left: 0; }
 
 .sec-1-logo {
   width: 8rem;
@@ -92,6 +94,9 @@ html, body {
   color: white;
   background-color: lightgrey;
   cursor: pointer; }
+
+.hamburger-pop-out:active {
+  background: black; }
 
 .pop-out-1 {
   top: 4rem; }
@@ -400,7 +405,6 @@ html, body {
   position: relative;
   top: 0rem;
   left: 0rem;
-  border-top: 1rem solid #262525;
   border-bottom: 1rem solid #262525;
   margin: 0 auto;
   box-sizing: border-box; }
@@ -1484,6 +1488,11 @@ tr {
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
 
+#fullMenuLink {
+  display: block;
+  position: absolute;
+  bottom: 0; }
+
 @media only screen and (min-width: 771px) and (max-width: 1280px) {
   .full-titles {
     font-size: 14px; }
@@ -1513,6 +1522,14 @@ tr {
     -ms-transform: translate(-50%, 0);
     -o-transform: translate(-50%, 0);
     transform: translate(-50%, 0); }
+  .menu-item:hover {
+    cursor: pointer; }
+    .menu-item:hover .click-me-full {
+      display: none; }
+  .menu-item:active {
+    background: black; }
+    .menu-item:active .click-me-full {
+      display: none; }
   .full-top-and-bottom {
     line-height: 150%;
     margin: 0 0 10px 0; }
@@ -1558,6 +1575,14 @@ tr {
   .menu-top {
     width: 18rem;
     height: 7rem; }
+  .menu-item:hover {
+    cursor: pointer; }
+    .menu-item:hover .click-me-full {
+      display: none; }
+  .menu-item:active {
+    background: black; }
+    .menu-item:active .click-me-full {
+      display: none; }
   .menu-mid {
     width: 11.85rem;
     height: 7rem; }
@@ -1703,8 +1728,7 @@ tr {
   background-size: cover;
   position: relative;
   top: 0;
-  left: 0;
-  opacity: 0.6; }
+  left: 0; }
 
 .find-top-title {
   width: 7rem;
@@ -1878,6 +1902,28 @@ tr {
 .twitter-live-feed {
   width: 100%;
   height: 100%; }
+
+.to-top {
+  height: 35px;
+  width: 40px;
+  font-family: Baskerville, 'Times New Roman', serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: 10px outset #962323;
+  position: fixed;
+  bottom: 15px;
+  right: 5px;
+  color: lightgrey;
+  background-color: white;
+  letter-spacing: 0.19rem;
+  text-shadow: 0.06rem 0.06rem black, -0.06rem -0.06rem black, 0.06rem -0.06rem black, -0.06rem 0.06rem black;
+  -webkit-box-shadow: 0.25rem 0.25rem black, 0.15rem 0.15rem black, 0.05rem 0.05rem black, 1.25rem 1rem 3rem black;
+  -moz-box-shadow: 0.25rem 0.25rem black, 0.15rem 0.15rem black, 0.05rem 0.05rem black, 1.25rem 1rem 3rem black;
+  -ms-box-shadow: 0.25rem 0.25rem black, 0.15rem 0.15rem black, 0.05rem 0.05rem black, 1.25rem 1rem 3rem black;
+  -o-box-shadow: 0.25rem 0.25rem black, 0.15rem 0.15rem black, 0.05rem 0.05rem black, 1.25rem 1rem 3rem black;
+  box-shadow: 0.25rem 0.25rem black, 0.15rem 0.15rem black, 0.05rem 0.05rem black, 1.25rem 1rem 3rem black;
+  cursor: pointer; }
 
 @media only screen and (min-width: 771px) and (max-width: 1280px) {
   .find-top-title {
@@ -2074,11 +2120,47 @@ tr {
 
 .footer {
   width: 100%;
-  height: 9rem;
+  height: 170px;
   background: #962323;
   position: absolute;
   border-top: 1rem solid #262525;
   border-bottom: 1rem solid #262525; }
+
+.site-nav-container {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+
+.siteNav {
+  width: 70px;
+  height: 100%;
+  font-family: Baskerville, 'Times New Roman', serif;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F; }
+
+.nav-1 {
+  left: 10%; }
+
+.nav-2 {
+  left: 30%; }
+
+.nav-3 {
+  left: 50%; }
+
+.nav-4 {
+  left: 70%; }
 
 .sec-4-hours-container {
   width: 19rem;
@@ -2114,10 +2196,10 @@ tr {
   top: 1.3rem; }
 
 .footer-follow-container {
-  width: 9.6rem;
-  height: 3rem;
+  width: 154px;
+  height: 57px;
   position: absolute;
-  top: 1.5rem;
+  top: 25px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -moz-transform: translate(-50%, 0);
@@ -2144,11 +2226,11 @@ tr {
   text-shadow: 2px 2px #262525; }
 
 .sec-4-cc-container {
-  width: 16rem;
-  height: 1.9rem;
+  width: 256px;
+  height: 31px;
   position: absolute;
   left: 50%;
-  bottom: 1rem;
+  bottom: 45px;
   -webkit-transform: translate(-50%, 0);
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
@@ -2158,6 +2240,30 @@ tr {
 .sec-4-currency {
   width: 3rem;
   height: 1.8rem; }
+
+.developedBy {
+  width: 330px;
+  height: 20px;
+  font-family: Baskerville, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+  color: black;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+
+.developed-by-link {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  display: block; }
 
 .footer-phone-container {
   width: 6.1rem;
@@ -2228,6 +2334,10 @@ tr {
     font-size: 1.25rem; } }
 
 @media only screen and (min-width: 601px) and (max-width: 770px) {
+  .developedBy {
+    width: 288px;
+    height: 15px;
+    font-size: 14px; }
   .sec-4-container {
     min-width: 100%;
     height: 150vh; }
@@ -2273,7 +2383,7 @@ tr {
     line-height: 1.4rem;
     padding: 1.5rem 0.5rem 1rem 0.5rem; }
   .footer {
-    height: 21rem; }
+    height: 368px; }
   .sec-4-hours-container {
     width: 9rem;
     height: 7.5rem;
@@ -2291,6 +2401,10 @@ tr {
     bottom: 0; }
   .footer-follow-container {
     top: 13.75rem; }
+  .developedBy {
+    width: 288px;
+    height: 15px;
+    font-size: 14px; }
   .footer-phone-container {
     top: 1rem;
     right: 1rem; }

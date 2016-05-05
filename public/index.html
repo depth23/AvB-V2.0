@@ -36,7 +36,7 @@
   <body>
 
     <!--Section One-->
-    <section class="sec-1-container">
+    <section id="sectionOne" class="sec-1-container">
       <div class="sec-1-background"></div>
       <img class="sec-1-logo" src="img/black-and-white-logo.jpg" alt="The Avenue Bakery Black and White Logo" />
       <a href="#" class="hamburger-link" id="hamburger" onclick="return false;">
@@ -44,18 +44,10 @@
         <i class="hamburger hamburger-mid"></i>
         <i class="hamburger"></i>
       </a>
-<!--      <a href="#" id="menu-link">-->
-        <h1 class="hamburger-pop-out pop-out-1" id="pop-out-one">Menu</h1>
-<!--      </a>-->
-<!--      <a href="#" onclick="return false;">-->
-        <h1 class="hamburger-pop-out pop-out-2" id="pop-out-two">Find Us</h1>
-<!--      </a>-->
-<!--      <a href="#"  onclick="return false;">-->
-        <h1 class="hamburger-pop-out pop-out-3" id="pop-out-three">About Us</h1>
-<!--      </a>-->
-<!--      <a href="#"  onclick="return false;">-->
-        <h1 class="hamburger-pop-out pop-out-4" id="pop-out-four">Contact Us</h1>
-<!--      </a>-->
+      <h1 class="hamburger-pop-out pop-out-1" id="pop-out-one">Menu</h1>
+      <h1 class="hamburger-pop-out pop-out-2" id="pop-out-two">Find Us</h1>
+      <h1 class="hamburger-pop-out pop-out-3" id="pop-out-three">About Us</h1>
+      <h1 class="hamburger-pop-out pop-out-4" id="pop-out-four">Contact Us</h1>
       <div class="main-pg-text">
         <h5 class="sec-1-small-txt">full line on</h5>
         <h1 class="sec-1-lrg-txt">Baked Goods</h1>
@@ -82,7 +74,7 @@
         </div>
       </div>
       <address class="sect-1-address">
-        <a class="sec-1-address-link" href="#footer-link">
+        <a class="sec-1-address-link" href="https://plus.google.com/106287129053731223415/about" target="_blank">
          <span class="sec-1-address-color">The Avenue Bakery</span><br />
                                            35 Barratt Ave.<br />
                                            American Fork, UT 84003</a>
@@ -110,7 +102,7 @@
                   <h3 class="menu-item-title">BREAKFAST</h3>
                   <p class="menu-sm-text">served until 10:30am</p>
                 </div>
-                <p class="click-me-full">Click For More!</p>
+                <p id="clickMeFull" class="click-me-full">Click For More!</p>
               </div><!-- End of Breakfast menu item
            --><div class="menu-item m2" id="panini">
                 <div class="menu-title-wrap panini-title-wrap">
@@ -682,6 +674,7 @@
             </div>
           </div><!-- End of Drink menu full -->
         </div><!--End of Section 2 right -->
+        <a id="fullMenuLink" href="#"></a>
       </div>
     </section>
     
@@ -767,7 +760,14 @@
            sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </div>
+      <div id="toTop" class="to-top">To Top</div>
       <footer id="footer-link" class="footer">
+       <div class="site-nav-container">
+         <h5 id="siteNav1" class="siteNav nav-1">To Top</h5>
+         <h5 id="siteNav2" class="siteNav nav-2">Menu</h5>
+         <h5 id="siteNav3" class="siteNav nav-3">Find Us</h5>
+         <h5 id="siteNav4" class="siteNav nav-4">About Us</h5>
+       </div>
         <div class="sec-4-hours-container">
           <h6 class="sec-4-hours-title">Hours</h6>
           <p class="sec-4-hours">Monday <span class="sec-4-hrs-nmbrs">6:30AM-6PM</span></p>
@@ -805,12 +805,15 @@
           <img class="sec-4-currency" src="./img/discover.png" alt="Discover Card" />          
           <img class="sec-4-currency" src="./img/money.png" alt="Cash" />    
         </div>
+        <div class="developedBy">
+          <a href="https://www.linkedin.com/in/deonsharps" target="_blank" class="developed-by-link">- Designed and Developed by Deon Sharps -</a>
+        </div>
         <div class="footer-phone-container">
           <h6 class="footer-phone-title">Phone</h6>
           <a class="sec-4-phone" href="tel:1-801-420-2011">(801) 420-2011</a>
         </div>
         <address class="sec-4-address">
-          <a class="sec-4-address-link" href="foo.html">
+          <a class="sec-4-address-link" href="https://plus.google.com/106287129053731223415/about" target="_blank">
             <span class="footer-address-highlight">The Avenue Bakery</span><br />
                                                    35 Barratt Ave.<br />
                                                    American Fork, UT 84003

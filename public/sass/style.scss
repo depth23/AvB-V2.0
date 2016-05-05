@@ -31,6 +31,7 @@ html, body {
   width: 100vw;
   height: auto;
   background: #262525;
+  margin: 0;
 }
 
 //===============================Section One-----------------------------------
@@ -44,8 +45,10 @@ html, body {
   position: relative;
   top: 0;
   left: 0;
+  border-bottom: 1rem solid #262525;
   margin: 0 auto;
   overflow: hidden;
+  z-index: 1000;
 }
 
 .sec-1-background {
@@ -60,7 +63,7 @@ html, body {
   position: relative;
   top: 0;
   left: 0;
-  opacity: 0.85;
+//  opacity: 0.85;
 }
 
 .sec-1-logo {
@@ -125,6 +128,10 @@ html, body {
   color: white;
   background-color: lightgrey;
   cursor: pointer;
+}
+
+.hamburger-pop-out:active {
+  background: black;
 }
 
 .pop-out-1 {
@@ -535,7 +542,7 @@ html, body {
   position: relative;
   top: 0rem;
   left: 0rem;
-  border-top: 1rem solid #262525;
+//  border-top: 1rem solid #262525;
   border-bottom: 1rem solid #262525;
   margin: 0 auto;
   box-sizing: border-box;
@@ -1597,6 +1604,12 @@ tr {
   @include transform(rotate(90deg));
 }
 
+#fullMenuLink {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
 //medium screens
 
 @media only screen and (min-width: 771px) and (max-width: 1280px) {
@@ -1633,6 +1646,20 @@ tr {
     right: auto;
     left: 50%; 
     @include transform(translate(-50%, 0));
+  }
+  
+  .menu-item:hover {
+    cursor: pointer;
+    .click-me-full{
+      display: none;
+    }
+  }
+  
+  .menu-item:active {
+    background: black;
+    .click-me-full{
+      display: none;
+    }
   }
   
   .full-top-and-bottom {
@@ -1694,6 +1721,20 @@ tr {
   .menu-top {
     width: 18rem;
     height: 7rem;
+  }
+  
+  .menu-item:hover {
+    cursor: pointer;
+    .click-me-full{
+      display: none;
+    }
+  }
+  
+  .menu-item:active {
+    background: black;
+    .click-me-full{
+      display: none;
+    }
   }
   
   .menu-mid {
@@ -1964,7 +2005,7 @@ tr {
   position: relative;
   top: 0;
   left: 0;
-  opacity: 0.6;
+//  opacity: 0.6;
 }
 
 .find-top-title {
@@ -2141,6 +2182,25 @@ tr {
 .twitter-live-feed {
   width: 100%;
   height: 100%;
+}
+
+.to-top {
+  height: 35px;
+  width: 40px;
+  font-family: Baskerville, 'Times New Roman', serif;;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: 10px outset #962323;
+  position: fixed;
+  bottom: 15px;
+  right: 5px;
+  color: lightgrey;
+  background-color: white;
+  letter-spacing: 0.19rem;
+  text-shadow: 0.06rem 0.06rem black, -0.06rem -0.06rem black, 0.06rem -0.06rem black, -0.06rem 0.06rem black;
+  @include box-shadow(0.25rem 0.25rem black, 0.15rem 0.15rem black, 0.05rem 0.05rem black, 1.25rem 1rem 3rem black);
+  cursor: pointer;
 }
 
 //medium screens
@@ -2387,11 +2447,49 @@ tr {
 
 .footer {
   width: 100%;
-  height: 9rem;
+  height: 170px;
   background: #962323;
   position: absolute;
   border-top: 1rem solid #262525;
   border-bottom: 1rem solid #262525;
+}
+
+.site-nav-container {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  @include transform(translate(-50%, 0))
+}
+
+.siteNav {
+  width: 70px;
+  height: 100%;
+  font-family: Baskerville, 'Times New Roman', serif;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+}
+
+.nav-1 {
+  left: 10%;
+}
+
+.nav-2 {
+  left: 30%;
+}
+
+.nav-3 {
+  left: 50%;
+}
+
+.nav-4 {
+  left: 70%;
 }
 
 .sec-4-hours-container {
@@ -2434,10 +2532,10 @@ tr {
 }
 
 .footer-follow-container {
-  width: 9.6rem;
-  height: 3rem;
+  width: 154px;
+  height: 57px;
   position: absolute;
-  top: 1.5rem;
+  top: 25px;
   left: 50%;
   @include transform(translate(-50%, 0));
   text-align: center;
@@ -2466,17 +2564,39 @@ tr {
 }
 
 .sec-4-cc-container {
-  width: 16rem;
-  height: 1.9rem;
+  width: 256px;
+  height: 31px;
   position: absolute;
   left: 50%;
-  bottom: 1rem;
+  bottom: 45px;
   @include transform(translate(-50%, 0))
 }
 
 .sec-4-currency {
   width: 3rem;
   height: 1.8rem;
+}
+
+.developedBy {
+  width: 330px;
+  height: 20px;
+  font-family: Baskerville, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+  color: black;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  @include transform(translate(-50%, 0));
+}
+
+.developed-by-link {
+  width: 100%;
+  height: 100%; 
+  text-decoration: none;
+  color: inherit;
+  display: block; 
 }
 
 .footer-phone-container {
@@ -2561,6 +2681,12 @@ tr {
 
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   
+  .developedBy {
+    width: 288px;
+    height: 15px;
+    font-size: 14px;  
+  }
+  
   .sec-4-container {
     min-width: 100%;
 //    min-height: 97rem;
@@ -2638,7 +2764,7 @@ tr {
   }
   
   .footer {
-    height: 21rem;
+    height: 368px;
   }
   
   .sec-4-hours-container {
@@ -2658,6 +2784,12 @@ tr {
   
   .footer-follow-container {
     top: 13.75rem;
+  }
+  
+  .developedBy {
+    width: 288px;
+    height: 15px;
+    font-size: 14px;  
   }
   
   .footer-phone-container {
