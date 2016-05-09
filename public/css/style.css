@@ -1911,7 +1911,7 @@ tr {
   font-weight: bold;
   text-align: center;
   border: 10px outset #962323;
-  position: fixed;
+  position: absolute;
   bottom: 15px;
   right: 5px;
   color: lightgrey;

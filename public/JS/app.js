@@ -541,7 +541,9 @@ function scrollTop() {
   resetScroller('sectionOne');
 };
 
-document.getElementById('toTop').addEventListener('click', scrollTop, false);
+document.getElementById('toTop1').addEventListener('click', scrollTop, false);
+
+document.getElementById('toTop2').addEventListener('click', scrollTop, false);
 
 //--------------------Site Nav---------------------------
 
