@@ -2681,12 +2681,6 @@ tr {
 
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   
-  .developedBy {
-    width: 288px;
-    height: 15px;
-    font-size: 14px;  
-  }
-  
   .sec-4-container {
     min-width: 100%;
 //    min-height: 97rem;
@@ -2712,6 +2706,30 @@ tr {
     top: 7rem;
   }
   
+  .footer {
+    height: 185px;
+  }
+  
+  .footer-follow-container {
+    top: 35px;
+  }
+  
+  .nav-1 {
+    left: 10%;
+  }
+  
+  .nav-2 {
+    left: 20%;
+  }
+  
+  .nav-3 {
+    left: 40%;
+  }
+  
+  .nav-4 {
+    left: 50%;
+  }
+  
   .sec-4-hours-container {
     width: 9rem;
     height: 7.5rem;
@@ -2727,6 +2745,12 @@ tr {
   
   .sec-4-address {
     font-size: 1rem;
+  }
+  
+  .developedBy {
+    width: 288px;
+    height: 15px;
+    font-size: 14px;  
   }
   
 }
@@ -2764,13 +2788,39 @@ tr {
   }
   
   .footer {
-    height: 368px;
+    height: 400px;
+  }
+  
+  .site-nav-container {
+    height: 32px;
+  }
+  
+  .siteNav {
+    width: 25px;
+    font-size: 13px;
+  }
+  
+  .nav-1 {
+    left: 10%;
+  }
+  
+  .nav-2 {
+    bottom: 25%;
+    left: 20%;
+  }
+  
+  .nav-3 {
+    left: 37%;
+  }
+  
+  .nav-4 {
+    left: 50%;
   }
   
   .sec-4-hours-container {
     width: 9rem;
     height: 7.5rem;
-    top: 5.75rem;
+    top: 119px;
     left: 50%;
     @include transform(translate(-50%, 0));
   }
@@ -2783,7 +2833,7 @@ tr {
   }
   
   .footer-follow-container {
-    top: 13.75rem;
+    top: 250px;
   }
   
   .developedBy {
@@ -2793,7 +2843,7 @@ tr {
   }
   
   .footer-phone-container {
-    top: 1rem;
+    top: 50px;
     right: 1rem;
   }
   
@@ -2809,7 +2859,7 @@ tr {
   .sec-4-address {
     font-size: 0.95rem;
     text-align: left;
-    top: 1rem;
+    top: 50px;
     right: auto;
     bottom: auto;
     left: 1rem;
