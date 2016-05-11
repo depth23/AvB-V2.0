@@ -1,30 +1,30 @@
 {
-  "name": "av-bakery-v2",
+  "name": "(avb-v2.0)",
   "version": "1.0.0",
-  "description": "an angular app to act as an online presence for the avenue bakery",
-  "main": "index.js",
+  "description": "an online presence for the avenue bakery in american fork, ut",
+  "main": "index.html",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "test"
   },
-  "bugs": [{
-    "email": "deon.p.sharps@gmail.com"
-  }],
-  "keywords": [{
-    "none"
-  }],
-  "author": "Deon Sharps",
-  "contributors": [{
-    "name": "Deon Sharps",
-    "email": "deon.p.sharps@gmail.com",
-    "url": "https://branded.me/deon-sharps"
-  }],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/depth23/AvB-V2.0.git"
   },
+  "keywords": [
+    "none"
+  ],
+  "author": "deon sharps",
   "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/depth23/AvB-V2.0/issues"
+  },
+  "homepage": "https://github.com/depth23/AvB-V2.0#readme"
 }
