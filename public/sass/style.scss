@@ -1116,7 +1116,7 @@ tr {
 
 .sandwiches-img {
   width: 55%;
-  height: 4rem;
+  height: 64px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1155,7 +1155,7 @@ tr {
 
 .s-and-s-img-wrap-full {
   width: 90%;
-  height: 7.5rem;
+  height: 120px;
   background: #77B130;
   position: absolute;
   left: 50%;
@@ -1165,7 +1165,7 @@ tr {
 
 .s-and-s-imgs {
   width: 45%;
-  height: 3.75rem;
+  height: 60px;
   position: absolute;
   top: 50%;
   @include transform(translate(0, -50%));
@@ -1173,7 +1173,7 @@ tr {
 
 .s-and-s-imgs-full {
   width: 44%;
-  height: 6rem;
+  height: 96px;
   position: absolute;
   top: 50%;
   @include transform(translate(0, -50%));
@@ -1181,32 +1181,32 @@ tr {
 
 .s-and-s-img-l {
   @extend .s-and-s-imgs;
-  right: 0.2rem;
+  right: 3px;
 }
 
 .s-and-s-img-l-full {
   @extend .s-and-s-imgs-full;
-  right: 0.75rem;
+  right: 11.5px;
 }
 
 .s-and-s-img-r {
   @extend .s-and-s-imgs;
-  left: 0.2rem;
+  left: 3px;
 }
 
 .s-and-s-img-r-full {
   @extend .s-and-s-imgs-full;
-  left: 0.75rem;
+  left: 12px;
 }
 
 .s-and-s-title-wrap {
   background: #77B130;
   position: absolute;
-  bottom: 0.1rem;
+  bottom: 1.5px;
 }
 
 .s-and-s-title {
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 
 #soup-salad-full {
@@ -1214,7 +1214,7 @@ tr {
 }
 
 .s-and-s-title-full {
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 .light-green {
@@ -1222,21 +1222,21 @@ tr {
 }
 
 .m5 {
-  right: -0.08rem;
+  right: -1.25px;
 }
 
 .sav-crepes-image-wrap {
   width: 95%;
-  height: 4.6rem;
+  height: 73.5px;
   position: absolute;
-  top: 0.1rem;
+  top: 1.6px;
   left: 50%;
   @include transform(translate(-50%, 0)); 
 }
 
 .sav-crepes-image-wrap-full {
   width: 90%;
-  height: 7.5rem;
+  height: 120px;
   position: absolute;
   left: 50%;
   @include transform(translate(-50%, 0));
@@ -1265,32 +1265,32 @@ tr {
 .sav-crepes-img-l {
   @extend .sav-crepes-lr;
   background: rgb(191, 52, 13);
-  left: 0rem;
+  left: 0;
 }
 
 .sav-crepes-img-l-full {
   @extend .sav-crepes-lr-full;
   background: rgb(191, 52, 13);
-  left: 0rem;
+  left: 0;
 }
 
 .sav-crepes-img-r {
   @extend .sav-crepes-lr;
   background: rgb(191, 52, 13);
-  right: 0rem;
+  right: 0;
 }
 
 .sav-crepes-img-r-full {
   @extend .sav-crepes-lr-full;
   background: rgb(191, 52, 13);
-  right: 0rem;
+  right: 0;
 }
 
 .sav-crepes-img {
   width: 75%;
   height: 90%;
   position: absolute;
-  top: 0.2rem;
+  top: 3px;
   left: 50%;
   @include transform(translate(-50%, 0));
   @include border-radius(35% 35% 0 0);
@@ -1304,31 +1304,31 @@ tr {
   width: 75%;
   height: 75%;
   position: absolute;
-  top: 0.4rem;
+  top: 6.5px;
   left: 50%;
   @include transform(translate(-50%, 0)); 
 }
 
 .sav-crepes-food-names {
   width: 100%;
-  height: 1rem;
+  height: 16px;
   color: white;
   text-align: center;
   font-variant: small-caps;
   position: absolute;
-  bottom: 0.4rem;
+  bottom: 6.5px;
   left: 50%;
   transform: translate(-50%, 0);
   margin: 0;
 }
 
 .m6{
-  left: -0.1rem;
+  left: -1.6px;
 }
 
 .sw-crepes-title-wrap {
   background: #BE2828;
-  top: 0.15rem;
+  top: 2.4px;
 }
 
 .sw-crepes-title-wrap-full {
@@ -1337,7 +1337,7 @@ tr {
 }
 
 .sw-crepes-item-title {
-  font-size: 1rem;
+  font-size: 16px;
   box-sizing: border-box;
   margin: 0;
   position: relative;
@@ -1347,7 +1347,7 @@ tr {
 
 .sw-crepes-item-title-full {
   width: 100%;
-  font-size: 2rem;
+  font-size: 32px;
   text-align: center;
   box-sizing: border-box;
   margin: 0;
@@ -1365,20 +1365,20 @@ tr {
   text-transform: capitalize;
   font-style: normal;
   top: 50%;
-  right: 6rem;
+  right: 96px;
 }
 
 .sw-crepes-img {
   width: 55%;
-  height: 4rem;
+  height: 64px;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
 .sw-crepes-img-full {
-  width: 11.25rem;
-  height: 7.5rem;
+  width: 180px;
+  height: 120px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1386,7 +1386,7 @@ tr {
 
 .sw-crepes-rnd-l {
   width: 54%;
-  height: 1.5rem;
+  height: 24px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1395,16 +1395,16 @@ tr {
 
 .sw-crepes-rnd-l-full {
   width: 49%;
-  height: 2.5rem;
+  height: 40px;
   position: absolute;
   bottom: 0;
-  right: 0.5rem;
+  right: 8px;
   @include border-radius(50% 50% 0 0);
 }
 
 .sw-crepes-rnd-r-wrap {
-  width: 4.8rem;
-  height: 2.4rem;
+  width: 77px;
+  height: 38.5px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1412,8 +1412,8 @@ tr {
 }
 
 .sw-crepes-rnd-r-wrap-full {
-  width: 13rem;
-  height: 6rem;
+  width: 208px;
+  height: 96px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1424,7 +1424,7 @@ tr {
   width: 133%;
   height: 100%;
   position: absolute;
-  right: -2rem;
+  right: -32px;
   bottom: 0;
   @include border-radius(50%);
 }
@@ -1433,8 +1433,8 @@ tr {
   width: 200%;
   height: 200%;
   position: absolute;
-  left: -12.3rem;
-  bottom: -6rem;
+  left: -197px;
+  bottom: -96px;
   @include border-radius(50%);
 }
 
@@ -1450,12 +1450,12 @@ tr {
 }
 
 .m7{
-  margin: 0 0.03rem 0 0.03rem;
+  margin: 0 0.5px 0 0.5px;
 }
 
 .kids-title-wrap {
   background: #5EB2E7;
-  top: 0.15rem;
+  top: 2.5px;
 }
 
 .kids-title-wrap-full {
@@ -1471,12 +1471,12 @@ tr {
   text-transform: capitalize;
   font-style: normal;
   top: 50%;
-  left: 1rem;
+  left: 16px;
 }
 
 .kids-img {
   width: 55%;
-  height: 4rem;
+  height: 64px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1487,8 +1487,8 @@ tr {
 }
 
 .kids-img-full {
-  width: 11.25rem;
-  height: 7.5rem;
+  width: 180px;
+  height: 120px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1503,43 +1503,43 @@ tr {
 }
 
 .m8 {
-  right: -0.1rem;
+  right: -1.6px;
 }
 
 .drinks-img {
   width: 95%;
-  height: 4.5rem;
+  height: 72px;
   position: absolute;
-  top: 0.15rem;
+  top: 2.5px;
   left: 50%;
   @include transform(translate(-50%, 0));
 }
 
 .drinks-img-full {
   width: 95%;
-  height: 7.5rem;
+  height: 120px;
   position: absolute;
-  top: 0.15rem;
+  top: 2.5px;
   left: 50%;
   @include transform(translate(-50%, 0));
 }
 
 .drink-title-wrap {
-  height: 3rem;
+  height: 48px;
   background: #40B967;
   position: absolute;
-  bottom: 0.1rem;
+  bottom: 1.6px;
 }
 
 .drink-title-wrap-full {
-  height: 4rem;
+  height: 64px;
   background: #40B967;
   position: absolute;
-  bottom: 0.1rem;
+  bottom: 1.6px;
 }
 
 .drinks-item-title {
-  font-size: 1rem;
+  font-size: 16px;
   box-sizing: border-box;
   margin: 0;
   position: relative;
@@ -1553,7 +1553,7 @@ tr {
 
 .drinks-item-title-full {
   width: 100%;
-  font-size: 2rem;
+  font-size: 32px;
   text-align: center;
   box-sizing: border-box;
   margin: 0;
@@ -1571,23 +1571,23 @@ tr {
 .menu-bottom {
   display: none;
   
-  width: 8rem;
-  height: 1.6rem;
+  width: 128px;
+  height: 25.5px;
   color: lightgrey;
   background-color: white;
-  letter-spacing: 0.19rem;
-  text-shadow: 0.06rem 0.06rem black,
-               -0.06rem -0.06rem black,
-               0.06rem -0.06rem black,
-               -0.06rem 0.06rem black;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px black,
+             -1px -1px black,
+              1px -1px black,
+              -1px 1px black;
   position: relative;
   left: 50%;
   @include transform(translate(-50%, 0%));
-  border: 1rem outset #962323;
-  @include box-shadow(0.25rem 0.25rem black,
-                      0.15rem 0.15rem black,
-                      0.05rem 0.05rem black,
-                  1.25rem 1rem 3rem black);
+  border: 16px outset #962323;
+  @include box-shadow(4px 4px black,
+                  2.5px 2.5px black,
+                      1px 1px black,
+              20px 16px 48px black);
 }
 
 .menu-bottom:hover {
@@ -1596,11 +1596,11 @@ tr {
 }
 
 .sec-2-pointer {
-  font-size: 1.25rem;
-  text-shadow: 0.05rem 0.05rem black,
-             -0.05rem -0.05rem black,
-              0.05rem -0.05rem black,
-              -0.05rem 0.05rem black;
+  font-size: 20px;
+  text-shadow: 1px 1px black,
+             -1px -1px black,
+              1px -1px black,
+              -1px 1px black;
   @include transform(rotate(90deg));
 }
 
@@ -1628,21 +1628,21 @@ tr {
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   
   .sec-2-container {
-    height: 108rem;
+    height: 1728px;
     min-width: 100vw;
     
   }
   
   .sec-2-left {
-    top: 2rem;
+    top: 32px;
     left: 50%;
     @include transform(translate(-50%, 0));
   }
   
   .sec-2-right {
     width: 100%;
-    min-width: 36rem;
-    top: 45rem;
+    min-width: 576px;
+    top: 720px;
     right: auto;
     left: 50%; 
     @include transform(translate(-50%, 0));
@@ -1691,36 +1691,36 @@ tr {
 @media only screen and (max-width: 600px) {
   
   .sec-2-container {
-    height: 81rem;
+    height: 1296px;
     min-width: 100vw;
   }
   
   .sec-2-left {
     width: 100%;
-    top: 2rem;
+    top: 32px;
     left: 50%;
     @include transform(translate(-50%, 0));
   }
   
   .sec-2-right {
-    width: 18.5rem;
-    height: 38rem;
-    min-width: 18.5rem;
-    min-height: 38rem;
-    top: 38rem;
+    width: 296px;
+    height: 608px;
+    min-width: 296px;
+    min-height: 608px;
+    top: 608px;
     right: auto;
     left: 50%; 
     @include transform(translate(-50%, 0));
   }
   
   .sec-2-logo {
-    width: 17rem;
-    height: 10rem;
+    width: 272px;
+    height: 160px;
   }
   
   .menu-top {
-    width: 18rem;
-    height: 7rem;
+    width: 288px;
+    height: 112px;
   }
   
   .menu-item:hover {
@@ -1738,13 +1738,13 @@ tr {
   }
   
   .menu-mid {
-    width: 11.85rem;
-    height: 7rem;
+    width: 190px;
+    height: 112px;
   }
   
   .menu-btm {
-    width: 18rem;
-    height: 7rem;
+    width: 288px;
+    height: 112px;
   }
   
   .click-me-full {
@@ -1752,8 +1752,8 @@ tr {
   }
   
   .menu-item {
-    width: 5.9rem;
-    height: 7rem;
+    width: 94px;
+    height: 112px;
   }
   
   .menu-item-title-full {
@@ -1809,7 +1809,7 @@ tr {
   //Breakfast
   
   .bfast-image-wrap {
-    height: 3.8rem; 
+    height: 61px; 
   }
   
   .bfast-image-wrap-full {
@@ -1825,9 +1825,9 @@ tr {
   }
   
   .menu-item-title {
-    font-size: 0.75rem;
-    top: 0.25rem;
-    padding: 0.5rem 0 0.5rem 0;
+    font-size: 12px;
+    top: 4px;
+    padding: 8px 0 8px 0;
   }
   
   .menu-sm-text {
@@ -1851,28 +1851,28 @@ tr {
   
   .lower-rnd-l {
     width: 54%;
-    height: 1.4rem;
+    height: 22px;
   }
   
   .lower-rnd-r-wrap {
-    width: 3.9rem;
-    height: 2rem;
+    width: 62px;
+    height: 32px;
   }
   
   .panini-img {
-    height: 3.5rem;
+    height: 56px;
   }
   
   //  Sandwiches
   
   .sandwiches-img {
-    height: 3.5rem;
+    height: 56px;
   }
   
   //  Soup and Salad
   
   .s-and-s-img-wrap {
-    height: 3.65rem;
+    height: 58px;
   }
   
   .s-and-s-img-wrap-full {
@@ -1881,7 +1881,7 @@ tr {
   
   .s-and-s-img-r {
     width: 44%;
-    height: 3rem;
+    height: 48px;
   }
   
   .s-and-s-img-r-full {
@@ -1892,7 +1892,7 @@ tr {
   
   .s-and-s-img-l {
     width: 44%;
-    height: 3rem;
+    height: 48px;
   }
   
   .s-and-s-img-l-full {
@@ -1904,7 +1904,7 @@ tr {
   //  Savory Crepes
   
   .sav-crepes-image-wrap {
-    height: 3.8rem;
+    height: 61px;
   }
   
   .sav-crepes-image-wrap-full {
@@ -1922,7 +1922,7 @@ tr {
   //  Sweet Crepes
   
   .sw-crepes-item-title {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
   
   .sw-crepes-item-title-full {
@@ -1930,27 +1930,27 @@ tr {
   }
   
   .sw-crepes-rnd-l {
-    height: 1.45rem;
+    height: 23px;
   }
   
   .sw-crepes-rnd-r-wrap {
-    width: 3.9rem;
-    height: 2rem;
+    width: 62px;
+    height: 32px;
   }
   
   .sw-crepes-rnd-r {
     right: auto;
-    left: -2.2rem;
+    left: -35px;
   }
   
   .sw-crepes-img {
-    height: 3.5rem;
+    height: 56px;
   }
   
   //  Kids
   
   .kids-img {
-    height: 3.5rem;
+    height: 56px;
   }
   
   .marg-top {
@@ -1960,7 +1960,7 @@ tr {
   //  Drinks
   
   .drinks-img {
-    height: 3.6rem;
+    height: 57.5px;
   }
   
   .drinks-img-full {
@@ -1972,7 +1972,7 @@ tr {
   }
   
   .drinks-item-title {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
   
   .drinks-item-title-full {
@@ -1986,8 +1986,8 @@ tr {
 .sec-3-container {
   width: 100vw;
   height: 100vh;
-  min-width: 75rem;
-  min-height: 56rem;
+  min-width: 1200px;
+  min-height: 896px;
   max-width: 1440px;
   position: relative;
   margin: 0 auto;
@@ -2009,26 +2009,26 @@ tr {
 }
 
 .find-top-title {
-  width: 7rem;
-  height: 1.8rem;
+  width: 112px;
+  height: 29px;
   color: lightgrey;
   background-color: white;
-  font-size: 1.7rem;
+  font-size: 27px;
   text-align: center;
-  letter-spacing: 0.1rem;
-  text-shadow: 0.06rem 0.06rem black,
-               -0.06rem -0.06rem black,
-               0.06rem -0.06rem black,
-               -0.06rem 0.06rem black;
+  letter-spacing: 1.6px;
+  text-shadow: 1px 1px black,
+             -1px -1px black,
+              1px -1px black,
+              -1px 1px black;
   position: absolute;
-  top: 2rem;
+  top: 32px;
   left: 50%;
   @include transform(translate(-50%, 0%));
-  border: 1rem outset #962323;
-  @include box-shadow(0.25rem 0.25rem black,
-                      0.15rem 0.15rem black,
-                      0.05rem 0.05rem black,
-                  1.25rem 1rem 3rem black);
+  border: 16px outset #962323;
+  @include box-shadow(4px 4px black,
+                  2.5px 2.5px black,
+                      1px 1px black,
+              20px 16px 48px black);
 }
 
 .find-containers-lr {
@@ -2044,30 +2044,30 @@ tr {
 }
 
 .facebook-live-container {
-  width: 31rem;
-  height: 23rem;
+  width: 496px;
+  height: 368px;
   background: lightgrey;
-  border: 1rem outset #962323;
+  border: 16px outset #962323;
   position: absolute;
   top: 0;
   left: 50%;
   @include transform(translate(-50%, 0));
   overflow: auto;
-  @include box-shadow(0.25rem 0.2rem black, 
-                     0.15rem 0.15rem black,
-                     0.05rem 0.05rem black,
-                 1.5rem 1rem 4rem black);
+  @include box-shadow(4px 4px black, 
+                     2.5px 2.5px black,
+                     1px 1px black,
+                 24px 16px 64px black);
 }
 
 .about-corner-icons {
-  width: 3rem;
-  height: 3rem;
+  width: 48px;
+  height: 48px;
   position: absolute;
   right: 0;
   top: 0;
   box-sizing: border-box;
-  border: 0.5rem inset #962323;
-  padding-bottom: 0.2rem;
+  border: 8px inset #962323;
+  padding-bottom: 3px;
   z-index: 100;
 }
 
@@ -2087,19 +2087,19 @@ tr {
 }
 
 .map-container {
-  width: 27rem;
-  height: 17rem;
+  width: 432px;
+  height: 272px;
   background: lightgrey;
   overflow: hidden;
   position: absolute;
-  bottom: 2rem;
+  bottom: 32px;
   left: 50%;
   @include transform(translate(-50%, 0));
-  border: 1rem outset #962323;
-  @include box-shadow(0.25rem 0.2rem black, 
-                     0.15rem 0.15rem black,
-                     0.05rem 0.05rem black,
-                 1.5rem 1rem 4rem black);
+  border: 16px outset #962323;
+  @include box-shadow(4px 4px black, 
+                  2.5px 2.5px black,
+                      1px 1px black,
+              24px 16px 64px black);
 }
 
 .gmap-icon {
@@ -2124,25 +2124,25 @@ tr {
 }
 
 .instagram-live-container {
-  width: 25rem;
-  height: 20rem;
+  width: 400px;
+  height: 320px;
   background: lightgrey;
-  border: 1rem outset #962323;
+  border: 16px outset #962323;
   position: absolute;
   top: 0;
   left: 50%;
   @include transform(translate(-50%, 0));
   overflow: auto;
-  @include box-shadow(0.25rem 0.2rem black, 
-                     0.15rem 0.15rem black,
-                     0.05rem 0.05rem black,
-                 1.5rem 1rem 4rem black);
+  @include box-shadow(4px 4px black, 
+                  2.5px 2.5px black,
+                      1px 1px black,
+              24px 16px 64px black);
 }
 
 .about-insta {
   @extend .about-corner-icons;
   background: white;
-  padding: 0.1rem 0.15rem 0.1rem 0.1rem;
+  padding: 1.6px 2.5px 1.6px 1.6px;
 }
 
 .insta-live-feed {
@@ -2158,25 +2158,26 @@ tr {
 }
 
 .twitter-live-container {
-  width: 32.5rem;
-  height: 20rem;
+  width: 520px;
+  height: 320px;
   background: lightgrey;
-  border: 1rem outset #962323;
+  border: 16px outset #962323;
   position: absolute;
-  bottom: 2rem;
+  bottom: 32px;
   left: 50%;
   @include transform(translate(-50%, 0));
   overflow: auto;
-  @include box-shadow(0.25rem 0.2rem black, 
-                     0.15rem 0.15rem black,
-                     0.05rem 0.05rem black,
-                 1.5rem 1rem 4rem black);
+  @include box-shadow(4px 4px black, 
+                  2.5px 2.5px black,
+                      1px 1px black,
+                      1px 1px black,
+              24px 16px 64px black);
 }
 
 .about-twitter {
   @extend .about-corner-icons;
   background: white;
-  padding: 0.1rem 0.15rem 0.1rem 0.1rem;
+  padding: 1.6px 2.5px 1.6px 1.6px;
 }
 
 .twitter-live-feed {
@@ -2192,15 +2193,36 @@ tr {
   font-weight: bold;
   text-align: center;
   border: 10px outset #962323;
+  border-radius: 50%;
   position: absolute;
   bottom: 15px;
   right: 5px;
   color: lightgrey;
-  background-color: white;
-  letter-spacing: 0.19rem;
-  text-shadow: 0.06rem 0.06rem black, -0.06rem -0.06rem black, 0.06rem -0.06rem black, -0.06rem 0.06rem black;
-  @include box-shadow(0.25rem 0.25rem black, 0.15rem 0.15rem black, 0.05rem 0.05rem black, 1.25rem 1rem 3rem black);
+  background-color: transparent;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px black,
+             -1px -1px black, 
+              1px -1px black,
+              -1px 1px black;
+  @include box-shadow(4px 4px black,
+                  2.5px 2.5px black,
+                      1px 1px black,
+              20px 16px 48px black);
   cursor: pointer;
+}
+
+.to-top-pointer {
+  font-size: 25px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  @include transform(translate(-50%, -50%));
+}
+
+.to-top-pointer:hover {
+  cursor: pointer;
+  text-shadow: none;
 }
 
 //medium screens
@@ -2212,30 +2234,30 @@ tr {
   }
   
   .find-left {
-    max-height: 43rem;
+    max-height: 688px;
     bottom: 45%;
     @include transform(translate(0, 50%));
   }
   
   .facebook-live-container{
-    height: 20rem;
+    height: 320px;
   }
   
   .map-container {
-    height: 14rem;
-    bottom: 1.5rem;
+    height: 224px;
+    bottom: 24px;
   }
   
   .find-right {
-    max-height: 43rem;
+    max-height: 688px;
     bottom: 45%;
     @include transform(translate(0, 50%));
   }
   
   .twitter-live-container {
-    width: 30rem;
-    height: 15rem;
-    bottom: 1.5rem;
+    width: 480px;
+    height: 240px;
+    bottom: 24px;
   }
   
 }
@@ -2247,7 +2269,7 @@ tr {
   .sec-3-container {
     height: 100vh;
     min-width: 100%;
-    min-height: 97rem;
+    min-height: 1552px;
   }
   
   .find-top-title {
@@ -2257,34 +2279,34 @@ tr {
   .find-left {
     width: 100%;
     height: 42%;
-    min-height: 39rem;
-    top: 52rem;
+    min-height: 624px;
+    top: 832px;
   }
   
   .facebook-live-container{
-    height: 20rem;
+    height: 320px;
   }
   
   .map-container {
-    height: 14rem;
-    bottom: 0rem;
+    height: 224px;
+    bottom: 0;
   }
   
   .find-right {
     width: 100%;
     height: 42%;
-    min-height: 39.5rem;
-    top: 9rem;
+    min-height: 632px;
+    top: 144px;
   }
   
   .instagram-live-container {
-    height: 21.25rem;
+    height: 340px;
   }
   
   .twitter-live-container {
-    width: 30rem;
-    height: 13rem;
-    bottom: 0rem;
+    width: 480px;
+    height: 208px;
+    bottom: 0;
   }
   
 }
@@ -2294,7 +2316,7 @@ tr {
 @media only screen and (max-width: 600px) {
   
   .sec-3-container {
-    height: 85rem;
+    height: 1360px;
     min-width: 100%;
   }
   
@@ -2304,36 +2326,36 @@ tr {
   
   .find-left {
     width: 100%;
-    height: 41rem;
-    top: 41rem;
+    height: 656px;
+    top: 656px;
   }
   
   .facebook-live-container{
-    width: 16rem;
-    height: 20rem;
+    width: 256px;
+    height: 320px;
   }
   
   .map-container {
-    width: 15rem;
-    height: 15rem;
-    bottom: 0rem;
+    width: 240px;
+    height: 240px;
+    bottom: 0;
   }
   
   .find-right {
     width: 100%;
-    height: 32rem;
-    top: 7rem;
+    height: 512px;
+    top: 112px;
   }
   
   .instagram-live-container {
-    width: 15rem;
-    height: 15rem;
+    width: 240px;
+    height: 240px;
   }
   
   .twitter-live-container {
-    width: 16.5rem;
-    height: 11rem;
-    bottom: 0rem;
+    width: 264px;
+    height: 176px;
+    bottom: 0;
   }
   
 }
@@ -2342,14 +2364,14 @@ tr {
 
 .sec-4-container {
   width: 100vw;
-  height: calc(100vh - 2rem);
-  min-width: 75rem;
-  min-height: 54rem;
+  height: calc(100vh - 32px);
+  min-width: 1200px;
+  min-height: 864px;
   max-width: 1440px;
   position: relative;
   margin: 0 auto;
-  border-top: 1rem solid #262525;
-  border-bottom: 1rem solid #262525;
+  border-top: 16px solid #262525;
+  border-bottom: 16px solid #262525;
 }
 
 .sec-4-background {
@@ -2368,33 +2390,33 @@ tr {
 }
 
 .about-top-title {
-  width: 8.25rem;
-  height: 1.8rem;
+  width: 132px;
+  height: 29px;
   color: lightgrey;
   background-color: white;
-  font-size: 1.7rem;
+  font-size: 27px;
   text-align: center;
-  letter-spacing: 0.1rem;
-  text-shadow: 0.06rem 0.06rem black,
-               -0.06rem -0.06rem black,
-               0.06rem -0.06rem black,
-               -0.06rem 0.06rem black;
+  letter-spacing: 1.6px;
+  text-shadow: 1px 1px black,
+             -1px -1px black,
+              1px -1px black,
+              -1px 1px black;
   position: absolute;
   top: 0;
   left: 50%;
   @include transform(translate(-50%, 0%));
-  border: 1rem outset #962323;
-  @include box-shadow(0.25rem 0.25rem black,
-                      0.15rem 0.15rem black,
-                      0.05rem 0.05rem black,
-                  1.25rem 1rem 3rem black);
+  border: 16px outset #962323;
+  @include box-shadow(4px 4px black,
+                  2.5px 2.5px black,
+                      1px 1px black,
+              20px 16px 48px black);
 }
 
 .about-containers-lr {
   width: 50%;
   height: 84%;
   position: absolute;
-  bottom: 2rem;
+  bottom: 32px;
 }
   
 .about-left {
@@ -2409,17 +2431,17 @@ tr {
   background-image: url(../img/AboutUsBackground.png);
   background-repeat: no-repeat;
   background-position: 14% 54%;
-  background-size: 283% 134%;
+  background-size: 284% 128%;
   position: absolute;
   top: 0;
   left: 50%;
   @include transform(translate(-50%, 0));
-  border: 1.5rem outset #962323;
+  border: 24px outset #962323;
   box-sizing: border-box;
-  @include box-shadow(0.25rem 0.2rem black, 
-                     0.15rem 0.15rem black, 
-                     0.05rem 0.05rem black, 
-                 1.5rem 1rem 3rem black);
+  @include box-shadow(4px 4px black, 
+                  2.5px 2.5px black, 
+                      1px 1px black, 
+              24px 16px 48px black);
 }
 
 .about-right {
@@ -2431,21 +2453,21 @@ tr {
 .about-text {
   width: 80%;
   height: 100%;
-  min-width: 35rem;
+  min-width: 560px;
   font-family: Baskerville, 'Times New Roman', serif;
-  font-size: 1.4rem;
+  font-size: 22.5px;
   text-align: center;
-  line-height: 2.4rem;
+  line-height: 38.5px;
   background: white;
   position: absolute;
   top: 0;
   left: 50%;
   @include transform(translate(-50%, 0));
-  padding: 4rem 1.5rem 4rem 1.5rem;
+  padding: 64px 24px 64px 24px;
   margin: 0;
-  @include box-shadow(0.05rem 0.01rem #2A2828,
-                        0.1rem 0.2rem #2A2828, 
-                      1rem 1rem 4rem black);
+  @include box-shadow(1px 0.5px #2A2828,
+                      1.6px 3px #2A2828, 
+                  16px 16px 64px black);
   box-sizing: border-box;
 }
 
@@ -2454,8 +2476,8 @@ tr {
   height: 170px;
   background: #962323;
   position: absolute;
-  border-top: 1rem solid #262525;
-  border-bottom: 1rem solid #262525;
+  border-top: 16px solid #262525;
+  border-bottom: 16px solid #262525;
 }
 
 .site-nav-container {
@@ -2477,7 +2499,15 @@ tr {
   display: inline-block;
   margin: 0;
   cursor: pointer;
-  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+  text-shadow: 0.5px 0.5px 14.5px #E09F9F;
+}
+
+.siteNav:hover {
+  color: white;
+  text-shadow: 2px 2px #262525,
+             -2px -2px #262525,
+              -2px 2px #262525,
+              2px -2px #262525;
 }
 
 .nav-1 {
@@ -2497,28 +2527,28 @@ tr {
 }
 
 .sec-4-hours-container {
-  width: 19rem;
-  height: 5.7rem;
+  width: 304px;
+  height: 91px;
   font-family: Baskerville, 'Times New Roman', serif;
   position: absolute;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 32px;
+  left: 32px;
   
 }
 
 .sec-4-hours-title {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 100;
   text-align: center;
   color: white;
-  margin: 0 0 0.2rem 0;
+  margin: 0 0 3px 0;
 }
 
 .sec-4-hours {
-  width: 9.3rem;
-  font-size: 0.8rem;
+  width: 152px;
+  font-size: 13px;
   font-weight: 700;
-  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+  text-shadow: 0.5px 0.5px 14.5px #E09F9F;
   color: black;
   margin: 0;
   position: relative;
@@ -2531,8 +2561,8 @@ tr {
 
 .sec-4-hrs-right {
   position: absolute;
-  right: 0;
-  top: 1.3rem;
+  right: -5px;
+  top: 21px;
 }
 
 .footer-follow-container {
@@ -2547,10 +2577,10 @@ tr {
 
 .footer-fol-title {
   font-family: Baskerville, 'Times New Roman', serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 100;
   color: white;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .footer-icon-links {
@@ -2577,8 +2607,8 @@ tr {
 }
 
 .sec-4-currency {
-  width: 3rem;
-  height: 1.8rem;
+  width: 48px;
+  height: 29px;
 }
 
 .developedBy {
@@ -2587,7 +2617,7 @@ tr {
   font-family: Baskerville, 'Times New Roman', serif;
   font-size: 16px;
   font-weight: bold;
-  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+  text-shadow: 1px 1px 14.5px #E09F9F;
   color: black;
   position: absolute;
   bottom: 15px;
@@ -2604,29 +2634,29 @@ tr {
 }
 
 .footer-phone-container {
-  width: 6.1rem;
-  height: 2.4rem;
+  width: 98px;
+  height: 38px;
   position: absolute;
-  right: 2rem;
-  bottom: 6rem;
+  right: 32px;
+  bottom: 96px;
 }
 
 .footer-phone-title {
   font-family: Baskerville, 'Times New Roman', serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 100;
   text-align: right;
   color: white;
-  margin: 0 0 0.2rem 0;
+  margin: 0 0 3px 0;
 }
 
 .sec-4-phone {
   display: block;
-  width: 6.7rem;
+  width: 108px;
   font-family: Baskerville, 'Times New Roman', serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 700;
-  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+  text-shadow: 0.5px 0.5px 14.5px #E09F9F;
   color: black;
   text-decoration: none;
   position: absolute;
@@ -2635,13 +2665,13 @@ tr {
 
 .sec-4-address {
   font-family: Baskerville, 'Times New Roman', serif;
-  font-size: 1.2rem;
+  font-size: 19px;
   font-weight: 700;
   text-align: right;
-  text-shadow: 0.01rem 0.01rem 0.9rem #E09F9F;
+  text-shadow: 0.5px 0.5px 14.5px #E09F9F;
   position: absolute;
-  right: 2rem;
-  bottom: 1.25rem;
+  right: 32px;
+  bottom: 20px;
 }
 
 .sec-4-address-link {
@@ -2664,19 +2694,19 @@ tr {
   }
   
   .about-left {
-    max-height: 43rem;
+    max-height: 688px;
     bottom: 45%;
     @include transform(translate(0, 50%));
   }
   
   .about-right {
-    max-height: 43rem;
+    max-height: 688px;
     bottom: 45%;
     @include transform(translate(0, 50%));
   }
   
   .about-text {
-    font-size: 1.25rem;
+    font-size: 20px;
   }
   
 }
@@ -2687,9 +2717,11 @@ tr {
   
   .sec-4-container {
     min-width: 100%;
-//    min-height: 97rem;
     height: 150vh;
-//    height: calc(150vh - 2rem);
+  }
+  
+  .sec-4-background {
+    background-position: 0%;
   }
   
   .about-top-title {
@@ -2699,15 +2731,18 @@ tr {
   .about-left {
     width: 100%;
     height: 45%;
-//    min-height: 39rem;
     top: calc(50% + 55px);
+  }
+  
+  .about-img {
+    background-position: 9.5% 54%;
+    background-size: 278% 160%;
   }
   
   .about-right {
     width: 100%;
     height: 45%;
-//    min-height: 39.5rem;
-    top: 7rem;
+    top: 112px;
   }
   
   .footer {
@@ -2735,20 +2770,20 @@ tr {
   }
   
   .sec-4-hours-container {
-    width: 9rem;
-    height: 7.5rem;
-    bottom: 1rem;
+    width: 144px;
+    height: 120px;
+    bottom: 16px;
   }
   
   .sec-4-hrs-right {
     top: auto;
     right: auto;
     left: 0;
-    bottom: 0;
+    bottom: -6px;
   }
   
   .sec-4-address {
-    font-size: 1rem;
+    font-size: 16px;
   }
   
   .developedBy {
@@ -2768,6 +2803,10 @@ tr {
     min-width: 100%;
   }
   
+  .sec-4-background {
+    background-position: 0%;
+  }
+  
   .about-top-title {
     top: 0;
   }
@@ -2775,20 +2814,25 @@ tr {
   .about-left {
     width: 100%;
     height: 45%;
-    top: calc(50% + 3rem);
+    top: calc(50% + 48px);
+  }
+  
+  .about-img {
+    background-position: 10% 54%;
+    background-size: 440% 136%;
   }
   
   .about-right {
     width: 100%;
     height: 45%;
-    top: 6rem;
+    top: 96px;
   }
   
   .about-text{
     min-width: 95%;
-    font-size: 0.875rem;
-    line-height: 1.4rem;
-    padding: 1.5rem 0.5rem 1rem 0.5rem;
+    font-size: 14px;
+    line-height: 22.5px;
+    padding: 24px 8px 16px 8px;
   }
   
   .footer {
@@ -2822,8 +2866,8 @@ tr {
   }
   
   .sec-4-hours-container {
-    width: 9rem;
-    height: 7.5rem;
+    width: 144px;
+    height: 120px;
     top: 119px;
     left: 50%;
     @include transform(translate(-50%, 0));
@@ -2833,7 +2877,7 @@ tr {
     top: auto;
     right: auto;
     left: 0;
-    bottom: 0;
+    bottom: -6px;
   }
   
   .footer-follow-container {
@@ -2848,24 +2892,28 @@ tr {
   
   .footer-phone-container {
     top: 50px;
-    right: 1rem;
+    right: 16px;
   }
   
   .sec-4-phone {
-    width: 6.03rem;
-    font-size: 0.9rem;
+    width: 98px;
+    font-size: 14.5px;
   }
   
   .footer-phone-title {
-    font-size: 0.9rem;
+    font-size: 14.5px;
   }
   
   .sec-4-address {
-    font-size: 0.95rem;
+    font-size: 15px;
     text-align: left;
     top: 50px;
     right: auto;
     bottom: auto;
-    left: 1rem;
+    left: 16px;
+  }
+  
+  .sec-4-address-link {
+    line-height: 15px;
   }
 }

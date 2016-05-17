@@ -42,13 +42,13 @@ function resetScroller(el){
 function section1Click() {
   document.getElementById('hamburger').style.display = "inline-block";
   document.getElementById('pop-out-one').style.transition = "right 1s";
-  document.getElementById('pop-out-one').style.right = "-13rem";
+  document.getElementById('pop-out-one').style.right = "-208px";
   document.getElementById('pop-out-two').style.transition = "right 1.25s";
-  document.getElementById('pop-out-two').style.right = "-13rem";
+  document.getElementById('pop-out-two').style.right = "-208px";
   document.getElementById('pop-out-three').style.transition = "right 1.5s";
-  document.getElementById('pop-out-three').style.right = "-13rem";
+  document.getElementById('pop-out-three').style.right = "-208px";
   document.getElementById('pop-out-four').style.transition = "right 1.75s";
-  document.getElementById('pop-out-four').style.right = "-13rem";
+  document.getElementById('pop-out-four').style.right = "-208px";
 };
 
 document.getElementById('sectionOne').addEventListener('click', section1Click, true);
@@ -56,13 +56,13 @@ document.getElementById('sectionOne').addEventListener('click', section1Click, t
 function hamburgerClick() {
   document.getElementById('hamburger').style.display = "none";
   document.getElementById('pop-out-one').style.transition = "right 1s";
-  document.getElementById('pop-out-one').style.right = "1rem";
+  document.getElementById('pop-out-one').style.right = "16px";
   document.getElementById('pop-out-two').style.transition = "right 1.25s";
-  document.getElementById('pop-out-two').style.right = "1rem";
+  document.getElementById('pop-out-two').style.right = "16px";
   document.getElementById('pop-out-three').style.transition = "right 1.5s";
-  document.getElementById('pop-out-three').style.right = "1rem";
+  document.getElementById('pop-out-three').style.right = "16px";
   document.getElementById('pop-out-four').style.transition = "right 1.75s";
-  document.getElementById('pop-out-four').style.right = "1rem";
+  document.getElementById('pop-out-four').style.right = "16px";
 };
 
 document.getElementById('hamburger').addEventListener('click', hamburgerClick, false);
@@ -70,13 +70,13 @@ document.getElementById('hamburger').addEventListener('click', hamburgerClick, f
 function popOutOneClick() {
   document.getElementById('hamburger').style.display = "inline-block";
   document.getElementById('pop-out-one').style.transition = "right 1s";
-  document.getElementById('pop-out-one').style.right = "-13rem";
+  document.getElementById('pop-out-one').style.right = "-208p";
   document.getElementById('pop-out-two').style.transition = "right 1.25s";
-  document.getElementById('pop-out-two').style.right = "-13rem";
+  document.getElementById('pop-out-two').style.right = "-208p";
   document.getElementById('pop-out-three').style.transition = "right 1.5s";
-  document.getElementById('pop-out-three').style.right = "-13rem";
+  document.getElementById('pop-out-three').style.right = "-208p";
   document.getElementById('pop-out-four').style.transition = "right 1.75s";
-  document.getElementById('pop-out-four').style.right = "-13rem";
+  document.getElementById('pop-out-four').style.right = "-208p";
   autoScrollTo('menuSection');
 }
 
@@ -85,13 +85,13 @@ document.getElementById('pop-out-one').addEventListener('click', popOutOneClick,
 function popOutTwoClick() {
   document.getElementById('hamburger').style.display = "inline-block";
   document.getElementById('pop-out-one').style.transition = "right 1.75s";
-  document.getElementById('pop-out-one').style.right = "-13rem";
+  document.getElementById('pop-out-one').style.right = "-208px";
   document.getElementById('pop-out-two').style.transition = "right 1s";
-  document.getElementById('pop-out-two').style.right = "-13rem";
+  document.getElementById('pop-out-two').style.right = "-208px";
   document.getElementById('pop-out-three').style.transition = "right 1.25s";
-  document.getElementById('pop-out-three').style.right = "-13rem";
+  document.getElementById('pop-out-three').style.right = "-208px";
   document.getElementById('pop-out-four').style.transition = "right 1.5s";
-  document.getElementById('pop-out-four').style.right = "-13rem";
+  document.getElementById('pop-out-four').style.right = "-208px";
   autoScrollTo('find-us-link');
 }
 
@@ -100,13 +100,13 @@ document.getElementById('pop-out-two').addEventListener('click', popOutTwoClick,
 function popOutThreeClick() {
   document.getElementById('hamburger').style.display = "inline-block";
   document.getElementById('pop-out-one').style.transition = "right 1.5s";
-  document.getElementById('pop-out-one').style.right = "-13rem";
+  document.getElementById('pop-out-one').style.right = "-208px";
   document.getElementById('pop-out-two').style.transition = "right 1.25s";
-  document.getElementById('pop-out-two').style.right = "-13rem";
+  document.getElementById('pop-out-two').style.right = "-208px";
   document.getElementById('pop-out-three').style.transition = "right 1s";
-  document.getElementById('pop-out-three').style.right = "-13rem";
+  document.getElementById('pop-out-three').style.right = "-208px";
   document.getElementById('pop-out-four').style.transition = "right 1.75s";
-  document.getElementById('pop-out-four').style.right = "-13rem";
+  document.getElementById('pop-out-four').style.right = "-208px";
   autoScrollTo('about-link');
 }
 
@@ -115,13 +115,13 @@ document.getElementById('pop-out-three').addEventListener('click', popOutThreeCl
 function popOutFourClick() {
   document.getElementById('hamburger').style.display = "inline-block";
   document.getElementById('pop-out-one').style.transition = "right 1.75s";
-  document.getElementById('pop-out-one').style.right = "-13rem";
+  document.getElementById('pop-out-one').style.right = "-208p";
   document.getElementById('pop-out-two').style.transition = "right 1.5s";
-  document.getElementById('pop-out-two').style.right = "-13rem";
+  document.getElementById('pop-out-two').style.right = "-208p";
   document.getElementById('pop-out-three').style.transition = "right 1.25s";
-  document.getElementById('pop-out-three').style.right = "-13rem";
+  document.getElementById('pop-out-three').style.right = "-208p";
   document.getElementById('pop-out-four').style.transition = "right 1s";
-  document.getElementById('pop-out-four').style.right = "-13rem";
+  document.getElementById('pop-out-four').style.right = "-208p";
   autoScrollTo('about-link');
 }
 
@@ -139,7 +139,7 @@ document.getElementById('sec-1-share-tab').addEventListener('mouseenter', functi
   document.getElementById('sec-1-share-lnk-cntnr').style.transition = "visibility 2s";
   document.getElementById('sec-1-share-lnk-cntnr').style.visibility = "visible";
   document.getElementById('sec-1-share-tab').style.opacity = "0";
-  document.getElementById('sec-1-share-cntnr').style.left = "-4.5rem";
+  document.getElementById('sec-1-share-cntnr').style.left = "-72px";
   document.getElementById('sec-1-faceb').style.transition = "opacity 0.5s";
   document.getElementById('sec-1-faceb').style.opacity = "1";
   document.getElementById('sec-1-intg').style.transition = "opacity 1.25s";
@@ -153,7 +153,7 @@ document.getElementById('sec-1-share-cntnr').addEventListener('mouseleave', func
   document.getElementById('sec-1-share-lnk-cntnr').style.transition = "visibility 2s";
   document.getElementById('sec-1-share-lnk-cntnr').style.visibility = "hidden";
   document.getElementById('sec-1-share-tab').style.opacity = "1";
-  document.getElementById('sec-1-share-cntnr').style.left = "4rem";
+  document.getElementById('sec-1-share-cntnr').style.left = "64px";
   document.getElementById('sec-1-faceb').style.transition = "opacity 2s";
   document.getElementById('sec-1-faceb').style.opacity = "0";
   document.getElementById('sec-1-intg').style.transition = "opacity 1.25s";
@@ -195,13 +195,13 @@ function breakfastClick() {
   if(screenSize <= 770) {
     document.getElementById('breakfast-full').style.top = "16px"; 
     document.getElementById('breakfast-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('bfastFull').style.height = "32rem";
+    document.getElementById('bfastFull').style.height = "384px";
     autoScrollTo('fullMenuLink');
   }
   else{
     document.getElementById('breakfast-full').style.top = "16px"; 
     document.getElementById('breakfast-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('bfastFull').style.height = "32rem";
+    document.getElementById('bfastFull').style.height = "512px";
   }
 };
 
@@ -222,7 +222,7 @@ function paniniMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('panini-full').style.display = "none";
   document.getElementById('panini-full').style.top = "50%";
-  document.getElementById('panini-full').style.height = "12rem"
+  document.getElementById('panini-full').style.height = "192px"
   document.getElementById('panini-full').style.transform = "translate(-50%, -50%)";
   document.getElementById('paniniFull').style.height = "0";
 };
@@ -267,7 +267,7 @@ function sandwichMouseOut() {
   document.getElementById('sandwich-full').style.display = "none";
   document.getElementById('sandwich-full').style.top = "50%"; 
   document.getElementById('sandwich-full').style.transform = "translate(-50%, -50%)";
-  document.getElementById('sandwich-full').style.height = "12rem"
+  document.getElementById('sandwich-full').style.height = "192px"
   document.getElementById('sandwichFull').style.height = "0";
 };
 
@@ -320,13 +320,13 @@ function soupSaladClick() {
   if(screenSize <= 770) {
     document.getElementById('soup-salad-full').style.top = "16px"; 
     document.getElementById('soup-salad-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('soupSaladFull').style.height = "32rem";
+    document.getElementById('soupSaladFull').style.height = "512px";
     autoScrollTo('fullMenuLink');
   }
   else {
     document.getElementById('soup-salad-full').style.top = "16px"; 
     document.getElementById('soup-salad-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('soupSaladFull').style.height = "32rem";
+    document.getElementById('soupSaladFull').style.height = "512px";
   }
 };
 
@@ -359,13 +359,13 @@ function savoryCrepesClick() {
   if(screenSize <= 770) {
     document.getElementById('savory-crepes-full').style.top = "16px"; 
     document.getElementById('savory-crepes-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('savoryCrepesFull').style.height = "32rem";
+    document.getElementById('savoryCrepesFull').style.height = "512px";
     autoScrollTo('fullMenuLink');
   }
   else {
     document.getElementById('savory-crepes-full').style.top = "16px"; 
     document.getElementById('savory-crepes-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('savoryCrepesFull').style.height = "32rem";
+    document.getElementById('savoryCrepesFull').style.height = "512px";
   }
 };
 
@@ -388,7 +388,7 @@ function sweetCrepesMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('sweet-crepes-full').style.display = "none";
   document.getElementById('sweet-crepes-full').style.top = "50%";
-  document.getElementById('sweet-crepes-full').style.height = "12rem"
+  document.getElementById('sweet-crepes-full').style.height = "192px"
   document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, -50%)";
   document.getElementById('sweetCrepesFull').style.height = "0";
 };
@@ -430,7 +430,7 @@ function kidsMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('kids-full').style.display = "none";
   document.getElementById('kids-full').style.top = "50%"; 
-  document.getElementById('kids-full').style.height = "12rem"
+  document.getElementById('kids-full').style.height = "192px"
   document.getElementById('kids-full').style.transform = "translate(-50%, -50%)";
   document.getElementById('kidsFull').style.height = "0";
 };
@@ -485,13 +485,13 @@ function drinkClick() {
   if(screenSize <= 770) {
     document.getElementById('drink-full').style.top = "16px"; 
     document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('drinkFull').style.height = "32rem";
+    document.getElementById('drinkFull').style.height = "512px";
     autoScrollTo('fullMenuLink');
   }
   else {
     document.getElementById('drink-full').style.top = "16px"; 
     document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('drinkFull').style.height = "32rem";
+    document.getElementById('drinkFull').style.height = "512px";
   }
 };
 
