@@ -6,15 +6,38 @@ var screenSize = window.screen.width;
 
 function landingPageLoad() {
   if(screenSize <= 600) {
-    alert('mobile');
+    document.getElementById('secOneLogo').style.left = "16px";
+    document.getElementById('secOneLogo').style.opacity = "1";
+    document.getElementById('hamburger').style.right = "24px";
+    document.getElementById('hamburger').style.opacity = "1";
+    document.getElementById('mainPgText').style.top = "55%";
+    document.getElementById('mainPgText').style.opacity = "1";
   }
   else if(screenSize >= 601 && screenSize <= 771) { 
-    alert('tablet');
+    document.getElementById('secOneLogo').style.left = "32px";
+    document.getElementById('secOneLogo').style.opacity = "1";
+    document.getElementById('sec-1-share-cntnr').style.left = "32px";
+    document.getElementById('sec-1-share-cntnr').style.opacity = "1";
+    document.getElementById('hamburger').style.right = "32px";
+    document.getElementById('hamburger').style.opacity = "1";
+    document.getElementById('secOneAddress').style.right = "32px";
+    document.getElementById('secOneAddress').style.opacity = "1";
+    document.getElementById('mainPgText').style.top = "55%";
+    document.getElementById('mainPgText').style.opacity = "1";
   }
   else if(screenSize >= 772 && screenSize <= 1280) {
-    alert('medium');
+    document.getElementById('secOneLogo').style.left = "48px";
+    document.getElementById('secOneLogo').style.opacity = "1";
+    document.getElementById('sec-1-share-cntnr').style.left = "48px";
+    document.getElementById('sec-1-share-cntnr').style.opacity = "1";
+    document.getElementById('hamburger').style.right = "48px";
+    document.getElementById('hamburger').style.opacity = "1";
+    document.getElementById('secOneAddress').style.right = "48px";
+    document.getElementById('secOneAddress').style.opacity = "1";
+    document.getElementById('mainPgText').style.top = "55%";
+    document.getElementById('mainPgText').style.opacity = "1";
   }
-  else {
+  else if (screenSize >= 1281) {
     document.getElementById('secOneLogo').style.left = "64px";
     document.getElementById('secOneLogo').style.opacity = "1";
     document.getElementById('sec-1-share-cntnr').style.left = "64px";
