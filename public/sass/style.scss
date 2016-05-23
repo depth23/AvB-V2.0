@@ -71,13 +71,16 @@ html, body {
   height: 80px;
   position: absolute;
   top: 56px;
-  left: 64px;
+  left: -200px;
+//  left: 64px;
   border: 8px outset #962323;
   @include border-radius(50%);
   @include box-shadow(1.6px 1.6px black, 
                       1.2px 1.2px black,
                       0.8px 0.8px black,
                 6.4px 6.4px 16px black);
+  opacity: 0;
+  transition: left 2s, opacity 3s;
 }
 
 .hamburger-link {
@@ -86,7 +89,9 @@ html, body {
   display: inline-block;
   position: absolute;
   top: 64px;
-  right: 64px;
+  right: -200px;
+  opacity: 0;
+  transition: right 2s, opacity 3s;
 }
 
 .hamburger {
@@ -164,9 +169,11 @@ html, body {
   text-align: center;
   color: white;
   position: absolute;
-  top: 55%;
+  top: 100%;
   left: 50%;
   @include transform(translate(-50%, -50%));
+  opacity: 0;
+  transition: top 2s, opacity 4s;
 }
 
 .main-pg-text::before {
@@ -245,8 +252,11 @@ html, body {
   height: 48px;
   position: absolute;
   bottom: 64px;
-  left: 64px;
+  left: -200px;
+//  left: 64px;
   @include transition(left 2s);
+  opacity: 0;
+  transition: left 2s, opacity 3s;
 }
 
 .sec-1-share {
@@ -324,8 +334,10 @@ html, body {
   font-size: 20px;
   text-align: right;
   position: absolute;
-  right: 64px;
+  right: -200px;
   bottom: 64px;
+  opacity: 0;
+  transition: right 2s, opacity 3s;
 }
 
 .sec-1-address-link {

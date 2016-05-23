@@ -1,8 +1,38 @@
 "use strict";
 
+//--------------------On Load----------------------------
 
+var screenSize = window.screen.width;
 
-//--------------------Auto Scroll For Links==============
+function landingPageLoad() {
+  if(screenSize <= 600) {
+    alert('mobile');
+  }
+  else if(screenSize >= 601 && screenSize <= 771) { 
+    alert('tablet');
+  }
+  else if(screenSize >= 772 && screenSize <= 1280) {
+    alert('medium');
+  }
+  else {
+    document.getElementById('secOneLogo').style.left = "64px";
+    document.getElementById('secOneLogo').style.opacity = "1";
+    document.getElementById('sec-1-share-cntnr').style.left = "64px";
+    document.getElementById('sec-1-share-cntnr').style.opacity = "1";
+    document.getElementById('hamburger').style.right = "64px";
+    document.getElementById('hamburger').style.opacity = "1";
+    document.getElementById('secOneAddress').style.right = "64px";
+    document.getElementById('secOneAddress').style.opacity = "1";
+    document.getElementById('mainPgText').style.top = "55%";
+    document.getElementById('mainPgText').style.opacity = "1";
+  }
+};
+
+window.onload = function() {
+  landingPageLoad();
+};
+
+//--------------------Auto Scroll For Links--------------
 
 var scrollY = 0;
 var distance = 30;
@@ -163,8 +193,6 @@ document.getElementById('sec-1-share-cntnr').addEventListener('mouseleave', func
 }, false);
 
 //----------------------Menu-----------------------------
-
-var screenSize = window.screen.width;
 
   //Menu Top
 
