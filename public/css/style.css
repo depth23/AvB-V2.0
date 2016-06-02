@@ -22,7 +22,7 @@ html, body {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: url(../img/chocolate-walnut-cheesecake.jpg);
+  background-image: url(../img/sec-1-bcrnd-img.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -685,7 +685,7 @@ tr {
   right: 0; }
 
 .bfast-img {
-  width: 75%;
+  width: 90%;
   height: 90%;
   position: absolute;
   top: 3px;
@@ -864,7 +864,7 @@ tr {
 
 .menu-lower-full {
   width: 95%;
-  height: 32px;
+  height: 44px;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -887,7 +887,7 @@ tr {
 
 .panini-food-name {
   font-style: italic;
-  top: 30%;
+  top: 45%;
   left: 56px; }
 
 .panini-lower {
@@ -905,7 +905,7 @@ tr {
 
 .lower-rnd-l-full {
   width: 49%;
-  height: 40px;
+  height: 52px;
   position: absolute;
   bottom: 0;
   left: 8px;
@@ -924,7 +924,7 @@ tr {
 
 .lower-rnd-r-wrap-full {
   width: 208px;
-  height: 96px;
+  height: 100px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -953,14 +953,14 @@ tr {
   border-radius: 50%; }
 
 .panini-img {
-  width: 55%;
-  height: 64px;
+  width: 75%;
+  height: 70px;
   position: absolute;
   right: 0;
   bottom: 0; }
 
 .panini-img-full {
-  width: 180px;
+  width: 245px;
   height: 120px;
   position: absolute;
   right: 0;
@@ -985,12 +985,12 @@ tr {
 
 .sandw-food-name {
   font-style: normal;
-  top: 50%;
+  top: 45%;
   left: 24px; }
 
 .sandwiches-img {
-  width: 55%;
-  height: 64px;
+  width: 75%;
+  height: 70px;
   position: absolute;
   right: 0;
   bottom: 0; }
@@ -999,7 +999,7 @@ tr {
   display: none; }
 
 .sandwiches-img-full {
-  width: 180px;
+  width: 247px;
   height: 120px;
   position: absolute;
   right: 0;
@@ -1042,8 +1042,8 @@ tr {
   border-radius: 1%; }
 
 .s-and-s-imgs, .s-and-s-img-l, .s-and-s-img-r {
-  width: 45%;
-  height: 60px;
+  width: 47%;
+  height: 58px;
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0, -50%);
@@ -1054,7 +1054,7 @@ tr {
 
 .s-and-s-imgs-full, .s-and-s-img-l-full, .s-and-s-img-r-full {
   width: 44%;
-  height: 96px;
+  height: 100px;
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0, -50%);
@@ -1064,16 +1064,16 @@ tr {
   transform: translate(0, -50%); }
 
 .s-and-s-img-l {
-  right: 3px; }
-
-.s-and-s-img-l-full {
-  right: 11.5px; }
-
-.s-and-s-img-r {
   left: 3px; }
 
+.s-and-s-img-l-full {
+  left: 11.5px; }
+
+.s-and-s-img-r {
+  right: 3px; }
+
 .s-and-s-img-r-full {
-  left: 12px; }
+  right: 12px; }
 
 .s-and-s-title-wrap {
   background: #77B130;
@@ -1167,7 +1167,7 @@ tr {
   right: 0; }
 
 .sav-crepes-img {
-  width: 75%;
+  width: 90%;
   height: 90%;
   position: absolute;
   top: 3px;
@@ -1186,7 +1186,7 @@ tr {
   display: none; }
 
 .sav-crepes-img-full {
-  width: 75%;
+  width: 80%;
   height: 75%;
   position: absolute;
   top: 6.5px;
@@ -1257,15 +1257,15 @@ tr {
   right: 96px; }
 
 .sw-crepes-img {
-  width: 55%;
-  height: 64px;
+  width: 65%;
+  height: 85px;
   position: absolute;
   bottom: 0;
   left: 0; }
 
 .sw-crepes-img-full {
-  width: 180px;
-  height: 120px;
+  width: 165px;
+  height: 155px;
   position: absolute;
   bottom: 0;
   left: 0; }
@@ -1312,7 +1312,7 @@ tr {
   width: 133%;
   height: 100%;
   position: absolute;
-  right: -32px;
+  right: 0;
   bottom: 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1360,8 +1360,8 @@ tr {
   left: 16px; }
 
 .kids-img {
-  width: 55%;
-  height: 64px;
+  width: 75%;
+  height: 70px;
   position: absolute;
   right: 0;
   bottom: 0; }
@@ -1370,7 +1370,7 @@ tr {
   display: none; }
 
 .kids-img-full {
-  width: 180px;
+  width: 245px;
   height: 120px;
   position: absolute;
   right: 0;
@@ -1389,7 +1389,7 @@ tr {
   width: 95%;
   height: 72px;
   position: absolute;
-  top: 2.5px;
+  top: 6px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -moz-transform: translate(-50%, 0);
@@ -1401,7 +1401,7 @@ tr {
   width: 95%;
   height: 120px;
   position: absolute;
-  top: 2.5px;
+  bottom: 65px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -moz-transform: translate(-50%, 0);
@@ -1723,7 +1723,7 @@ tr {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: url(../img/store-front.jpg);
+  background-image: url(../img/sec-3-bckrnd.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 100% 81%;

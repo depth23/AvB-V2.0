@@ -55,7 +55,7 @@ html, body {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: url(../img/chocolate-walnut-cheesecake.jpg);
+  background-image: url(../img/sec-1-bcrnd-img.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -828,7 +828,7 @@ tr {
 }
 
 .bfast-img {
-  width: 75%;
+  width: 90%;
   height: 90%;
   position: absolute;
   top: 3px;
@@ -990,7 +990,7 @@ tr {
 
 .menu-lower-full {
   width: 95%;
-  height: 32px;
+  height: 44px;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -1011,7 +1011,7 @@ tr {
 
 .panini-food-name {
   font-style: italic;
-  top: 30%;
+  top: 45%;
   left: 56px;
 }
 
@@ -1029,7 +1029,7 @@ tr {
 
 .lower-rnd-l-full {
   width: 49%;
-  height: 40px;
+  height: 52px;
   position: absolute;
   bottom: 0;
   left: 8px;
@@ -1047,7 +1047,7 @@ tr {
 
 .lower-rnd-r-wrap-full {
   width: 208px;
-  height: 96px;
+  height: 100px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1073,15 +1073,15 @@ tr {
 }
 
 .panini-img {
-  width: 55%;
-  height: 64px;
+  width: 75%;
+  height: 70px;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
 .panini-img-full {
-  width: 180px;
+  width: 245px;
   height: 120px;
   position: absolute;
   right: 0;
@@ -1112,13 +1112,13 @@ tr {
 
 .sandw-food-name {
   font-style: normal;
-  top: 50%;
+  top: 45%;
   left: 24px;
 }
 
 .sandwiches-img {
-  width: 55%;
-  height: 64px;
+  width: 75%;
+  height: 70px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1129,7 +1129,7 @@ tr {
 }
 
 .sandwiches-img-full {
-  width: 180px;
+  width: 247px;
   height: 120px;
   position: absolute;
   right: 0;
@@ -1166,8 +1166,8 @@ tr {
 }
 
 .s-and-s-imgs {
-  width: 45%;
-  height: 60px;
+  width: 47%;
+  height: 58px;
   position: absolute;
   top: 50%;
   @include transform(translate(0, -50%));
@@ -1175,7 +1175,7 @@ tr {
 
 .s-and-s-imgs-full {
   width: 44%;
-  height: 96px;
+  height: 100px;
   position: absolute;
   top: 50%;
   @include transform(translate(0, -50%));
@@ -1183,22 +1183,22 @@ tr {
 
 .s-and-s-img-l {
   @extend .s-and-s-imgs;
-  right: 3px;
+  left: 3px;
 }
 
 .s-and-s-img-l-full {
   @extend .s-and-s-imgs-full;
-  right: 11.5px;
+  left: 11.5px;
 }
 
 .s-and-s-img-r {
   @extend .s-and-s-imgs;
-  left: 3px;
+  right: 3px;
 }
 
 .s-and-s-img-r-full {
   @extend .s-and-s-imgs-full;
-  left: 12px;
+  right: 12px;
 }
 
 .s-and-s-title-wrap {
@@ -1289,7 +1289,7 @@ tr {
 }
 
 .sav-crepes-img {
-  width: 75%;
+  width: 90%;
   height: 90%;
   position: absolute;
   top: 3px;
@@ -1303,7 +1303,7 @@ tr {
 }
 
 .sav-crepes-img-full {
-  width: 75%;
+  width: 80%;
   height: 75%;
   position: absolute;
   top: 6.5px;
@@ -1371,16 +1371,16 @@ tr {
 }
 
 .sw-crepes-img {
-  width: 55%;
-  height: 64px;
+  width: 65%;
+  height: 85px;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
 .sw-crepes-img-full {
-  width: 180px;
-  height: 120px;
+  width: 165px;
+  height: 155px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1426,7 +1426,7 @@ tr {
   width: 133%;
   height: 100%;
   position: absolute;
-  right: -32px;
+  right: 0;
   bottom: 0;
   @include border-radius(50%);
 }
@@ -1477,8 +1477,8 @@ tr {
 }
 
 .kids-img {
-  width: 55%;
-  height: 64px;
+  width: 75%;
+  height: 70px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1489,7 +1489,7 @@ tr {
 }
 
 .kids-img-full {
-  width: 180px;
+  width: 245px;
   height: 120px;
   position: absolute;
   right: 0;
@@ -1512,7 +1512,7 @@ tr {
   width: 95%;
   height: 72px;
   position: absolute;
-  top: 2.5px;
+  top: 6px;
   left: 50%;
   @include transform(translate(-50%, 0));
 }
@@ -1521,7 +1521,7 @@ tr {
   width: 95%;
   height: 120px;
   position: absolute;
-  top: 2.5px;
+  bottom: 65px;
   left: 50%;
   @include transform(translate(-50%, 0));
 }
@@ -1999,7 +1999,7 @@ tr {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: url(../img/store-front.jpg);
+  background-image: url(../img/sec-3-bckrnd.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 100% 81%;
