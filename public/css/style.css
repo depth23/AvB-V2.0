@@ -592,6 +592,9 @@ tr {
   text-align: left;
   vertical-align: bottom; }
 
+.sandwich-tr {
+  height: 22px; }
+
 .tr-minors {
   line-height: 85%;
   vertical-align: top; }
@@ -606,6 +609,9 @@ tr {
 .table-meal {
   width: 85px;
   text-align: right; }
+
+.table-marg-top {
+  margin-top: 8%; }
 
 .top {
   vertical-align: top; }
@@ -696,6 +702,10 @@ tr {
   -o-transform: translate(-50%, 0);
   transform: translate(-50%, 0); }
 
+.bfast-image-left {
+  width: 86%;
+  height: 82%; }
+
 .bfast-img-full {
   width: 75%;
   height: 90%;
@@ -707,6 +717,10 @@ tr {
   -ms-transform: translate(-50%, 0);
   -o-transform: translate(-50%, 0);
   transform: translate(-50%, 0); }
+
+.bfast-left-image-full {
+  width: 73%;
+  height: 85%; }
 
 .menu-title-wrap {
   width: 95%;
@@ -818,6 +832,11 @@ tr {
   text-align: center;
   margin: 10px 0 10px 0; }
 
+.kids-full-content-container {
+  width: 100%;
+  height: 210px;
+  margin-top: 30%; }
+
 .orange {
   color: orange; }
 
@@ -924,7 +943,7 @@ tr {
 
 .lower-rnd-r-wrap-full {
   width: 208px;
-  height: 100px;
+  height: 111px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -943,7 +962,7 @@ tr {
 
 .lower-rnd-r-full {
   width: 200%;
-  height: 200%;
+  height: 194%;
   position: absolute;
   right: -197px;
   bottom: -96px;
@@ -953,15 +972,15 @@ tr {
   border-radius: 50%; }
 
 .panini-img {
-  width: 75%;
-  height: 70px;
+  width: 85%;
+  height: 75px;
   position: absolute;
   right: 0;
   bottom: 0; }
 
 .panini-img-full {
-  width: 245px;
-  height: 120px;
+  width: 275px;
+  height: 128px;
   position: absolute;
   right: 0;
   bottom: 0; }
@@ -989,8 +1008,8 @@ tr {
   left: 24px; }
 
 .sandwiches-img {
-  width: 75%;
-  height: 70px;
+  width: 88%;
+  height: 75px;
   position: absolute;
   right: 0;
   bottom: 0; }
@@ -999,8 +1018,8 @@ tr {
   display: none; }
 
 .sandwiches-img-full {
-  width: 247px;
-  height: 120px;
+  width: 275px;
+  height: 128px;
   position: absolute;
   right: 0;
   bottom: 0; }
@@ -1186,7 +1205,7 @@ tr {
   display: none; }
 
 .sav-crepes-img-full {
-  width: 80%;
+  width: 70%;
   height: 75%;
   position: absolute;
   top: 6.5px;
@@ -1339,6 +1358,9 @@ tr {
   top: 16px;
   left: 48%; }
 
+.sw-crepes-marg-top {
+  margin-top: 15%; }
+
 .m7 {
   margin: 0 0.5px 0 0.5px; }
 
@@ -1360,8 +1382,8 @@ tr {
   left: 16px; }
 
 .kids-img {
-  width: 75%;
-  height: 70px;
+  width: 85%;
+  height: 75px;
   position: absolute;
   right: 0;
   bottom: 0; }
@@ -1370,8 +1392,8 @@ tr {
   display: none; }
 
 .kids-img-full {
-  width: 245px;
-  height: 120px;
+  width: 275px;
+  height: 128px;
   position: absolute;
   right: 0;
   bottom: 0; }
@@ -1386,10 +1408,10 @@ tr {
   right: -1.6px; }
 
 .drinks-img {
-  width: 95%;
-  height: 72px;
+  width: 99%;
+  height: 67px;
   position: absolute;
-  top: 6px;
+  top: 13px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -moz-transform: translate(-50%, 0);
@@ -1399,7 +1421,7 @@ tr {
 
 .drinks-img-full {
   width: 95%;
-  height: 120px;
+  height: 150px;
   position: absolute;
   bottom: 65px;
   left: 50%;
@@ -1496,10 +1518,45 @@ tr {
   bottom: 0; }
 
 @media only screen and (min-width: 771px) and (max-width: 1280px) {
+  .table-marg-top {
+    margin-top: 10%; }
+  .panini-img {
+    width: 75%;
+    height: 70px; }
+  .panini-img-full {
+    width: 245px;
+    height: 120px; }
+  .sandwiches-img {
+    width: 75%;
+    height: 70px; }
+  .sandwiches-img-full {
+    width: 247px;
+    height: 120px; }
+  .sav-crepes-img-full {
+    width: 80%;
+    height: 75%; }
+  .sw-crepes-marg-top {
+    margin-top: 20%; }
+  .kids-img {
+    width: 75%;
+    height: 70px; }
+  .kids-img-full {
+    width: 245px;
+    height: 120px; }
+  .drinks-img {
+    width: 95%;
+    height: 72px;
+    top: 6px; }
+  .drinks-img-full {
+    width: 95%;
+    height: 120px;
+    bottom: 65px; }
   .full-titles {
     font-size: 14px; }
   .full-description {
-    font-size: 13px; } }
+    font-size: 14px; }
+  .sandwich-tr {
+    height: 25px; } }
 
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   .sec-2-container {
@@ -1534,16 +1591,20 @@ tr {
       display: none; }
   .full-top-and-bottom {
     line-height: 150%;
-    margin: 0 0 10px 0; }
+    margin: 20px 0 20px 0; }
   .full-titles {
     font-size: 17px; }
   .full-description {
     font-size: 17px; }
   .orange {
     line-height: 110%;
-    margin: 0; }
+    margin: 20px 0 20px 0; }
   .marg-top {
-    margin-top: 96px; } }
+    margin-top: 96px; }
+  .table-marg-top {
+    margin-top: 11%; }
+  .sw-crepes-marg-top {
+    margin-top: 17%; } }
 
 @media only screen and (max-width: 600px) {
   .sec-2-container {
@@ -1611,10 +1672,10 @@ tr {
     line-height: 100%;
     margin: 3px 0 3px 0; }
   .full-titles {
-    font-size: 10px;
+    font-size: 12px;
     margin: 3px 0 0 0; }
   .full-description {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0; }
   tr {
     height: 15px; }
@@ -1624,6 +1685,8 @@ tr {
     display: none; }
   .table-center-align {
     display: none; }
+  .table-marg-top {
+    margin-top: 8%; }
   .bfast-image-wrap {
     height: 61px; }
   .bfast-image-wrap-full {
@@ -1632,6 +1695,10 @@ tr {
     height: 95%; }
   .bfast-img-r {
     height: 95%; }
+  .bfast-img {
+    height: 88%; }
+  .bfast-img-left {
+    height: 83%; }
   .menu-item-title {
     font-size: 12px;
     top: 4px;
@@ -1642,8 +1709,12 @@ tr {
     height: 128px; }
   .menu-title-wrap-full {
     height: 54px; }
+  .bfast-full-titles {
+    font-size: 11px; }
+  .bfast-full-descriptions {
+    font-size: 10.7px; }
   .orange {
-    line-height: 150%;
+    line-height: 100%;
     margin: 0; }
   .lower-rnd-l {
     width: 54%;
@@ -1651,10 +1722,27 @@ tr {
   .lower-rnd-r-wrap {
     width: 62px;
     height: 32px; }
+  .lower-rnd-r-wrap-full {
+    width: 186px; }
   .panini-img {
     height: 56px; }
+  .panini-img-full {
+    width: 100%;
+    height: 128px; }
+  .full-food-name {
+    display: none; }
   .sandwiches-img {
-    height: 56px; }
+    width: 98%;
+    height: 60px; }
+  .sandwiches-img-full {
+    width: 100%;
+    height: 130px; }
+  .sandwich-tr {
+    height: 0px; }
+  .sandwich-overflow {
+    position: relative;
+    top: 13px;
+    right: 107px; }
   .s-and-s-img-wrap {
     height: 58px; }
   .s-and-s-img-wrap-full {
@@ -1665,22 +1753,25 @@ tr {
   .s-and-s-img-r-full {
     width: 90px;
     height: 62px;
-    left: 5px; }
+    right: 5px; }
   .s-and-s-img-l {
     width: 44%;
     height: 48px; }
   .s-and-s-img-l-full {
     width: 90px;
     height: 62px;
-    right: 5px; }
+    left: 5px; }
   .sav-crepes-image-wrap {
     height: 61px; }
   .sav-crepes-image-wrap-full {
     height: 72px; }
-  .sav-crepes-img-l {
-    height: 95%; }
-  .sav-crepes-img-r {
-    height: 95%; }
+  .sav-crepes-img {
+    height: 85%; }
+  .sav-crepes-img-full {
+    width: 85%;
+    height: 80%; }
+  .sav-crepes-food-names {
+    display: none; }
   .sw-crepes-item-title {
     font-size: 12px; }
   .sw-crepes-item-title-full {
@@ -1690,19 +1781,30 @@ tr {
   .sw-crepes-rnd-r-wrap {
     width: 62px;
     height: 32px; }
+  .sw-crepes-rnd-r-wrap-full {
+    width: 189px; }
   .sw-crepes-rnd-r {
     right: auto;
     left: -35px; }
   .sw-crepes-img {
     height: 56px; }
+  .sw-crepes-img-full {
+    width: 131px;
+    height: 141px; }
   .kids-img {
-    height: 56px; }
+    width: 95%;
+    height: 60px; }
+  .kids-img-full {
+    width: 100%;
+    height: 135px; }
   .marg-top {
     margin-top: 45px; }
   .drinks-img {
-    height: 57.5px; }
+    height: 53px;
+    top: 10px; }
   .drinks-img-full {
-    height: 72px; }
+    height: 87px;
+    bottom: 49px; }
   .drink-title-wrap-full {
     height: 48px; }
   .drinks-item-title {
@@ -2093,8 +2195,8 @@ tr {
   height: 100%;
   background-image: url(../img/AboutUsBackground.png);
   background-repeat: no-repeat;
-  background-position: 14% 54%;
-  background-size: 284% 128%;
+  background-position: 13% 57%;
+  background-size: 282% 136%;
   position: absolute;
   top: 0;
   left: 50%;

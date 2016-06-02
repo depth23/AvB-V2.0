@@ -739,6 +739,10 @@ tr {
   vertical-align: bottom;
 }
 
+.sandwich-tr {
+  height: 22px;
+}
+
 .tr-minors {
   line-height: 85%;
   vertical-align: top;
@@ -756,6 +760,10 @@ tr {
 .table-meal {
   width: 85px;
   text-align: right;
+}
+
+.table-marg-top {
+  margin-top: 8%;
 }
 
 .top {
@@ -837,6 +845,11 @@ tr {
 //  @include border-radius(35% 35% 0 0);
 }
 
+.bfast-image-left {
+  width: 86%;
+  height: 82%;
+}
+
 .bfast-img-full {
   width: 75%;
   height: 90%;
@@ -844,6 +857,11 @@ tr {
   top: 6px;
   left: 50%;
   @include transform(translate(-50%, 0)); 
+}
+
+.bfast-left-image-full {
+  width: 73%;
+  height: 85%;
 }
 
 .menu-title-wrap {
@@ -937,6 +955,12 @@ tr {
   text-transform: uppercase;
   text-align: center;
   margin: 10px 0 10px 0;
+}
+
+.kids-full-content-container {
+  width: 100%;
+  height: 210px;
+  margin-top: 30%;
 }
 
 .orange {
@@ -1047,7 +1071,7 @@ tr {
 
 .lower-rnd-r-wrap-full {
   width: 208px;
-  height: 100px;
+  height: 111px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1065,7 +1089,7 @@ tr {
 
 .lower-rnd-r-full {
   width: 200%;
-  height: 200%;
+  height: 194%;
   position: absolute;
   right: -197px;
   bottom: -96px;
@@ -1073,16 +1097,16 @@ tr {
 }
 
 .panini-img {
-  width: 75%;
-  height: 70px;
+  width: 85%;
+  height: 75px;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
 .panini-img-full {
-  width: 245px;
-  height: 120px;
+  width: 275px;
+  height: 128px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1117,8 +1141,8 @@ tr {
 }
 
 .sandwiches-img {
-  width: 75%;
-  height: 70px;
+  width: 88%;
+  height: 75px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1129,8 +1153,8 @@ tr {
 }
 
 .sandwiches-img-full {
-  width: 247px;
-  height: 120px;
+  width: 275px;
+  height: 128px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1303,7 +1327,7 @@ tr {
 }
 
 .sav-crepes-img-full {
-  width: 80%;
+  width: 70%;
   height: 75%;
   position: absolute;
   top: 6.5px;
@@ -1451,6 +1475,10 @@ tr {
   left: 48%;
 }
 
+.sw-crepes-marg-top {
+  margin-top: 15%;
+}
+
 .m7{
   margin: 0 0.5px 0 0.5px;
 }
@@ -1477,8 +1505,8 @@ tr {
 }
 
 .kids-img {
-  width: 75%;
-  height: 70px;
+  width: 85%;
+  height: 75px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1489,8 +1517,8 @@ tr {
 }
 
 .kids-img-full {
-  width: 245px;
-  height: 120px;
+  width: 275px;
+  height: 128px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1509,17 +1537,17 @@ tr {
 }
 
 .drinks-img {
-  width: 95%;
-  height: 72px;
+  width: 99%;
+  height: 67px;
   position: absolute;
-  top: 6px;
+  top: 13px;
   left: 50%;
   @include transform(translate(-50%, 0));
 }
 
 .drinks-img-full {
   width: 95%;
-  height: 120px;
+  height: 150px;
   position: absolute;
   bottom: 65px;
   left: 50%;
@@ -1616,12 +1644,71 @@ tr {
 
 @media only screen and (min-width: 771px) and (max-width: 1280px) {
   
+  .table-marg-top {
+    margin-top: 10%;
+  }
+  
+  .panini-img {
+    width: 75%;
+    height: 70px;
+  }
+  
+  .panini-img-full {
+    width: 245px;
+    height: 120px;
+  }
+  
+  .sandwiches-img {
+    width: 75%;
+    height: 70px;
+  }
+    
+  .sandwiches-img-full {
+    width: 247px;
+    height: 120px;
+  }
+  
+  .sav-crepes-img-full {
+    width: 80%;
+    height: 75%;
+  }
+  
+  .sw-crepes-marg-top {
+    margin-top: 20%;
+  }
+  
+  .kids-img {
+    width: 75%;
+    height: 70px;
+  }
+  
+  .kids-img-full {
+    width: 245px;
+    height: 120px;
+  }
+  
+  .drinks-img {
+    width: 95%;
+    height: 72px;
+    top: 6px;
+  }
+  
+  .drinks-img-full {
+    width: 95%;
+    height: 120px;
+    bottom: 65px;
+  }
+    
   .full-titles {
     font-size: 14px;
   }
   
   .full-description {
-    font-size: 13px;
+    font-size: 14px;
+  }
+  
+  .sandwich-tr {
+    height: 25px;
   }
 }
 
@@ -1666,7 +1753,7 @@ tr {
   
   .full-top-and-bottom {
     line-height: 150%;
-    margin: 0 0 10px 0;
+    margin: 20px 0 20px 0;
   }
   
   .full-titles {
@@ -1679,11 +1766,19 @@ tr {
   
   .orange {
     line-height: 110%;
-    margin: 0;
+    margin: 20px 0 20px 0;
   }
   
   .marg-top {
     margin-top: 96px;
+  }
+  
+  .table-marg-top {
+    margin-top: 11%;
+  }
+  
+  .sw-crepes-marg-top {
+    margin-top: 17%;
   }
   
 }
@@ -1783,12 +1878,12 @@ tr {
   }
   
   .full-titles {
-    font-size: 10px;
+    font-size: 12px;
     margin: 3px 0 0 0;
   }
   
   .full-description {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
   }
   
@@ -1806,6 +1901,10 @@ tr {
   
   .table-center-align {
     display: none;
+  }
+  
+  .table-marg-top {
+    margin-top: 8%;
   }
   
   //Breakfast
@@ -1826,6 +1925,14 @@ tr {
     height: 95%;
   }
   
+  .bfast-img {
+    height: 88%;
+  }
+  
+  .bfast-img-left {
+    height: 83%;
+  }
+  
   .menu-item-title {
     font-size: 12px;
     top: 4px;
@@ -1844,8 +1951,16 @@ tr {
     height: 54px;
   }
   
+  .bfast-full-titles {
+    font-size: 11px;
+  }
+  
+  .bfast-full-descriptions {
+    font-size: 10.7px;
+  }
+  
   .orange {
-    line-height: 150%;
+    line-height: 100%;
     margin: 0;
   }
   
@@ -1861,14 +1976,43 @@ tr {
     height: 32px;
   }
   
+  .lower-rnd-r-wrap-full {
+    width: 186px;
+  }
+  
   .panini-img {
     height: 56px;
+  }
+  
+  .panini-img-full {
+    width: 100%;
+    height: 128px;
+  }
+  
+  .full-food-name {
+    display: none;
   }
   
   //  Sandwiches
   
   .sandwiches-img {
-    height: 56px;
+    width: 98%;
+    height: 60px;
+  }
+  
+  .sandwiches-img-full {
+    width: 100%;
+    height: 130px;
+  }
+  
+  .sandwich-tr {
+    height: 0px;
+  }
+  
+  .sandwich-overflow {
+    position: relative;
+    top: 13px;
+    right: 107px;
   }
   
   //  Soup and Salad
@@ -1889,7 +2033,7 @@ tr {
   .s-and-s-img-r-full {
     width: 90px;
     height: 62px;
-    left: 5px;
+    right: 5px;
   }
   
   .s-and-s-img-l {
@@ -1900,7 +2044,7 @@ tr {
   .s-and-s-img-l-full {
     width: 90px;
     height: 62px;
-    right: 5px;
+    left: 5px;
   }
   
   //  Savory Crepes
@@ -1913,12 +2057,17 @@ tr {
     height: 72px;
   }
   
-  .sav-crepes-img-l {
-    height: 95%;
+  .sav-crepes-img {
+    height: 85%;
   }
   
-  .sav-crepes-img-r {
-    height: 95%;
+  .sav-crepes-img-full {
+    width: 85%;
+    height: 80%;
+  }
+  
+  .sav-crepes-food-names {
+    display: none;
   }
   
   //  Sweet Crepes
@@ -1940,6 +2089,10 @@ tr {
     height: 32px;
   }
   
+  .sw-crepes-rnd-r-wrap-full {
+    width: 189px;
+  }
+  
   .sw-crepes-rnd-r {
     right: auto;
     left: -35px;
@@ -1949,10 +2102,21 @@ tr {
     height: 56px;
   }
   
+  .sw-crepes-img-full {
+    width: 131px;
+    height: 141px;
+  }
+  
   //  Kids
   
   .kids-img {
-    height: 56px;
+    width: 95%;
+    height: 60px;
+  }
+  
+  .kids-img-full {
+    width: 100%;
+    height: 135px;
   }
   
   .marg-top {
@@ -1962,11 +2126,13 @@ tr {
   //  Drinks
   
   .drinks-img {
-    height: 57.5px;
+    height: 53px;
+    top: 10px;
   }
   
   .drinks-img-full {
-    height: 72px;
+    height: 87px;
+    bottom: 49px
   }
   
   .drink-title-wrap-full {
@@ -2432,8 +2598,8 @@ tr {
   height: 100%;
   background-image: url(../img/AboutUsBackground.png);
   background-repeat: no-repeat;
-  background-position: 14% 54%;
-  background-size: 284% 128%;
+  background-position: 13% 57%;
+  background-size: 282% 136%;
   position: absolute;
   top: 0;
   left: 50%;

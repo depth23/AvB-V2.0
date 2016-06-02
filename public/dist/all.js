@@ -246,7 +246,7 @@ function breakfastClick() {
   if(screenSize <= 770) {
     document.getElementById('breakfast-full').style.top = "16px"; 
     document.getElementById('breakfast-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('bfastFull').style.height = "384px";
+    document.getElementById('bfastFull').style.height = "600px";
     autoScrollTo('fullMenuLink');
   }
   else{
@@ -534,13 +534,13 @@ document.getElementById('drink').addEventListener('mouseout', drinkMouseOut, fal
 
 function drinkClick() {
   if(screenSize <= 770) {
-    document.getElementById('drink-full').style.top = "16px"; 
+    document.getElementById('drink-full').style.top = "30px"; 
     document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
     document.getElementById('drinkFull').style.height = "512px";
     autoScrollTo('fullMenuLink');
   }
   else {
-    document.getElementById('drink-full').style.top = "16px"; 
+    document.getElementById('drink-full').style.top = "30px"; 
     document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
     document.getElementById('drinkFull').style.height = "512px";
   }
