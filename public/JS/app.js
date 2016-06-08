@@ -625,3 +625,82 @@ function navFourScroll() {
 };
 
 document.getElementById('siteNav4').addEventListener('click', navFourScroll, false);
+
+//--------------------Mobile Text------------------------
+
+var screenHeight = window.screen.height;
+
+function mobileText() {
+  //---IPhone 6---
+  if(screenSize === 375 && screenHeight === 667) {
+    console.log("iphone 6");
+    document.getElementById('aboutText').style.fontSize = '32px';
+    document.getElementById('aboutText').style.lineHeight= '23px';
+    document.getElementById('aboutUsLinks1').style.fontSize = '30px';
+    document.getElementById('aboutUsLinks2').style.fontSize = '30px';
+    document.getElementById('aboutUsLinks3').style.fontSize = '30px';
+    document.getElementById('aboutUsLinks4').style.fontSize = '30px';
+    document.getElementById('aboutUsLinks5').style.fontSize = '30px';
+    document.getElementById('aboutUsLinks6').style.fontSize = '30px';
+    document.getElementById('aboutUsLinks7').style.fontSize = '30px';
+    document.getElementById('aboutUsLinks8').style.fontSize = '23px';
+  }
+  //---IPhone 6 Plus---
+  else if(screenSize === 414 && screenHeight === 736) {
+    console.log("iphone 6 plus");
+    document.getElementById('aboutText').style.fontSize = '37px';
+    document.getElementById('aboutText').style.lineHeight= '25px';
+    document.getElementById('aboutUsLinks1').style.fontSize = '35px';
+    document.getElementById('aboutUsLinks2').style.fontSize = '35px';
+    document.getElementById('aboutUsLinks3').style.fontSize = '35px';
+    document.getElementById('aboutUsLinks4').style.fontSize = '35px';
+    document.getElementById('aboutUsLinks5').style.fontSize = '35px';
+    document.getElementById('aboutUsLinks6').style.fontSize = '35px';
+    document.getElementById('aboutUsLinks7').style.fontSize = '35px';
+    document.getElementById('aboutUsLinks8').style.fontSize = '24px';
+  }
+  //---Nexus 5X---
+  else if(screenSize === 411 && screenHeight === 731) {
+    console.log("Nexus 5X");
+    document.getElementById('aboutText').style.fontSize = '33px';
+    document.getElementById('aboutText').style.lineHeight= '25px';
+    document.getElementById('aboutUsLinks1').style.fontSize = '31px';
+    document.getElementById('aboutUsLinks2').style.fontSize = '31px';
+    document.getElementById('aboutUsLinks3').style.fontSize = '31px';
+    document.getElementById('aboutUsLinks4').style.fontSize = '31px';
+    document.getElementById('aboutUsLinks5').style.fontSize = '31px';
+    document.getElementById('aboutUsLinks6').style.fontSize = '31px';
+    document.getElementById('aboutUsLinks7').style.fontSize = '31px';
+    document.getElementById('aboutUsLinks8').style.fontSize = '24px';
+  }
+  //---Nexus 6P---
+  else if(screenSize === 435 && screenHeight === 773) {
+    console.log("Nexus 6P");
+    document.getElementById('aboutText').style.fontSize = '36px';
+    document.getElementById('aboutText').style.lineHeight= '29px';
+    document.getElementById('aboutUsLinks1').style.fontSize = '34px';
+    document.getElementById('aboutUsLinks2').style.fontSize = '34px';
+    document.getElementById('aboutUsLinks3').style.fontSize = '34px';
+    document.getElementById('aboutUsLinks4').style.fontSize = '34px';
+    document.getElementById('aboutUsLinks5').style.fontSize = '34px';
+    document.getElementById('aboutUsLinks6').style.fontSize = '34px';
+    document.getElementById('aboutUsLinks7').style.fontSize = '34px';
+    document.getElementById('aboutUsLinks8').style.fontSize = '28px';
+  }
+  //---Galaxy S5---
+  else if(screenSize === 360 && screenHeight === 640) {
+    console.log("Galaxy S5");
+    document.getElementById('aboutText').style.fontSize = '28px';
+    document.getElementById('aboutText').style.lineHeight= '25px';
+    document.getElementById('aboutUsLinks1').style.fontSize = '26px';
+    document.getElementById('aboutUsLinks2').style.fontSize = '26px';
+    document.getElementById('aboutUsLinks3').style.fontSize = '26px';
+    document.getElementById('aboutUsLinks4').style.fontSize = '26px';
+    document.getElementById('aboutUsLinks5').style.fontSize = '26px';
+    document.getElementById('aboutUsLinks6').style.fontSize = '26px';
+    document.getElementById('aboutUsLinks7').style.fontSize = '26px';
+    document.getElementById('aboutUsLinks8').style.fontSize = '23px';
+  }
+}
+
+mobileText();

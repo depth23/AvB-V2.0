@@ -1420,8 +1420,8 @@ tr {
 }
 
 .sw-crepes-rnd-l-full {
-  width: 49%;
-  height: 40px;
+  width: 59%;
+  height: 50px;
   position: absolute;
   bottom: 0;
   right: 8px;
@@ -1717,7 +1717,7 @@ tr {
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   
   .sec-2-container {
-    height: 1728px;
+    height: 1710px;
     min-width: 100vw;
     
   }
@@ -1731,7 +1731,7 @@ tr {
   .sec-2-right {
     width: 100%;
     min-width: 576px;
-    top: 720px;
+    top: 670px;
     right: auto;
     left: 50%; 
     @include transform(translate(-50%, 0));
@@ -1781,6 +1781,11 @@ tr {
     margin-top: 17%;
   }
   
+  .sw-crepes-rnd-l-full {
+    width: 62%;
+    height: 53px;
+  }
+  
 }
 
 //mobiles
@@ -1788,7 +1793,7 @@ tr {
 @media only screen and (max-width: 600px) {
   
   .sec-2-container {
-    height: 1296px;
+    height: 1320px;
     min-width: 100vw;
   }
   
@@ -2107,6 +2112,10 @@ tr {
     height: 141px;
   }
   
+  .sw-crepes-rnd-l-full {
+    display: none;
+  }
+  
   //  Kids
   
   .kids-img {
@@ -2211,47 +2220,32 @@ tr {
   left: 0;
 }
 
-.facebook-live-container {
-  width: 496px;
-  height: 368px;
+.twitter-live-container {
+  width: 520px;
+  height: 320px;
   background: lightgrey;
   border: 16px outset #962323;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 50%;
   @include transform(translate(-50%, 0));
   overflow: auto;
   @include box-shadow(4px 4px black, 
-                     2.5px 2.5px black,
-                     1px 1px black,
-                 24px 16px 64px black);
+                  2.5px 2.5px black,
+                      1px 1px black,
+                      1px 1px black,
+              24px 16px 64px black);
 }
 
-.about-corner-icons {
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  box-sizing: border-box;
-  border: 8px inset #962323;
-  padding-bottom: 3px;
-  z-index: 100;
-}
-
-.about-face {
+.about-twitter {
   @extend .about-corner-icons;
-  text-align: center;
-  color: rgb(59,89,152);
-  background: rgb(247,247,247);
+  background: white;
+  padding: 1.6px 2.5px 1.6px 1.6px;
 }
 
-.facebook-live-feed {
+.twitter-live-feed {
   width: 100%;
   height: 100%;
-  background: lightgrey;
-  border: none;
-  overflow: hidden;
 }
 
 .map-container {
@@ -2291,66 +2285,81 @@ tr {
   right: 0;
 }
 
-.instagram-live-container {
-  width: 400px;
-  height: 320px;
+//.instagram-live-container {
+//  width: 400px;
+//  height: 320px;
+//  background: lightgrey;
+//  border: 16px outset #962323;
+//  position: absolute;
+//  top: 0;
+//  left: 50%;
+//  @include transform(translate(-50%, 0));
+//  overflow: auto;
+//  @include box-shadow(4px 4px black, 
+//                  2.5px 2.5px black,
+//                      1px 1px black,
+//              24px 16px 64px black);
+//}
+//
+//.about-insta {
+//  @extend .about-corner-icons;
+//  background: white;
+//  padding: 1.6px 2.5px 1.6px 1.6px;
+//}
+//
+//.insta-live-feed {
+//  width: 100%;
+//  height: 100%;
+//  overflow: scroll;
+//}
+//
+//.snapwidget-widget {
+//  border: none;
+//  overflow: hidden;
+//  width: 100%;
+//}
+
+.facebook-live-container {
+  width: 500px;
+  height: 497px;
   background: lightgrey;
   border: 16px outset #962323;
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 50%;
-  @include transform(translate(-50%, 0));
+  @include transform(translate(-50%, -50%));
   overflow: auto;
   @include box-shadow(4px 4px black, 
-                  2.5px 2.5px black,
-                      1px 1px black,
-              24px 16px 64px black);
+                     2.5px 2.5px black,
+                     1px 1px black,
+                 24px 16px 64px black);
 }
 
-.about-insta {
+.about-corner-icons {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-sizing: border-box;
+  border: 8px inset #962323;
+  padding-bottom: 3px;
+  z-index: 100;
+}
+
+.about-face {
   @extend .about-corner-icons;
-  background: white;
-  padding: 1.6px 2.5px 1.6px 1.6px;
+  text-align: center;
+  color: rgb(59,89,152);
+  background: rgb(247,247,247);
 }
 
-.insta-live-feed {
+.facebook-live-feed {
   width: 100%;
   height: 100%;
-  overflow: scroll;
-}
-
-.snapwidget-widget {
+  background: lightgrey;
   border: none;
   overflow: hidden;
-  width: 100%;
-}
-
-.twitter-live-container {
-  width: 520px;
-  height: 320px;
-  background: lightgrey;
-  border: 16px outset #962323;
-  position: absolute;
-  bottom: 32px;
-  left: 50%;
-  @include transform(translate(-50%, 0));
-  overflow: auto;
-  @include box-shadow(4px 4px black, 
-                  2.5px 2.5px black,
-                      1px 1px black,
-                      1px 1px black,
-              24px 16px 64px black);
-}
-
-.about-twitter {
-  @extend .about-corner-icons;
-  background: white;
-  padding: 1.6px 2.5px 1.6px 1.6px;
-}
-
-.twitter-live-feed {
-  width: 100%;
-  height: 100%;
 }
 
 .to-top {
@@ -2407,25 +2416,22 @@ tr {
     @include transform(translate(0, 50%));
   }
   
-  .facebook-live-container{
-    height: 320px;
+  .twitter-live-container {
+    width: 525px;
+    height: 335px;
+    bottom: 24px;
   }
   
   .map-container {
-    height: 224px;
-    bottom: 24px;
+    width: 470px;
+    height: 250px;
+    bottom: 0px;
   }
   
   .find-right {
     max-height: 688px;
     bottom: 45%;
     @include transform(translate(0, 50%));
-  }
-  
-  .twitter-live-container {
-    width: 480px;
-    height: 240px;
-    bottom: 24px;
   }
   
 }
@@ -2437,7 +2443,7 @@ tr {
   .sec-3-container {
     height: 100vh;
     min-width: 100%;
-    min-height: 1552px;
+    min-height: 1600px;
   }
   
   .find-top-title {
@@ -2451,12 +2457,14 @@ tr {
     top: 832px;
   }
   
-  .facebook-live-container{
-    height: 320px;
+  .twitter-live-container {
+    width: 480px;
+    height: 290px;
+    top: 0;
   }
   
   .map-container {
-    height: 224px;
+    height: 225px;
     bottom: 0;
   }
   
@@ -2467,14 +2475,17 @@ tr {
     top: 144px;
   }
   
-  .instagram-live-container {
-    height: 340px;
-  }
+//  .instagram-live-container {
+//    height: 340px;
+//  }
   
-  .twitter-live-container {
-    width: 480px;
-    height: 208px;
-    bottom: 0;
+//  .facebook-live-container{
+//    height: 320px;
+//  }
+  
+  .to-top {
+    left: 50%;
+    @include transform(translate(-50%, 0));
   }
   
 }
@@ -2484,7 +2495,7 @@ tr {
 @media only screen and (max-width: 600px) {
   
   .sec-3-container {
-    height: 1360px;
+    height: 1321px;
     min-width: 100%;
   }
   
@@ -2495,35 +2506,40 @@ tr {
   .find-left {
     width: 100%;
     height: 656px;
-    top: 656px;
+    top: 573px;
   }
   
-  .facebook-live-container{
-    width: 256px;
-    height: 320px;
+  .twitter-live-container {
+    width: 250px;
+    height: 295px;
+    bottom: 0;
   }
   
   .map-container {
     width: 240px;
-    height: 240px;
+    height: 250px;
     bottom: 0;
   }
   
   .find-right {
     width: 100%;
     height: 512px;
-    top: 112px;
+    top: 85px;
   }
   
-  .instagram-live-container {
-    width: 240px;
-    height: 240px;
+//  .instagram-live-container {
+//    width: 240px;
+//    height: 240px;
+//  }
+  
+  .facebook-live-container{
+    width: 250px;
+    height: 415px;
   }
   
-  .twitter-live-container {
-    width: 264px;
-    height: 176px;
-    bottom: 0;
+  .to-top {
+    left: 50%;
+    @include transform(translate(-50%, 0));
   }
   
 }
@@ -2622,21 +2638,39 @@ tr {
   width: 80%;
   height: 100%;
   min-width: 560px;
-  font-family: Baskerville, 'Times New Roman', serif;
-  font-size: 22.5px;
-  text-align: center;
-  line-height: 38.5px;
-  background: white;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 38px;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 40px;
+  background: rgb(255, 231, 155);
   position: absolute;
   top: 0;
   left: 50%;
   @include transform(translate(-50%, 0));
-  padding: 64px 24px 64px 24px;
+  opacity: 0.95;
+  outline: 8px double black;
+  padding: 35px 20px 40px 20px;
   margin: 0;
   @include box-shadow(1px 0.5px #2A2828,
                       1.6px 3px #2A2828, 
                   16px 16px 64px black);
   box-sizing: border-box;
+}
+
+.about-us-links {
+  color: rgb(210, 47, 47);
+  font-size: 36px;
+  text-decoration: none;
+  text-shadow: 1px 1px black,
+             -1px -1px black,
+              -1px 1px black,
+              1px -1px black;
+}
+
+#aboutUsLinks8 {
+  font-family: Baskerville, 'Times New Roman', serif;
+  font-size: 30px
 }
 
 .footer {
@@ -2874,7 +2908,16 @@ tr {
   }
   
   .about-text {
-    font-size: 20px;
+    font-size: 34px;
+  }
+  
+  .about-us-links {
+    font-size: 32px;
+  }
+  
+  #aboutUsLinks8 {
+    font-family: Baskerville, 'Times New Roman', serif;
+    font-size: 29px
   }
   
 }
@@ -2911,6 +2954,14 @@ tr {
     width: 100%;
     height: 45%;
     top: 112px;
+  }
+  
+  .about-text {
+    font-size: 40px;
+  }
+  
+  .about-us-links {
+    font-size: 38px;
   }
   
   .footer {
@@ -2998,9 +3049,17 @@ tr {
   
   .about-text{
     min-width: 95%;
-    font-size: 14px;
+    font-size: 24.75px;
     line-height: 22.5px;
     padding: 24px 8px 16px 8px;
+  }
+  
+  .about-us-links {
+    font-size: 22px;
+  }
+  
+  #aboutUsLinks8 {
+    font-size: 21px
   }
   
   .footer {
