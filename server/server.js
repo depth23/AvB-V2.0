@@ -5,7 +5,7 @@ var port = 8765;
 app.use(express.static('../public'));  
 
 app.get('/', function(req, res) {
-    res.send('../public/index.html');
+    res.send(data);
 });
 
 var server = app.listen(process.env.PORT || port, function () {
