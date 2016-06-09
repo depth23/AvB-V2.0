@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/depth23/AvB-V2.0/issues"
   },
+  "engines": {
+    "node": "4.1.1"
+  },
   "homepage": "https://github.com/depth23/AvB-V2.0#readme"
 }
