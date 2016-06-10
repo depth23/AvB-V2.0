@@ -2522,7 +2522,7 @@ tr {
 
 @media only screen and (max-width: 600px) {
   .sec-4-container {
-    height: 180vh;
+    height: 1100px;
     min-width: 100%; }
   .sec-4-background {
     background-attachment: inherit;
@@ -2531,15 +2531,15 @@ tr {
     top: 0; }
   .about-left {
     width: 100%;
-    height: 45%;
+    height: 475px;
     top: calc(50% + 48px); }
   .about-img {
     background-position: 10% 54%;
     background-size: 440% 136%; }
   .about-right {
     width: 100%;
-    height: 45%;
-    top: 96px; }
+    height: 435px;
+    top: 120px; }
   .about-text {
     min-width: 95%;
     font-size: 24px;
