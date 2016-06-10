@@ -2546,9 +2546,9 @@ tr {
     line-height: 22.5px;
     padding: 5px 8px 0px 8px; }
   .about-us-links {
-    font-size: 22px; }
+    font-size: inherit; }
   #aboutUsLinks8 {
-    font-size: 21px; }
+    font-size: 20px; }
   .footer {
     height: 400px; }
   .site-nav-container {

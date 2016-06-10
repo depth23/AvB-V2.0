@@ -703,4 +703,4 @@ function mobileText() {
   }
 }
 
-mobileText();
+//mobileText();
