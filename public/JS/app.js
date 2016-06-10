@@ -568,7 +568,7 @@ function init_map() {
   };
   var map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
   var marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.3775755,-111.80300669999997)});
-  var infowindow = new google.maps.InfoWindow({content:'<strong>The Avenue Bakery</strong><br>35, Barratt Ave, American Fork, UT 84003<br>'});
+  var infowindow = new google.maps.InfoWindow({content:'<strong>The Avenue Bakery</strong><br>35 Barratt Ave, American Fork, UT 84003<br>'});
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map,marker);
   });
