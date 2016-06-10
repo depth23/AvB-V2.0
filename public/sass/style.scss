@@ -468,6 +468,10 @@ html, body {
     min-width: 100%;
   }
   
+  .sec-1-background {
+    background-attachment: inherit;
+  }
+  
   .sec-1-logo {
     width: 80px;
     height: 48px;
@@ -1795,6 +1799,7 @@ tr {
   .sec-2-container {
     height: 1320px;
     min-width: 100vw;
+    background-attachment: inherit;
   }
   
   .sec-2-left {
@@ -2497,6 +2502,10 @@ tr {
   .sec-3-container {
     height: 1321px;
     min-width: 100%;
+  }
+  
+  .sec-3-background { 
+    background-attachment: inherit;
   }
   
   .find-top-title {

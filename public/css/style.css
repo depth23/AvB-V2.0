@@ -351,6 +351,8 @@ html, body {
 @media only screen and (max-width: 600px) {
   .sec-1-container {
     min-width: 100%; }
+  .sec-1-background {
+    background-attachment: inherit; }
   .sec-1-logo {
     width: 80px;
     height: 48px;
@@ -1612,7 +1614,8 @@ tr {
 @media only screen and (max-width: 600px) {
   .sec-2-container {
     height: 1320px;
-    min-width: 100vw; }
+    min-width: 100vw;
+    background-attachment: inherit; }
   .sec-2-left {
     width: 100%;
     top: 32px;
@@ -2081,6 +2084,8 @@ tr {
   .sec-3-container {
     height: 1321px;
     min-width: 100%; }
+  .sec-3-background {
+    background-attachment: inherit; }
   .find-top-title {
     top: 0; }
   .find-left {
