@@ -2576,6 +2576,11 @@ tr {
     right: auto;
     left: 0;
     bottom: -15px; }
+  .sec-4-cc-container {
+    width: 80%; }
+  .sec-4-currency {
+    width: 18%;
+    height: 100%; }
   .footer-follow-container {
     top: 250px; }
   .developedBy {
