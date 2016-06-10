@@ -2237,9 +2237,9 @@ tr {
 
 .about-us-links {
   color: #d22f2f;
-  font-size: 36px;
+  font-size: inherit;
   text-decoration: none;
-  text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black; }
+  text-shadow: 1px 1px black; }
 
 #aboutUsLinks8 {
   font-family: Baskerville, 'Times New Roman', serif;

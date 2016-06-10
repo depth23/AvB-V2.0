@@ -2679,12 +2679,9 @@ tr {
 
 .about-us-links {
   color: rgb(210, 47, 47);
-  font-size: 36px;
+  font-size: inherit;
   text-decoration: none;
-  text-shadow: 1px 1px black,
-             -1px -1px black,
-              -1px 1px black,
-              1px -1px black;
+  text-shadow: 1px 1px black;
 }
 
 #aboutUsLinks8 {
