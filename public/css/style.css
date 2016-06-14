@@ -1685,6 +1685,8 @@ tr {
   .full-description {
     font-size: 12px;
     margin: 0; }
+  .breaks {
+    display: none; }
   tr {
     height: 15px; }
   .tr-minors {
@@ -1801,6 +1803,8 @@ tr {
     height: 141px; }
   .sw-crepes-rnd-l-full {
     display: none; }
+  .pos-right {
+    top: 10px; }
   .kids-img {
     width: 95%;
     height: 60px; }

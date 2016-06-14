@@ -1899,6 +1899,10 @@ tr {
     margin: 0;
   }
   
+  .breaks {
+    display: none;
+  }
+  
   tr {
     height: 15px;
   }
@@ -2121,6 +2125,10 @@ tr {
   
   .sw-crepes-rnd-l-full {
     display: none;
+  }
+  
+  .pos-right {
+    top: 10px;
   }
   
   //  Kids
