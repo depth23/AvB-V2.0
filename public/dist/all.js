@@ -51,9 +51,23 @@ function landingPageLoad() {
   }
 };
 
+function hideHover() {
+  if(screenSize <=  770) {
+    document.getElementById('bfast').className = "menu-item m1";
+    document.getElementById('panini').className = "menu-item m2";
+    document.getElementById('sandwich').className = "menu-item m3";
+    document.getElementById('soup-salad').className = "menu-item m4";
+    document.getElementById('savory-crepes').className = "menu-item m5";
+    document.getElementById('sweet-crepes').className = "menu-item m6";
+    document.getElementById('kids').className = "menu-item m7";
+    document.getElementById('drink').className = "menu-item m8";
+  }
+}
+
 window.onload = function() {
   landingPageLoad();
-};
+  hideHover();
+}
 
 //--------------------Auto Scroll For Links--------------
 
