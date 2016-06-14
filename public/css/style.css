@@ -2538,7 +2538,9 @@ tr {
     height: 435px;
     top: 120px; }
   .about-text {
-    min-width: 95%;
+    width: 290px;
+    min-width: 290px;
+    height: 460px;
     font-size: 24px;
     line-height: 22.5px;
     padding: 10px 8px 0px 8px; }
