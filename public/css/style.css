@@ -1804,7 +1804,8 @@ tr {
   .sw-crepes-rnd-l-full {
     display: none; }
   .pos-right {
-    top: 5px; }
+    top: 5px;
+    left: 50%; }
   .kids-img {
     width: 95%;
     height: 60px; }
