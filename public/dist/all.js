@@ -253,6 +253,7 @@ function breakfastClick() {
     document.getElementById('breakfast-full').style.top = "16px"; 
     document.getElementById('breakfast-full').style.transform = "translate(-50%, 0)";
     document.getElementById('bfastFull').style.height = "512px";
+//    document.getElementById('clickMeFull1').style.display = "none";
   }
 };
 
@@ -295,6 +296,7 @@ function paniniClick() {
     document.getElementById('panini-full').style.transform = "translate(-50%, 0)";
     document.getElementById('panini-full').style.height = "96%"
     document.getElementById('paniniFull').style.height = "88%";
+//    document.getElementById('clickMeFull2').style.display = "none";
   }
 };
 
@@ -339,6 +341,7 @@ function sandwichClick() {
     document.getElementById('sandwich-full').style.transform = "translate(-50%, 0)";
     document.getElementById('sandwich-full').style.height = "96%"
     document.getElementById('sandwichFull').style.height = "88%";
+//    document.getElementById('clickMeFull3').style.display = "none";
   }
 };
 
@@ -378,6 +381,7 @@ function soupSaladClick() {
     document.getElementById('soup-salad-full').style.top = "16px"; 
     document.getElementById('soup-salad-full').style.transform = "translate(-50%, 0)";
     document.getElementById('soupSaladFull').style.height = "512px";
+//    document.getElementById('clickMeFull4').style.display = "none";
   }
 };
 
@@ -417,6 +421,7 @@ function savoryCrepesClick() {
     document.getElementById('savory-crepes-full').style.top = "16px"; 
     document.getElementById('savory-crepes-full').style.transform = "translate(-50%, 0)";
     document.getElementById('savoryCrepesFull').style.height = "512px";
+//    document.getElementById('clickMeFull5').style.display = "none";
   }
 };
 
@@ -461,6 +466,7 @@ function sweetCrepesClick() {
     document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, 0)";
     document.getElementById('sweet-crepes-full').style.height = "96%"
     document.getElementById('sweetCrepesFull').style.height = "88%";
+//    document.getElementById('clickMeFull6').style.display = "none";
   }
 };
 
@@ -503,6 +509,7 @@ function kidsClick() {
     document.getElementById('kids-full').style.transform = "translate(-50%, 0)";
     document.getElementById('kids-full').style.height = "96%"
     document.getElementById('kidsFull').style.height = "88%";
+//    document.getElementById('clickMeFull7').style.display = "none";
   }
 };
 
@@ -543,6 +550,7 @@ function drinkClick() {
     document.getElementById('drink-full').style.top = "30px"; 
     document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
     document.getElementById('drinkFull').style.height = "512px";
+//    document.getElementById('clickMeFull8').style.display = "none";
   }
 };
 
@@ -628,79 +636,79 @@ document.getElementById('siteNav4').addEventListener('click', navFourScroll, fal
 
 //--------------------Mobile Text------------------------
 
-var screenHeight = window.screen.height;
-
-function mobileText() {
-  //---IPhone 6---
-  if(screenSize === 375 && screenHeight === 667) {
-    console.log("iphone 6");
-    document.getElementById('aboutText').style.fontSize = '32px';
-    document.getElementById('aboutText').style.lineHeight= '23px';
-    document.getElementById('aboutUsLinks1').style.fontSize = '30px';
-    document.getElementById('aboutUsLinks2').style.fontSize = '30px';
-    document.getElementById('aboutUsLinks3').style.fontSize = '30px';
-    document.getElementById('aboutUsLinks4').style.fontSize = '30px';
-    document.getElementById('aboutUsLinks5').style.fontSize = '30px';
-    document.getElementById('aboutUsLinks6').style.fontSize = '30px';
-    document.getElementById('aboutUsLinks7').style.fontSize = '30px';
-    document.getElementById('aboutUsLinks8').style.fontSize = '23px';
-  }
-  //---IPhone 6 Plus---
-  else if(screenSize === 414 && screenHeight === 736) {
-    console.log("iphone 6 plus");
-    document.getElementById('aboutText').style.fontSize = '37px';
-    document.getElementById('aboutText').style.lineHeight= '25px';
-    document.getElementById('aboutUsLinks1').style.fontSize = '35px';
-    document.getElementById('aboutUsLinks2').style.fontSize = '35px';
-    document.getElementById('aboutUsLinks3').style.fontSize = '35px';
-    document.getElementById('aboutUsLinks4').style.fontSize = '35px';
-    document.getElementById('aboutUsLinks5').style.fontSize = '35px';
-    document.getElementById('aboutUsLinks6').style.fontSize = '35px';
-    document.getElementById('aboutUsLinks7').style.fontSize = '35px';
-    document.getElementById('aboutUsLinks8').style.fontSize = '24px';
-  }
-  //---Nexus 5X---
-  else if(screenSize === 411 && screenHeight === 731) {
-    console.log("Nexus 5X");
-    document.getElementById('aboutText').style.fontSize = '33px';
-    document.getElementById('aboutText').style.lineHeight= '25px';
-    document.getElementById('aboutUsLinks1').style.fontSize = '31px';
-    document.getElementById('aboutUsLinks2').style.fontSize = '31px';
-    document.getElementById('aboutUsLinks3').style.fontSize = '31px';
-    document.getElementById('aboutUsLinks4').style.fontSize = '31px';
-    document.getElementById('aboutUsLinks5').style.fontSize = '31px';
-    document.getElementById('aboutUsLinks6').style.fontSize = '31px';
-    document.getElementById('aboutUsLinks7').style.fontSize = '31px';
-    document.getElementById('aboutUsLinks8').style.fontSize = '24px';
-  }
-  //---Nexus 6P---
-  else if(screenSize === 435 && screenHeight === 773) {
-    console.log("Nexus 6P");
-    document.getElementById('aboutText').style.fontSize = '36px';
-    document.getElementById('aboutText').style.lineHeight= '29px';
-    document.getElementById('aboutUsLinks1').style.fontSize = '34px';
-    document.getElementById('aboutUsLinks2').style.fontSize = '34px';
-    document.getElementById('aboutUsLinks3').style.fontSize = '34px';
-    document.getElementById('aboutUsLinks4').style.fontSize = '34px';
-    document.getElementById('aboutUsLinks5').style.fontSize = '34px';
-    document.getElementById('aboutUsLinks6').style.fontSize = '34px';
-    document.getElementById('aboutUsLinks7').style.fontSize = '34px';
-    document.getElementById('aboutUsLinks8').style.fontSize = '28px';
-  }
-  //---Galaxy S5---
-  else if(screenSize === 360 && screenHeight === 640) {
-    console.log("Galaxy S5");
-    document.getElementById('aboutText').style.fontSize = '28px';
-    document.getElementById('aboutText').style.lineHeight= '25px';
-    document.getElementById('aboutUsLinks1').style.fontSize = '26px';
-    document.getElementById('aboutUsLinks2').style.fontSize = '26px';
-    document.getElementById('aboutUsLinks3').style.fontSize = '26px';
-    document.getElementById('aboutUsLinks4').style.fontSize = '26px';
-    document.getElementById('aboutUsLinks5').style.fontSize = '26px';
-    document.getElementById('aboutUsLinks6').style.fontSize = '26px';
-    document.getElementById('aboutUsLinks7').style.fontSize = '26px';
-    document.getElementById('aboutUsLinks8').style.fontSize = '23px';
-  }
-}
-
+//var screenHeight = window.screen.height;
+//
+//function mobileText() {
+//  //---IPhone 6---
+//  if(screenSize === 375 && screenHeight === 667) {
+//    console.log("iphone 6");
+//    document.getElementById('aboutText').style.fontSize = '32px';
+//    document.getElementById('aboutText').style.lineHeight= '23px';
+//    document.getElementById('aboutUsLinks1').style.fontSize = '30px';
+//    document.getElementById('aboutUsLinks2').style.fontSize = '30px';
+//    document.getElementById('aboutUsLinks3').style.fontSize = '30px';
+//    document.getElementById('aboutUsLinks4').style.fontSize = '30px';
+//    document.getElementById('aboutUsLinks5').style.fontSize = '30px';
+//    document.getElementById('aboutUsLinks6').style.fontSize = '30px';
+//    document.getElementById('aboutUsLinks7').style.fontSize = '30px';
+//    document.getElementById('aboutUsLinks8').style.fontSize = '23px';
+//  }
+//  //---IPhone 6 Plus---
+//  else if(screenSize === 414 && screenHeight === 736) {
+//    console.log("iphone 6 plus");
+//    document.getElementById('aboutText').style.fontSize = '37px';
+//    document.getElementById('aboutText').style.lineHeight= '25px';
+//    document.getElementById('aboutUsLinks1').style.fontSize = '35px';
+//    document.getElementById('aboutUsLinks2').style.fontSize = '35px';
+//    document.getElementById('aboutUsLinks3').style.fontSize = '35px';
+//    document.getElementById('aboutUsLinks4').style.fontSize = '35px';
+//    document.getElementById('aboutUsLinks5').style.fontSize = '35px';
+//    document.getElementById('aboutUsLinks6').style.fontSize = '35px';
+//    document.getElementById('aboutUsLinks7').style.fontSize = '35px';
+//    document.getElementById('aboutUsLinks8').style.fontSize = '24px';
+//  }
+//  //---Nexus 5X---
+//  else if(screenSize === 411 && screenHeight === 731) {
+//    console.log("Nexus 5X");
+//    document.getElementById('aboutText').style.fontSize = '33px';
+//    document.getElementById('aboutText').style.lineHeight= '25px';
+//    document.getElementById('aboutUsLinks1').style.fontSize = '31px';
+//    document.getElementById('aboutUsLinks2').style.fontSize = '31px';
+//    document.getElementById('aboutUsLinks3').style.fontSize = '31px';
+//    document.getElementById('aboutUsLinks4').style.fontSize = '31px';
+//    document.getElementById('aboutUsLinks5').style.fontSize = '31px';
+//    document.getElementById('aboutUsLinks6').style.fontSize = '31px';
+//    document.getElementById('aboutUsLinks7').style.fontSize = '31px';
+//    document.getElementById('aboutUsLinks8').style.fontSize = '24px';
+//  }
+//  //---Nexus 6P---
+//  else if(screenSize === 435 && screenHeight === 773) {
+//    console.log("Nexus 6P");
+//    document.getElementById('aboutText').style.fontSize = '36px';
+//    document.getElementById('aboutText').style.lineHeight= '29px';
+//    document.getElementById('aboutUsLinks1').style.fontSize = '34px';
+//    document.getElementById('aboutUsLinks2').style.fontSize = '34px';
+//    document.getElementById('aboutUsLinks3').style.fontSize = '34px';
+//    document.getElementById('aboutUsLinks4').style.fontSize = '34px';
+//    document.getElementById('aboutUsLinks5').style.fontSize = '34px';
+//    document.getElementById('aboutUsLinks6').style.fontSize = '34px';
+//    document.getElementById('aboutUsLinks7').style.fontSize = '34px';
+//    document.getElementById('aboutUsLinks8').style.fontSize = '28px';
+//  }
+//  //---Galaxy S5---
+//  else if(screenSize === 360 && screenHeight === 640) {
+//    console.log("Galaxy S5");
+//    document.getElementById('aboutText').style.fontSize = '28px';
+//    document.getElementById('aboutText').style.lineHeight= '25px';
+//    document.getElementById('aboutUsLinks1').style.fontSize = '26px';
+//    document.getElementById('aboutUsLinks2').style.fontSize = '26px';
+//    document.getElementById('aboutUsLinks3').style.fontSize = '26px';
+//    document.getElementById('aboutUsLinks4').style.fontSize = '26px';
+//    document.getElementById('aboutUsLinks5').style.fontSize = '26px';
+//    document.getElementById('aboutUsLinks6').style.fontSize = '26px';
+//    document.getElementById('aboutUsLinks7').style.fontSize = '26px';
+//    document.getElementById('aboutUsLinks8').style.fontSize = '23px';
+//  }
+//}
+//
 //mobileText();
