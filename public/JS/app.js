@@ -4,6 +4,21 @@
 
 var screenSize = window.screen.width;
 
+function hideHover() {
+  if(screenSize <=  770) {
+    document.getElementById('bfast').className = "menu-item m1";
+    document.getElementById('panini').className = "menu-item m2";
+    document.getElementById('sandwich').className = "menu-item m3";
+    document.getElementById('soup-salad').className = "menu-item m4";
+    document.getElementById('savory-crepes').className = "menu-item m5";
+    document.getElementById('sweet-crepes').className = "menu-item m6";
+    document.getElementById('kids').className = "menu-item m7";
+    document.getElementById('drink').className = "menu-item m8";
+  }
+}
+
+hideHover();
+
 function landingPageLoad() {
   if(screenSize <= 600) {
     document.getElementById('secOneLogo').style.left = "16px";
@@ -51,22 +66,8 @@ function landingPageLoad() {
   }
 };
 
-function hideHover() {
-  if(screenSize <=  770) {
-    document.getElementById('bfast').className = "menu-item m1";
-    document.getElementById('panini').className = "menu-item m2";
-    document.getElementById('sandwich').className = "menu-item m3";
-    document.getElementById('soup-salad').className = "menu-item m4";
-    document.getElementById('savory-crepes').className = "menu-item m5";
-    document.getElementById('sweet-crepes').className = "menu-item m6";
-    document.getElementById('kids').className = "menu-item m7";
-    document.getElementById('drink').className = "menu-item m8";
-  }
-}
-
 window.onload = function() {
   landingPageLoad();
-  hideHover();
 }
 
 //--------------------Auto Scroll For Links--------------
@@ -231,6 +232,29 @@ document.getElementById('sec-1-share-cntnr').addEventListener('mouseleave', func
 
 //----------------------Menu-----------------------------
 
+function menuOriginalState() {
+  document.getElementById('breakfast-full').style.display = "none";
+  document.getElementById('panini-full').style.display = "none";
+  document.getElementById('sandwich-full').style.display = "none";
+  document.getElementById('soup-salad-full').style.display = "none";
+  document.getElementById('savory-crepes-full').style.display = "none";
+  document.getElementById('sweet-crepes-full').style.display = "none";
+  document.getElementById('kids-full').style.display = "none";
+  document.getElementById('drink-full').style.display = "none";
+  document.getElementById('sec2Logo').style.display = "block";
+};
+
+function menuResetMobile() {
+  if(screenSize <= 770) {
+    document.getElementById('menuSection').addEventListener('click', menuOriginalState, true);
+  }
+  else{
+    return;
+  }
+};
+
+menuResetMobile();
+
   //Menu Top
 
 //---Breakfast---
@@ -242,8 +266,6 @@ function breakfastMouseOver() {
   document.getElementById('breakfast-full').style.display = "block";
 };
 
-document.getElementById('bfast').addEventListener('mouseover', breakfastMouseOver,false);
-
 function breakfastMouseOut() {
   document.getElementById('sec2Logo').style.display = "block"; 
   document.getElementById('breakfast-full').style.display = "none";
@@ -252,12 +274,33 @@ function breakfastMouseOut() {
   document.getElementById('bfastFull').style.height = "0";
 };
 
-document.getElementById('bfast').addEventListener('mouseout', breakfastMouseOut,false);
+function bFastIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('bfast').addEventListener('mouseover', breakfastMouseOver,false);
+    document.getElementById('bfast').addEventListener('mouseout', breakfastMouseOut,false);
+  }
+  else{
+    return;
+  }
+};
+
+bFastIsMobile();
 
     //Click
 
 function breakfastClick() {
   if(screenSize <= 770) {
+    document.getElementById('panini-full').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "none";
+    document.getElementById('kids-full').style.display = "none";
+    document.getElementById('drink-full').style.display = "none";
+    
+    document.getElementById('sec2Logo').style.display = "none"; 
+    document.getElementById('breakfast-full').style.display = "block";
+    
     document.getElementById('breakfast-full').style.top = "16px"; 
     document.getElementById('breakfast-full').style.transform = "translate(-50%, 0)";
     document.getElementById('bfastFull').style.height = "600px";
@@ -282,8 +325,6 @@ function paniniMouseOver() {
   document.getElementById('panini-full').style.display = "block";
 };
 
-document.getElementById('panini').addEventListener('mouseover', paniniMouseOver,false);
-
 function paniniMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('panini-full').style.display = "none";
@@ -293,12 +334,33 @@ function paniniMouseOut() {
   document.getElementById('paniniFull').style.height = "0";
 };
 
-document.getElementById('panini').addEventListener('mouseout', paniniMouseOut,false);
+function paniniIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('panini').addEventListener('mouseover', paniniMouseOver,false);
+    document.getElementById('panini').addEventListener('mouseout', paniniMouseOut,false);
+  }
+  else{
+    return;
+  }
+};
+
+paniniIsMobile();
 
     //Click
 
 function paniniClick() {
   if(screenSize <= 770) {
+    document.getElementById('breakfast-full').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "none";
+    document.getElementById('kids-full').style.display = "none";
+    document.getElementById('drink-full').style.display = "none";
+    
+    document.getElementById('sec2Logo').style.display = "none";
+    document.getElementById('panini-full').style.display = "block";
+    
     document.getElementById('panini-full').style.top = "16px"; 
     document.getElementById('panini-full').style.transform = "translate(-50%, 0)";
     document.getElementById('panini-full').style.height = "96%"
@@ -327,8 +389,6 @@ function sandwichMouseOver() {
   document.getElementById('sandwich-full').style.display = "block";
 };
 
-document.getElementById('sandwich').addEventListener('mouseover', sandwichMouseOver,false);
-
 function sandwichMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('sandwich-full').style.display = "none";
@@ -338,12 +398,33 @@ function sandwichMouseOut() {
   document.getElementById('sandwichFull').style.height = "0";
 };
 
-document.getElementById('sandwich').addEventListener('mouseout', sandwichMouseOut,false);
+function sandwichIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('sandwich').addEventListener('mouseover', sandwichMouseOver,false);
+    document.getElementById('sandwich').addEventListener('mouseout', sandwichMouseOut,false);
+  }
+  else{
+    return;
+  }
+};
+
+sandwichIsMobile();
 
     //Click
 
 function sandwichClick() {
   if(screenSize <= 770) {
+    document.getElementById('breakfast-full').style.display = "none";
+    document.getElementById('panini-full').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "none";
+    document.getElementById('kids-full').style.display = "none";
+    document.getElementById('drink-full').style.display = "none";
+    
+    document.getElementById('sec2Logo').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "block";
+    
     document.getElementById('sandwich-full').style.top = "16px"; 
     document.getElementById('sandwich-full').style.transform = "translate(-50%, 0)";
     document.getElementById('sandwich-full').style.height = "96%"
@@ -370,8 +451,6 @@ function soupSaladMouseOver() {
   document.getElementById('soup-salad-full').style.display = "block";
 };
 
-document.getElementById('soup-salad').addEventListener('mouseover', soupSaladMouseOver, false);
-
 function soupSaladMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('soup-salad-full').style.display = "none";
@@ -380,12 +459,33 @@ function soupSaladMouseOut() {
   document.getElementById('soupSaladFull').style.height = "0";
 };
 
-document.getElementById('soup-salad').addEventListener('mouseout', soupSaladMouseOut, false);
+function soupAndSaladIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('soup-salad').addEventListener('mouseover', soupSaladMouseOver, false);
+    document.getElementById('soup-salad').addEventListener('mouseout', soupSaladMouseOut, false);
+  }
+  else{
+    return;
+  }
+};
+
+soupAndSaladIsMobile();
 
     //Click
 
 function soupSaladClick() {
   if(screenSize <= 770) {
+    document.getElementById('breakfast-full').style.display = "none";
+    document.getElementById('panini-full').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "none";
+    document.getElementById('kids-full').style.display = "none";
+    document.getElementById('drink-full').style.display = "none";
+    
+    document.getElementById('sec2Logo').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "block";
+    
     document.getElementById('soup-salad-full').style.top = "16px"; 
     document.getElementById('soup-salad-full').style.transform = "translate(-50%, 0)";
     document.getElementById('soupSaladFull').style.height = "512px";
@@ -410,8 +510,6 @@ function savoryCrepesMouseOver() {
   document.getElementById('savory-crepes-full').style.display = "block";
 };
 
-document.getElementById('savory-crepes').addEventListener('mouseover', savoryCrepesMouseOver, false);
-
 function savoryCrepesMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('savory-crepes-full').style.display = "none";
@@ -420,12 +518,33 @@ function savoryCrepesMouseOut() {
   document.getElementById('savoryCrepesFull').style.height = "0";
 };
 
-document.getElementById('savory-crepes').addEventListener('mouseout', savoryCrepesMouseOut, false);
+function savoryCrepesIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('savory-crepes').addEventListener('mouseover', savoryCrepesMouseOver, false);
+    document.getElementById('savory-crepes').addEventListener('mouseout', savoryCrepesMouseOut, false);  
+  }
+  else{
+    return;
+  }
+};
+
+savoryCrepesIsMobile();
 
     //Click
 
 function savoryCrepesClick() {
   if(screenSize <= 770) {
+    document.getElementById('breakfast-full').style.display = "none";
+    document.getElementById('panini-full').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "none";
+    document.getElementById('kids-full').style.display = "none";
+    document.getElementById('drink-full').style.display = "none";
+    
+    document.getElementById('sec2Logo').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "block";
+    
     document.getElementById('savory-crepes-full').style.top = "16px"; 
     document.getElementById('savory-crepes-full').style.transform = "translate(-50%, 0)";
     document.getElementById('savoryCrepesFull').style.height = "512px";
@@ -452,8 +571,6 @@ function sweetCrepesMouseOver() {
   document.getElementById('sweet-crepes-full').style.display = "block";
 };
 
-document.getElementById('sweet-crepes').addEventListener('mouseover', sweetCrepesMouseOver, false);
-
 function sweetCrepesMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('sweet-crepes-full').style.display = "none";
@@ -463,12 +580,33 @@ function sweetCrepesMouseOut() {
   document.getElementById('sweetCrepesFull').style.height = "0";
 };
 
-document.getElementById('sweet-crepes').addEventListener('mouseout', sweetCrepesMouseOut, false);
+function sweetCrepesIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('sweet-crepes').addEventListener('mouseover', sweetCrepesMouseOver, false);
+    document.getElementById('sweet-crepes').addEventListener('mouseout', sweetCrepesMouseOut, false);
+  }
+  else{
+    return;
+  }
+};
+
+sweetCrepesIsMobile();
 
     //Click
 
 function sweetCrepesClick() {
   if(screenSize <= 770) {
+    document.getElementById('breakfast-full').style.display = "none";
+    document.getElementById('panini-full').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "none";
+    document.getElementById('kids-full').style.display = "none";
+    document.getElementById('drink-full').style.display = "none";
+    
+    document.getElementById('sec2Logo').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "block";
+    
     document.getElementById('sweet-crepes-full').style.top = "16px"; 
     document.getElementById('sweet-crepes-full').style.transform = "translate(-50%, 0)";
     document.getElementById('sweet-crepes-full').style.height = "96%"
@@ -495,8 +633,6 @@ function kidsMouseOver() {
   document.getElementById('kids-full').style.display = "block";
 };
 
-document.getElementById('kids').addEventListener('mouseover', kidsMouseOver, false);
-
 function kidsMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('kids-full').style.display = "none";
@@ -506,12 +642,33 @@ function kidsMouseOut() {
   document.getElementById('kidsFull').style.height = "0";
 };
 
-document.getElementById('kids').addEventListener('mouseout', kidsMouseOut, false);
+function kidsIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('kids').addEventListener('mouseover', kidsMouseOver, false);
+    document.getElementById('kids').addEventListener('mouseout', kidsMouseOut, false);
+  }
+  else{
+    return;
+  }
+};
+
+kidsIsMobile();
 
     //Click
 
 function kidsClick() {
   if(screenSize <= 770) {
+    document.getElementById('breakfast-full').style.display = "none";
+    document.getElementById('panini-full').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "none";
+    document.getElementById('drink-full').style.display = "none";
+    
+    document.getElementById('sec2Logo').style.display = "none";
+    document.getElementById('kids-full').style.display = "block";
+    
     document.getElementById('kids-full').style.top = "16px"; 
     document.getElementById('kids-full').style.transform = "translate(-50%, 0)";
     document.getElementById('kids-full').style.height = "96%"
@@ -538,8 +695,6 @@ function drinkMouseOver() {
   document.getElementById('drink-full').style.display = "block";
 };
 
-document.getElementById('drink').addEventListener('mouseover', drinkMouseOver, false);
-
 function drinkMouseOut() {
   document.getElementById('sec2Logo').style.display = "block";
   document.getElementById('drink-full').style.display = "none";
@@ -548,13 +703,33 @@ function drinkMouseOut() {
   document.getElementById('drinkFull').style.height = "0";
 };
 
-document.getElementById('drink').addEventListener('mouseout', drinkMouseOut, false);
+function drinkIsMobile() {
+  if(screenSize > 770) {
+    document.getElementById('drink').addEventListener('mouseover', drinkMouseOver, false);
+    document.getElementById('drink').addEventListener('mouseout', drinkMouseOut, false);
+  }
+  else{
+    return;
+  }
+};
 
+drinkIsMobile();
 
     //Click
 
 function drinkClick() {
   if(screenSize <= 770) {
+    document.getElementById('breakfast-full').style.display = "none";
+    document.getElementById('panini-full').style.display = "none";
+    document.getElementById('sandwich-full').style.display = "none";
+    document.getElementById('soup-salad-full').style.display = "none";
+    document.getElementById('savory-crepes-full').style.display = "none";
+    document.getElementById('sweet-crepes-full').style.display = "none";
+    document.getElementById('kids-full').style.display = "none";
+
+    document.getElementById('sec2Logo').style.display = "none";
+    document.getElementById('drink-full').style.display = "block";
+    
     document.getElementById('drink-full').style.top = "30px"; 
     document.getElementById('drink-full').style.transform = "translate(-50%, 0)";
     document.getElementById('drinkFull').style.height = "512px";
