@@ -1604,6 +1604,8 @@ tr {
     font-size: 17px; }
   .full-description {
     font-size: 17px; }
+  .none {
+    display: none; }
   .orange {
     line-height: 110%;
     margin: 20px 0 20px 0; }
