@@ -1728,7 +1728,6 @@ tr {
   .sec-2-container {
     height: 1710px;
     min-width: 100vw;
-    min-height: 930px;
     background-attachment: inherit;
     background-position: 89%;
   }
@@ -1742,6 +1741,7 @@ tr {
   .sec-2-right {
     width: 100%;
     min-width: 576px;
+    min-height: 930px;
     top: 670px;
     right: auto;
     left: 50%; 
