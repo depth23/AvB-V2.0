@@ -1619,7 +1619,7 @@ tr {
 
 @media only screen and (max-width: 600px) {
   .sec-2-container {
-    height: 1320px;
+    height: 1335px;
     min-width: 100vw;
     background-attachment: inherit;
     background-position: 8%; }
@@ -1634,7 +1634,7 @@ tr {
     transform: translate(-50%, 0); }
   .sec-2-right {
     width: 310px;
-    height: 608px;
+    height: 625px;
     min-width: 296px;
     min-height: 608px;
     top: 608px;
