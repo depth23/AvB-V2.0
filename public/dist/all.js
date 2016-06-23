@@ -494,7 +494,7 @@ function soupSaladClick() {
   else {
     document.getElementById('soup-salad-full').style.top = "16px"; 
     document.getElementById('soup-salad-full').style.transform = "translate(-50%, 0)";
-    document.getElementById('soupSaladFull').style.height = "512px";
+    document.getElementById('soupSaladFull').style.height = "520px";
 //    document.getElementById('clickMeFull4').style.display = "none";
   }
 };
