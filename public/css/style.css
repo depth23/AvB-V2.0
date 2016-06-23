@@ -1567,6 +1567,7 @@ tr {
   .sec-2-container {
     height: 1710px;
     min-width: 100vw;
+    min-height: 930px;
     background-attachment: inherit;
     background-position: 89%; }
   .sec-2-left {
