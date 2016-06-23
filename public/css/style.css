@@ -312,6 +312,8 @@ html, body {
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   .sec-1-container {
     min-width: 100%; }
+  .sec-1-background {
+    background-attachment: inherit; }
   .sec-1-logo {
     top: 24px; }
   .hamburger-link {
