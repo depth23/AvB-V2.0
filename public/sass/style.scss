@@ -3156,9 +3156,10 @@ tr {
   }
   
   .developedBy {
-    width: 288px;
+    width: 100%;
     height: 15px;
-    font-size: 14px;  
+    font-size: 14px;
+    text-align: center;
   }
   
   .footer-phone-container {
