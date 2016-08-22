@@ -6,6 +6,7 @@ var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
+var imagemin = require('gulp-imagemin');
 
 //Compile Sass
 gulp.task("styles", function() {
@@ -26,6 +27,13 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./public/dist/js'));
 });
 
+//Minify Images
+//gulp.task('img-min', () =>
+//    gulp.src('./public/img/*')
+//        .pipe(imagemin())
+//        .pipe(gulp.dest('./public/dist/images'))
+//);
+
 //Watch Files for Changes
 gulp.task('watch', function() {
   "use strict";
@@ -34,4 +42,4 @@ gulp.task('watch', function() {
 });
 
 
-gulp.task('default', ['styles', 'scripts', 'watch']);
+gulp.task('default', ['styles', 'scripts', 'watch', /*'img-min'*/]);
