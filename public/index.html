@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">    
   </head>
   
-  <body>
+  <body id="body">
 
     <!--Section One-->
     <section id="sectionOne" class="sec-1-container">
@@ -58,9 +58,7 @@
         <h5 class="sec-1-small-txt">to</h5>
         <h2 class="sec-1-med-lg-txt">Fresh Made</h2>
         <h3 class="sec-1-med-sm-txt">Crepes</h3>
-        <div class="sec-1-pointer-link" title="Down To Menu">
-          <i id="sec1Pointer" class="fa fa-hand-pointer-o fa-2x sec-1-pointer"></i>
-        </div>
+          <p id="sec1Pointer" class="sec-1-pointer" title="Down To Menu">&#9759</p>
       </div>
       <div class="sec-1-share-container" id="sec-1-share-cntnr">
         <span class="sec-1-share" id="sec-1-share-tab">SHARE</span>
@@ -87,6 +85,7 @@
     <!--Section Two-->
   
     <section id="menuSection" class="sec-2-container">
+      <div class="sec-2-background"></div>
       <div class="sec-2-inner-container">
         <div class="sec-2-left">
           <div class="menu-container">
@@ -135,75 +134,77 @@
                 </div>
                 <p id="clickMeFull3" class="click-me-full">Click For More!</p>
               </div><!-- End of Sandwich menu item
-        --></div><!--End of Menu Top-->
-          <div class="menu-mid"><!--
-         --><div id="soup-salad" class="menu-item menu-item-hover m4">
-              <div class="s-and-s-img-wrap">
-                <img class="s-and-s-img-l" src="img/s-and-s-img-l.png" alt="Chicken Caesar Salad" />
-                <img class="s-and-s-img-r" src="img/s-and-s-img-r.png" alt="Soup and Salad" />
-              </div>
-              <div class="menu-title-wrap s-and-s-title-wrap">
-                <h3 class="menu-item-title s-and-s-title">SOUP AND SALADS</h3>
-                <p class="menu-sm-text">served until 5:30pm</p>
-              </div>
-              <p id="clickMeFull4" class="click-me-full">Click For More!</p>
-            </div><!-- End of Soup and Salad menu item
-         --><div id="savory-crepes" class="menu-item menu-item-hover m5">
-              <div class="sav-crepes-image-wrap">
-                  <span class="sav-crepes-img-l">
-                    <img class="sav-crepes-img" src="./img/sav-crepes-img-l.png" alt="Pacififc Drive Crepe" />
-                  </span>
-                  <span class="sav-crepes-img-r">
-                    <img class="sav-crepes-img" src="./img/sav-crepes-img-r.png" alt="Barratt Avenue Crepe" />
-                  </span>
-              </div>
-              <div class="menu-title-wrap bfast-title-wrap">
-                <h3 class="menu-item-title">SAVORY CREPES</h3>
-                <p class="menu-sm-text">served 10:30am to 5:30pm</p>
-              </div>
-              <p id="clickMeFull5" class="click-me-full">Click For More!</p>
-            </div><!-- End of Savory Crepes menu item
-       --></div><!-- End of Menu Middle -->
-          <div class="menu-btm"><!--
-         --><div id="sweet-crepes" class="menu-item menu-item-hover m6">
-              <div class="menu-title-wrap sw-crepes-title-wrap">
-                <h3 class="sw-crepes-item-title">SWEET CREPES</h3>
-              </div>
-              <div class="menu-lower sw-crepes-lower">
-                <div class="sw-crepes-rnd-l sw-crepes-lower"></div>
-                <div class="sw-crepes-rnd-r-wrap">
-                  <div class="sw-crepes-rnd-r sw-crepes-lower"></div>
+         --></div><!--End of Menu Top-->
+            <div class="menu-mid"><!--
+           --><div id="soup-salad" class="menu-item menu-item-hover m4">
+                <div class="s-and-s-img-wrap">
+                  <img class="s-and-s-img-l" src="img/s-and-s-img-l.png" alt="Chicken Caesar Salad" />
+                  <img class="s-and-s-img-r" src="img/s-and-s-img-r.png" alt="Soup and Salad" />
                 </div>
-                <img class="sw-crepes-img" src="./img/sw-crepes-img.png" alt="Banana Split Crepe" />
-              </div> 
-              <p id="clickMeFull6" class="click-me-full">Click For More!</p> 
-            </div><!-- End of Sweet Crepes menu item
-         --><div id="kids" class="menu-item menu-item-hover m7">
-              <div class="menu-title-wrap kids-title-wrap">
-                <h3 class="menu-item-title">KIDS MENU</h3>
-                <p class="menu-sm-text">served until 5:30pm</p>
-              </div>
-              <div class="menu-lower kids-lower">
-                <div class="lower-rnd-l kids-lower"></div>
-                <div class="lower-rnd-r-wrap">
-                  <div class="lower-rnd-r kids-lower"></div>
+                <div class="menu-title-wrap s-and-s-title-wrap">
+                  <h3 class="menu-item-title s-and-s-title">SOUP AND SALADS</h3>
+                  <p class="menu-sm-text">served until 5:30pm</p>
                 </div>
-                <img class="kids-img" src="./img/kids-img.png" alt="Grilled Ham and Cheese Sandwich With Drink" />
+                <p id="clickMeFull4" class="click-me-full">Click For More!</p>
+              </div><!-- End of Soup and Salad menu item
+           --><div id="savory-crepes" class="menu-item menu-item-hover m5">
+                <div class="sav-crepes-image-wrap">
+                    <span class="sav-crepes-img-l">
+                      <img class="sav-crepes-img" src="./img/sav-crepes-img-l.png" alt="Pacififc Drive Crepe" />
+                    </span>
+                    <span class="sav-crepes-img-r">
+                      <img class="sav-crepes-img" src="./img/sav-crepes-img-r.png" alt="Barratt Avenue Crepe" />
+                    </span>
+                </div>
+                <div class="menu-title-wrap bfast-title-wrap">
+                  <h3 class="menu-item-title">SAVORY CREPES</h3>
+                  <p class="menu-sm-text">served 10:30am to 5:30pm</p>
+                </div>
+                <p id="clickMeFull5" class="click-me-full">Click For More!</p>
+              </div><!-- End of Savory Crepes menu item
+         --></div><!-- End of Menu Middle -->
+            <div class="menu-btm"><!--
+           --><div id="sweet-crepes" class="menu-item menu-item-hover m6">
+                <div class="menu-title-wrap sw-crepes-title-wrap">
+                  <h3 class="sw-crepes-item-title">SWEET CREPES</h3>
+                </div>
+                <div class="menu-lower sw-crepes-lower">
+                  <div class="sw-crepes-rnd-l sw-crepes-lower"></div>
+                  <div class="sw-crepes-rnd-r-wrap">
+                    <div class="sw-crepes-rnd-r sw-crepes-lower"></div>
+                  </div>
+                  <img class="sw-crepes-img" src="./img/sw-crepes-img.png" alt="Banana Split Crepe" />
+                </div> 
+                <p id="clickMeFull6" class="click-me-full">Click For More!</p> 
+              </div><!-- End of Sweet Crepes menu item
+           --><div id="kids" class="menu-item menu-item-hover m7">
+                <div class="menu-title-wrap kids-title-wrap">
+                  <h3 class="menu-item-title">KIDS MENU</h3>
+                  <p class="menu-sm-text">served until 5:30pm</p>
+                </div>
+                <div class="menu-lower kids-lower">
+                  <div class="lower-rnd-l kids-lower"></div>
+                  <div class="lower-rnd-r-wrap">
+                    <div class="lower-rnd-r kids-lower"></div>
+                  </div>
+                  <img class="kids-img" src="./img/kids-img.png" alt="Grilled Ham and Cheese Sandwich With Drink" />
+                </div>
+                <p id="clickMeFull7" class="click-me-full">Click For More!</p>
+              </div><!-- End of Kids menu item
+           --><div id="drink" class="menu-item menu-item-hover m8">
+                <img class="drinks-img" src="./img/drinks-img.png" alt="Coffee, Hot Chocolate, Smoothies, and Soft Drinks" />
+                <div class="menu-title-wrap drink-title-wrap">
+                  <h3 class="drinks-item-title">DRINK MENU</h3>
               </div>
-              <p id="clickMeFull7" class="click-me-full">Click For More!</p>
-            </div><!-- End of Kids menu item
-         --><div id="drink" class="menu-item menu-item-hover m8">
-              <img class="drinks-img" src="./img/drinks-img.png" alt="Coffee, Hot Chocolate, Smoothies, and Soft Drinks" />
-              <div class="menu-title-wrap drink-title-wrap">
-                <h3 class="drinks-item-title">DRINK MENU</h3>
+              <p id="clickMeFull8" class="click-me-full">Click For More!</p>
+              </div><!-- End of Drinks menu item
+         --></div><!-- End of Menu Bottom -->
+            <div id="more-btn" class="menu-btm-cntnr">
+              <h1 class="menu-bottom">
+                MORE
+              </h1>
+              <p class="sec-2-pointer">&#9758</p>
             </div>
-            <p id="clickMeFull8" class="click-me-full">Click For More!</p>
-            </div><!-- End of Drinks menu item
-       --></div><!-- End of Menu Bottom -->
-          <h1 class="menu-bottom">
-            MORE
-            <i class="fa fa-hand-pointer-o sec-2-pointer"></i>
-          </h1>
           </div><!-- End of Menu Container -->
         </div><!-- End of Section 2 left
      --><div class="sec-2-right" id="menu-window">
@@ -681,8 +682,88 @@
         </div><!--End of Section 2 right -->
         <a id="fullMenuLink" href="#"></a>
       </div>
-      <div id="toTop1" class="to-top" title="To Top">
-        <i class="fa fa-hand-pointer-o fa-2x to-top-pointer"></i>
+      <p id="toTop1" class="to-top" title="To Top">
+        <i class="to-top-pointer">&#9756</i>
+      </p>
+      <!--More Section-->
+      <div id="more-cntnr" class="sec-2-more">
+        <div class="sec-2-more-container">
+          <p id="more-back" class="more-left">&#9756</p>
+          <div id="more-item-1" class="more-items"><h1 class="more-titles">artisan breads</h1></div>
+          <div id="more-item-2" class="more-items"><h1 class="more-titles ln-hit">cakes</h1></div>
+          <div id="more-item-3" class="more-items"><h1 class="more-titles ln-hit">cupcakes</h1></div>
+          <div id="more-item-4" class="more-items"><h1 class="more-titles ln-hit">donuts</h1></div>
+          <div id="more-item-5" class="more-items"><h1 class="more-titles">gluten-free</h1></div>
+          <div id="more-item-6" class="more-items"><h1 class="more-titles"></h1></div>
+          <div id="more-item-7" class="more-items"><h1 class="more-titles"></h1></div>
+          <div id="more-item-8" class="more-items"><h1 class="more-titles"></h1></div>
+          <div id="more-item-9" class="more-items"><h1 class="more-titles ln-hit">weddings</h1></div>
+          <!--Modals-->
+          <div id="mod-1" class="modal">
+            <span id="m-close-1" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title">artisan breads</h1>
+              <div class="mod-content mc-1"></div>
+            </div>
+          </div>
+          <div id="mod-2" class="modal">
+            <span id="m-close-2" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title ln-hit">cakes</h1>
+              <div class="mod-content mc-2"></div>
+            </div>
+          </div>
+          <div id="mod-3" class="modal">
+            <span id="m-close-3" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title ln-hit">cupcakes</h1>
+              <div class="mod-content mc-3"></div>
+            </div>
+          </div>
+          <div id="mod-4" class="modal">
+            <span id="m-close-4" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title ln-hit">donuts</h1>
+              <div class="mod-content mc-4"></div>
+            </div>
+          </div>
+          <div id="mod-5" class="modal">
+            <span id="m-close-5" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title">gluen-free</h1>
+              <div class="mod-content mc-5"></div>
+            </div>
+          </div>
+          <div id="mod-6" class="modal">
+            <span id="m-close-6" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title ln-hit">this</h1>
+              <div class="mod-content mc-6"></div>
+            </div>
+          </div>
+          <div id="mod-7" class="modal">
+            <span id="m-close-7" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title ln-hit">that</h1>
+              <div class="mod-content mc-7"></div>
+            </div>
+          </div>
+          <div id="mod-8" class="modal">
+            <span id="m-close-8" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title">the other</h1>
+              <div class="mod-content mc-8"></div>
+            </div>
+          </div>
+          <div id="mod-9" class="modal">
+            <span id="m-close-9" class="mod-close">x</span>
+            <div class="mod-inner">
+              <h1 class="mod-title ln-hit">weddings</h1>
+              <div class="mod-content mc-9"></div>
+            </div>
+          </div>
+          
+        </div>
       </div>
     </section>
     
@@ -741,9 +822,9 @@
           </div>
         </div>  
       </div>
-      <div id="toTop2" class="to-top">
-        <i class="fa fa-hand-pointer-o fa-2x to-top-pointer" title="To Top"></i>
-      </div>
+      <p id="toTop2" class="to-top" title="To Top">
+        <i class="to-top-pointer">&#9756</i>
+      </p>
     </section>
     
     <!--Section Four-->

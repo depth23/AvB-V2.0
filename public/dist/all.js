@@ -745,6 +745,126 @@ function drinkClick() {
 
 document.getElementById('drink').addEventListener('click', drinkClick, false);
 
+//--------------------More Tab---------------------------
+
+function moreClick() {
+  var sec2Top = document.getElementById('menuSection').offsetTop;
+//  var sec2Bottom = document.getElementById('menuSection').offsetHeight;
+//  var sweetSpot = sec2Top + sec2Bottom;
+  var scrollPos = window.pageYOffset;
+  if(scrollPos <= sec2Top) {
+    autoScrollTo('menuSection');
+  }
+  else{
+    resetScroller('menuSection');
+  }
+
+  document.getElementById('more-cntnr').style.left = "-16px";
+  document.getElementById('more-back').style.visibility = "visible";
+  document.getElementById('more-back').style.opacity = "1";
+  document.getElementById('body').style.height = "100%";
+  document.getElementById('body').style.overflow = "hidden";
+
+};
+
+document.getElementById('more-btn').addEventListener('click', moreClick, false);
+
+function backClick() {
+  document.getElementById('more-cntnr').style.left = "150%";
+  document.getElementById('more-back').style.visibility = "hidden";
+  document.getElementById('more-back').style.opacity = "0";
+  document.getElementById('body').style.height = "auto";
+  document.getElementById('body').style.overflow = "auto";
+};
+
+document.getElementById('more-back').addEventListener('click', backClick, false);
+
+//--------------------Modal Pop Ups----------------------
+
+function modalOpen(elm) {
+  document.getElementById(elm).style.display = "block";
+};
+
+document.getElementById('more-item-1').addEventListener('click', function() {
+  modalOpen("mod-1")
+}, false);
+
+document.getElementById('more-item-2').addEventListener('click', function() {
+  modalOpen("mod-2")
+}, false);
+
+document.getElementById('more-item-3').addEventListener('click', function() {
+  modalOpen("mod-3")
+}, false);
+
+document.getElementById('more-item-4').addEventListener('click', function() {
+  modalOpen("mod-4")
+}, false);
+
+document.getElementById('more-item-5').addEventListener('click', function() {
+  modalOpen("mod-5")
+}, false);
+
+document.getElementById('more-item-6').addEventListener('click', function() {
+  modalOpen("mod-6")
+}, false);
+
+document.getElementById('more-item-7').addEventListener('click', function() {
+  modalOpen("mod-7")
+}, false);
+
+document.getElementById('more-item-8').addEventListener('click', function() {
+  modalOpen("mod-8")
+}, false);
+
+document.getElementById('more-item-9').addEventListener('click', function() {
+  modalOpen("mod-9")
+}, false);
+
+function modalClose(elm) {
+  document.getElementById(elm).style.display = "none";
+};
+
+document.getElementById('m-close-1').addEventListener('click', function() {
+  modalClose("mod-1");
+}, false);
+
+document.getElementById('m-close-2').addEventListener('click', function() {
+  modalClose("mod-2");
+}, false);
+
+document.getElementById('m-close-3').addEventListener('click', function() {
+  modalClose("mod-3");
+}, false);
+
+document.getElementById('m-close-4').addEventListener('click', function() {
+  modalClose("mod-4");
+}, false);
+
+document.getElementById('m-close-5').addEventListener('click', function() {
+  modalClose("mod-5");
+}, false);
+
+document.getElementById('m-close-6').addEventListener('click', function() {
+  modalClose("mod-6");
+}, false);
+
+document.getElementById('m-close-7').addEventListener('click', function() {
+  modalClose("mod-7");
+}, false);
+
+document.getElementById('m-close-8').addEventListener('click', function() {
+  modalClose("mod-8");
+}, false);
+
+document.getElementById('m-close-9').addEventListener('click', function() {
+  modalClose("mod-9");
+}, false);
+
+//document.getElementById('mod-1').addEventListener('click', function() {
+//  modalClose("mod-1");
+//}, true);
+
 //--------------------Facebook---------------------------
 
 (function(d, s, id) {
